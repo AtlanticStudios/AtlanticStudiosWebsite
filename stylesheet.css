@@ -1,7 +1,7 @@
 html {
-  margin: 0;
-  text-align: center; }
+  margin: 0; }
   html body {
-    max-width: 40px; }
+    font-family: sans-serif;
+    text-align: center; }
 
 /*# sourceMappingURL=stylesheet.css.map */
