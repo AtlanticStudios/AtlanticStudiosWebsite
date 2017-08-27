@@ -1,0 +1,15 @@
+html {
+  margin: 0; }
+  html body {
+    margin: 0; }
+
+.header {
+  text-align: center; }
+  .header .title {
+    font-family: serif;
+    border-top: 2px solid #e50f41;
+    border-bottom: 2px solid #e50f41; }
+  .header .subtitle {
+    font-family: sans-serif; }
+
+/*# sourceMappingURL=stylesheet.css.map */

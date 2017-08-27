@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+
+  .title {
+    font-family: $title-font;
+    border: {
+      top: 2px solid $color-red;
+      bottom: 2px solid $color-red;
+    }
+  }
+
+  .subtitle {
+    font-family: $subtitle-font;
+  }
+}
