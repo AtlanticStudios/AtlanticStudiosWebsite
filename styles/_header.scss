@@ -1,15 +1,25 @@
 .header {
   text-align: center;
+  padding: 1vh 0;
+
+  .header-centered {
+    
+  }
 
   .title {
     font-family: $title-font;
+    font-size: 5em;
+    width: 500px;
+    margin: auto;
+    padding: 2vh 0;
     border: {
-      top: 2px solid $color-red;
-      bottom: 2px solid $color-red;
+      top: 2px solid $color-black;
+      bottom: 2px solid $color-black;
     }
   }
 
   .subtitle {
     font-family: $subtitle-font;
+    font-size: 1em;
   }
 }
