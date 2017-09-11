@@ -1,0 +1,21 @@
+html {
+  margin: 0; }
+  html body {
+    margin: 0; }
+
+.header {
+  text-align: center;
+  padding: 1vh 0; }
+  .header .title {
+    font-family: serif;
+    font-size: 5em;
+    width: 500px;
+    margin: auto;
+    padding: 2vh 0;
+    border-top: 2px solid #1d1d1d;
+    border-bottom: 2px solid #1d1d1d; }
+  .header .subtitle {
+    font-family: sans-serif;
+    font-size: 1em; }
+
+/*# sourceMappingURL=stylesheet.css.map */
