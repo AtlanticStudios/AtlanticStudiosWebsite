@@ -9,6 +9,11 @@ p {
   p b {
     font-weight: bold; }
 
+a {
+  font: normal 1em sans-serif;
+  text-decoration: none;
+  color: #1d1d1d; }
+
 .FooterText {
   font-size: 0.8em;
   color: #bfbfbf; }
@@ -63,7 +68,8 @@ html {
   position: absolute;
   right: 0;
   top: 20px;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 10; }
   .navMenuButton .navMenuLabel {
     position: absolute;
     right: 70px;
@@ -73,7 +79,7 @@ html {
     position: absolute;
     width: 40px;
     height: 30px;
-    right: 15px; }
+    right: 20px; }
     .navMenuButton .navMenuGraphic .navMenuBar {
       background-color: #1d1d1d;
       border-radius: 1px;

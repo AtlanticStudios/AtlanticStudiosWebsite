@@ -1,6 +1,16 @@
 $(document).ready(function() {
 
   $('.navMenuButton').click(function() {
+    OpenNavBar()
+  });
+
+  $(window).keypress(function(e) {
+    if (e.keyCode == 109) {
+      OpenNavBar();
+    }
+  });
+
+  function OpenNavBar() {
     $('.container').toggleClass('open');
 
     if ($('.topBar').hasClass('topBarIn')) {
@@ -32,6 +42,6 @@ $(document).ready(function() {
       $('.bottomBar').css('width');
       $('.bottomBar').addClass('bottomBarIn');
     };
-  });
+  };
 
 });

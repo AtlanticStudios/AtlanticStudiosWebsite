@@ -17,6 +17,12 @@ p {
   }
 }
 
+a {
+  font: $description-font;
+  text-decoration: none;
+  color: $color-black;
+}
+
 .FooterText {
   font-size: 0.8em;
   color: #bfbfbf;
