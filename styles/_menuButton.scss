@@ -1,0 +1,126 @@
+.navMenuButton {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  cursor: pointer;
+
+  .navMenuLabel {
+    position: absolute;
+    right: 70px;
+    margin: 0;
+    top: 6px;
+  }
+
+  .navMenuGraphic {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    right: 15px;
+
+    .navMenuBar {
+      background-color: $color-black;
+      border-radius: 1px;
+      position: absolute;
+      width: 40px;
+      height: 2px;
+
+      &.topBar {
+        top: 0;
+
+        &.topBarIn {
+          animation-name: topBarChange;
+          animation-duration: 0.7s;
+          animation-direction: normal;
+          animation-fill-mode: both;
+        }
+
+        &.topBarOut {
+          animation-name: topBarChange;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          animation-fill-mode: both;
+        }
+      }
+
+      &.middleBar {
+        top: 14px;
+
+        &.middleBarIn {
+          animation-name: middleBarChange;
+          animation-duration: 0.7s;
+          animation-direction: normal;
+          animation-fill-mode: both;
+        }
+
+        &.middleBarOut {
+          animation-name: middleBarChange;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          animation-fill-mode: both;
+        }
+      }
+
+      &.bottomBar {
+        top: 28px;
+
+        &.bottomBarIn {
+          animation-name: bottomBarChange;
+          animation-duration: 0.7s;
+          animation-direction: normal;
+          animation-fill-mode: both;
+        }
+
+        &.bottomBarOut {
+          animation-name: bottomBarChange;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          animation-fill-mode: both;
+        }
+      }
+    }
+  }
+}
+@keyframes topBarChange {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: translateY(14px) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(14px) rotate(-45deg);
+  }
+}
+@keyframes middleBarChange {
+  0% {
+    transform: scaleX(1);
+  }
+
+  50% {
+    transform: scaleX(1);
+  }
+
+  60% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(0);
+  }
+}
+@keyframes bottomBarChange {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: translateY(-14px) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(-14px) rotate(45deg);
+  }
+}

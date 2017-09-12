@@ -3,5 +3,22 @@ html {
 
   body {
     margin: 0;
+
+    .container {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      z-index: 1;
+      box-shadow: 0 0 100px 0 #d9d9d9;
+      overflow-y: scroll;
+      transition: 0.3s;
+
+      &.open {
+        width: calc(100% - 250px);
+        transition: 0.3s;
+      }
+    }
   }
 }

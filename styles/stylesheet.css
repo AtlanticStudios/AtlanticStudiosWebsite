@@ -1,6 +1,144 @@
+h1 {
+  font: normal 2em serif; }
+
+h2 {
+  font: normal 1.2em serif; }
+
+p {
+  font: normal 1em sans-serif; }
+  p b {
+    font-weight: bold; }
+
+.FooterText {
+  font-size: 0.8em;
+  color: #bfbfbf; }
+
 html {
   margin: 0; }
   html body {
     margin: 0; }
+    html body .container {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      z-index: 1;
+      box-shadow: 0 0 100px 0 #d9d9d9;
+      overflow-y: scroll;
+      transition: 0.3s; }
+      html body .container.open {
+        width: calc(100% - 250px);
+        transition: 0.3s; }
+
+.NavBar {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  text-align: center;
+  background-color: #f7f7f7;
+  z-index: 0; }
+  .NavBar .NavButton {
+    padding: 5% 10%;
+    margin: 10% auto;
+    width: 60%;
+    text-decoration: none; }
+    .NavBar .NavButton:hover {
+      cursor: pointer;
+      background-color: #fff; }
+  .NavBar .NavFooter {
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%; }
+
+.navMenuButton {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  cursor: pointer; }
+  .navMenuButton .navMenuLabel {
+    position: absolute;
+    right: 70px;
+    margin: 0;
+    top: 6px; }
+  .navMenuButton .navMenuGraphic {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    right: 15px; }
+    .navMenuButton .navMenuGraphic .navMenuBar {
+      background-color: #1d1d1d;
+      border-radius: 1px;
+      position: absolute;
+      width: 40px;
+      height: 2px; }
+      .navMenuButton .navMenuGraphic .navMenuBar.topBar {
+        top: 0; }
+        .navMenuButton .navMenuGraphic .navMenuBar.topBar.topBarIn {
+          animation-name: topBarChange;
+          animation-duration: 0.7s;
+          animation-direction: normal;
+          animation-fill-mode: both; }
+        .navMenuButton .navMenuGraphic .navMenuBar.topBar.topBarOut {
+          animation-name: topBarChange;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          animation-fill-mode: both; }
+      .navMenuButton .navMenuGraphic .navMenuBar.middleBar {
+        top: 14px; }
+        .navMenuButton .navMenuGraphic .navMenuBar.middleBar.middleBarIn {
+          animation-name: middleBarChange;
+          animation-duration: 0.7s;
+          animation-direction: normal;
+          animation-fill-mode: both; }
+        .navMenuButton .navMenuGraphic .navMenuBar.middleBar.middleBarOut {
+          animation-name: middleBarChange;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          animation-fill-mode: both; }
+      .navMenuButton .navMenuGraphic .navMenuBar.bottomBar {
+        top: 28px; }
+        .navMenuButton .navMenuGraphic .navMenuBar.bottomBar.bottomBarIn {
+          animation-name: bottomBarChange;
+          animation-duration: 0.7s;
+          animation-direction: normal;
+          animation-fill-mode: both; }
+        .navMenuButton .navMenuGraphic .navMenuBar.bottomBar.bottomBarOut {
+          animation-name: bottomBarChange;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          animation-fill-mode: both; }
+
+@keyframes topBarChange {
+  0% {
+    transform: rotate(0deg); }
+  60% {
+    transform: translateY(14px) rotate(0deg); }
+  100% {
+    transform: translateY(14px) rotate(-45deg); } }
+@keyframes middleBarChange {
+  0% {
+    transform: scaleX(1); }
+  50% {
+    transform: scaleX(1); }
+  60% {
+    transform: scaleX(0); }
+  100% {
+    transform: scaleX(0); } }
+@keyframes bottomBarChange {
+  0% {
+    transform: rotate(0deg); }
+  60% {
+    transform: translateY(-14px) rotate(0deg); }
+  100% {
+    transform: translateY(-14px) rotate(45deg); } }
 
 /*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,26 @@
+<div class="NavBar">
+  <div class="NavList">
+    <h2 class="NavButton" id="Home">Home</h2>
+    <h2 class="NavButton" id="WatchNow">Watch Now</h2>
+    <h2 class="NavButton" id="News">News</h2>
+    <h2 class="NavButton" id="About">About</h2>
+    <h2 class="NavButton" id="Contact">Contact</h2>
+
+    <div class="NavButton"></div><!-- Facebook/YouTube/Vimeo Links -->
+  </div>
+
+  <div class="NavFooter">
+    <p class="FooterText">Privacy Policy | Terms & Conditions</p>
+    <p class="FooterText">Atlantic Studios © 2017</p>
+  </div>
+</div>
+
+<!-- Scripts -->
+
+<script>
+  $(document).ready(function() {
+    document.getElementById('{{ page.navigation }}').style.color = '#e50f41';
+  });
+</script>
+
+<script src="scripts/myNav.js"></script>

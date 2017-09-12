@@ -1,3 +1,23 @@
-$title-font: serif;
-$subtitle-font: sans-serif;
-$description-font: sans-serif;
+$title-font: normal 2em serif;
+$subtitle-font: normal 1.2em serif;
+$description-font: normal 1em sans-serif;
+
+h1 {
+  font: $title-font;
+}
+
+h2 {
+  font: $subtitle-font;
+}
+
+p {
+  font: $description-font;
+  b {
+    font-weight: bold;
+  }
+}
+
+.FooterText {
+  font-size: 0.8em;
+  color: #bfbfbf;
+}
