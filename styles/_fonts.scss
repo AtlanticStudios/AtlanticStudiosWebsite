@@ -1,17 +1,48 @@
-$title-font: normal 2em serif;
-$subtitle-font: normal 1.2em serif;
-$description-font: normal 1em sans-serif;
+@font-face {
+  font-family: graphik;
+  src: url(/fonts/graphik/graphik-regular.woff), url(/fonts/graphik/graphik-regular.woff2);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: graphik;
+  src: url(/fonts/graphik/graphik-bold.woff), url(/fonts/graphik/graphik-bold.woff2);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: noe;
+  src: url(/fonts/noe/noe-bold.woff), url(/fonts/noe/noe-bold.woff2);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: noe;
+  src: url(/fonts/noe/noe-bold-italic.woff), url(/fonts/noe/noe-bold-italic.woff2);
+  font-style: italic;
+  font-weight: normal;
+}
+
+$title-font: normal 2em noe;
+$subtitle-font: normal 1.2em noe;
+$description-font: normal 1em graphik;
 
 h1 {
   font: $title-font;
+  color: $color-black;
 }
 
 h2 {
   font: $subtitle-font;
+  color: $color-black;
 }
 
 p {
   font: $description-font;
+  color: $color-black;
   b {
     font-weight: bold;
   }
@@ -24,6 +55,7 @@ a {
 }
 
 .FooterText {
-  font-size: 0.8em;
-  color: #bfbfbf;
+  font-size: 0.7em;
+  color: $color-black;
+  margin: 1px;
 }

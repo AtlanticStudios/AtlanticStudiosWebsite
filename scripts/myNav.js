@@ -7,6 +7,10 @@ $(document).ready(function() {
   $(window).keypress(function(e) {
     if (e.keyCode == 109) {
       OpenNavBar();
+    } else if (e.keyCode == 77) {
+      OpenNavBar();
+    } else if (e.keyCode == 32) {
+      OpenNavBar();
     }
   });
 
