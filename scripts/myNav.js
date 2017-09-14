@@ -1,6 +1,19 @@
 $(document).ready(function() {
 
-  $('.navMenuButton').click(function() {
+  // Menu Label Interaction
+  $('.navMenuLabel').delay(3000).fadeOut(600);
+
+  $('.navMenuGraphic').mouseenter(function () {
+    $('.navMenuLabel').stop().fadeIn(200);
+  });
+
+  $('.navMenuGraphic').mouseleave(function () {
+    $('.navMenuLabel').stop().delay(800).fadeOut(200);
+  })
+
+
+  // Menu Open & Close Interaction
+  $('.navMenuGraphic').click(function() {
     OpenNavBar()
   });
 
@@ -17,34 +30,34 @@ $(document).ready(function() {
   function OpenNavBar() {
     $('.container').toggleClass('open');
 
-    if ($('.topBar').hasClass('topBarIn')) {
-      $('.topBar').removeClass('topBarIn');
-      $('.topBar').css('width');
-      $('.topBar').addClass('topBarOut');
-    } else {
+    if ($('.container').hasClass('open')) {
       $('.topBar').removeClass('topBarOut');
       $('.topBar').css('width');
       $('.topBar').addClass('topBarIn');
+    } else {
+      $('.topBar').removeClass('topBarIn');
+      $('.topBar').css('width');
+      $('.topBar').addClass('topBarOut');
     };
 
-    if ($('.middleBar').hasClass('middleBarIn')) {
-      $('.middleBar').removeClass('middleBarIn');
-      $('.middleBar').css('width');
-      $('.middleBar').addClass('middleBarOut');
-    } else {
+    if ($('.container').hasClass('open')) {
       $('.middleBar').removeClass('middleBarOut');
       $('.middleBar').css('width');
       $('.middleBar').addClass('middleBarIn');
+    } else {
+      $('.middleBar').removeClass('middleBarIn');
+      $('.middleBar').css('width');
+      $('.middleBar').addClass('middleBarOut');
     };
 
-    if ($('.bottomBar').hasClass('bottomBarIn')) {
-      $('.bottomBar').removeClass('bottomBarIn');
-      $('.bottomBar').css('width');
-      $('.bottomBar').addClass('bottomBarOut');
-    } else {
+    if ($('.container').hasClass('open')) {
       $('.bottomBar').removeClass('bottomBarOut');
       $('.bottomBar').css('width');
       $('.bottomBar').addClass('bottomBarIn');
+    } else {
+      $('.bottomBar').removeClass('bottomBarIn');
+      $('.bottomBar').css('width');
+      $('.bottomBar').addClass('bottomBarOut');
     };
   };
 
