@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // Menu Label Interaction
-  $('.navMenuLabel').delay(3000).fadeOut(600);
+  $('.navMenuLabel').delay(2000).fadeOut(600);
 
   $('.navMenuGraphic').mouseenter(function () {
     $('.navMenuLabel').stop().fadeIn(200);
