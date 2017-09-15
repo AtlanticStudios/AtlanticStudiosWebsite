@@ -1,0 +1,28 @@
+.playButton {
+  display: block;
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+  padding: 10px 20px;
+  // border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  .playSymbol {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:active {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color-red;
+    }
+  }
+}

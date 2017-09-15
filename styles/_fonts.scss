@@ -26,9 +26,9 @@
   font-weight: normal;
 }
 
-$title-font: normal 2em noe;
-$subtitle-font: normal 1.2em noe;
-$description-font: normal 1em graphik;
+$title-font: normal 2em noe,serif;
+$subtitle-font: normal 1.2em noe,serif;
+$description-font: normal 1em graphik,sans-serif;
 
 h1 {
   font: $title-font;

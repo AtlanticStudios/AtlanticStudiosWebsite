@@ -5,6 +5,16 @@
 // import styles for all elements on page
 @import "main";
 @import "nav";
-@import "menuButton";
-@import "index";
+@import "footer";
 @import "logo";
+@import "menuButton";
+@import "playButton";
+@import "modal";
+
+//import page-specific styles
+@import "index";
+@import "watch";
+@import "news";
+@import "about";
+@import "contact";
+@import "404";

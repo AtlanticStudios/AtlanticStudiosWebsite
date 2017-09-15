@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   // Menu Label Interaction
+
   $('.navMenuLabel').delay(2000).fadeOut(600);
 
   $('.navMenuGraphic').mouseenter(function () {
@@ -22,7 +23,8 @@ $(document).ready(function() {
       OpenNavBar();
     } else if (e.keyCode == 77) {
       OpenNavBar();
-    } else if (e.keyCode == 32) {
+    }
+    else if (e.keyCode == 32) {
       OpenNavBar();
     }
   });
@@ -30,6 +32,21 @@ $(document).ready(function() {
   function OpenNavBar() {
     $('.container').toggleClass('open');
 
+    if ($('.container').hasClass('open')) {
+      $('.navMenuLabel').empty().append('Hide');
+    } else {
+      $('.navMenuLabel').empty().append('Show')
+    }
+
+    if ($('.container').hasClass('open')) {
+      $('.navMenuButton').removeClass('MenuButtonUp');
+      $('.navMenuButton').css('width');
+      $('.navMenuButton').addClass('MenuButtonDown');
+    } else {
+      $('.navMenuButton').removeClass('MenuButtonDown');
+      $('.navMenuButton').css('width');
+      $('.navMenuButton').addClass('MenuButtonUp');
+    }
     if ($('.container').hasClass('open')) {
       $('.topBar').removeClass('topBarOut');
       $('.topBar').css('width');

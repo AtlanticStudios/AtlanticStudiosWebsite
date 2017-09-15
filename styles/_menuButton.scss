@@ -1,15 +1,33 @@
 .navMenuButton {
   display: block;
-  position: absolute;
+  position: fixed;
   right: 0;
-  top: 20px;
+  top: 100px;
   z-index: 10;
+
+  &.MenuButtonDown {
+    animation-name: menuButtonChange;
+    animation-duration: 0.2s;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+  }
+
+  &.MenuButtonUp {
+    animation-name: menuButtonChange;
+    animation-duration: 0.3s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+  }
 
   .navMenuLabel {
     position: absolute;
     right: 70px;
     margin: 0;
     top: 4px;
+    text-align: right;
+    width: 200px;
+    // display: none;
   }
 
   .navMenuGraphic {
@@ -36,6 +54,7 @@
 
       &.topBar {
         top: 0;
+        transform: translateY(14px) rotate(-45deg);
 
         &.topBarIn {
           animation-name: topBarChange;
@@ -54,6 +73,7 @@
 
       &.middleBar {
         top: 14px;
+        transform: scaleX(0);
 
         &.middleBarIn {
           animation-name: middleBarChange;
@@ -72,6 +92,7 @@
 
       &.bottomBar {
         top: 28px;
+        transform: translateY(-14px) rotate(45deg);
 
         &.bottomBarIn {
           animation-name: bottomBarChange;
@@ -91,6 +112,14 @@
   }
 }
 
+@keyframes menuButtonChange {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 20px;
+  }
+}
 @keyframes topBarChange {
   0% {
     transform: rotate(0deg);

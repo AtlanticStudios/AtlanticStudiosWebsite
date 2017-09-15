@@ -12,10 +12,15 @@ description:
 <body>
   {% include logo.html %}
   {% include nav.html %}
+  {% include modal.html %}
 
   <div class="container open">
     {% include menuButtonWhite.html %}
-    <div class="coverImage"></div>
+    {% include playButton.html %}
+    <div class="containerSpacer">
+      <div class="coverImage"></div>
+    </div>
+    {% include footer.html %}
   </div>
 
   <script src="/scripts/myRandomImage.js"></script>

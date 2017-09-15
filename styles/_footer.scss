@@ -1,0 +1,30 @@
+.Footer {
+  // margin-top: -7%;
+  padding-top: 10px;
+  height: 100px;
+  display: block;
+  // position: absolute;
+  // bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.iconSocialMediaContainer {
+  display: block;
+  position: relative;
+
+  .iconSocialMedia {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    vertical-align: top;
+
+    &:hover {
+      background-color: $color-gray;
+    }
+  }
+}

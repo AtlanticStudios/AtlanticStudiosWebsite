@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var backgroundImages = ['ChurchMilitant.png', 'CityOfFuture.png', 'Corals.png', 'Plantation.png', 'Superbugs.png', 'Tornado.png'];
+  var backgroundImages = ['ChurchMilitant.png', 'CityOfFuture.png', 'Corals.png', 'Plantation.png', 'Tornado.png', 'OJ.png', 'Obama.png', 'Roxane.png'];
 
   $('.coverImage').css('background-image', RandomBackgroundImage(backgroundImages));
 
