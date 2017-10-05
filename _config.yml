@@ -8,6 +8,9 @@ includes_dir: includes
 collections:
   posts:
     output:   true
+  projects:
+    output:   true
+
 
 # Handling Reading
 safe:                 false

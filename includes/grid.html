@@ -1,0 +1,17 @@
+<div class="grid">
+  {% for project in site.projects %}
+
+  <a href="{{ project.url }}">
+    <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
+      <div class="projectCover">
+      </div>
+      <p class="projectLabel">
+        {{ project.label }}
+      </p>
+    </div>
+  </a>
+
+  {% endfor %}
+</div>
+
+<script src="/scripts/myGrid.js"></script>
