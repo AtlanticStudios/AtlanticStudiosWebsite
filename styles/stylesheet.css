@@ -176,12 +176,12 @@ html {
         transform: translateY(14px) rotate(-45deg); }
         .navMenuButton .navMenuGraphic .navMenuBar.topBar.topBarIn {
           animation-name: topBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: normal;
           animation-fill-mode: both; }
         .navMenuButton .navMenuGraphic .navMenuBar.topBar.topBarOut {
           animation-name: topBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: reverse;
           animation-fill-mode: both; }
       .navMenuButton .navMenuGraphic .navMenuBar.middleBar {
@@ -189,12 +189,12 @@ html {
         transform: scaleX(0); }
         .navMenuButton .navMenuGraphic .navMenuBar.middleBar.middleBarIn {
           animation-name: middleBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: normal;
           animation-fill-mode: both; }
         .navMenuButton .navMenuGraphic .navMenuBar.middleBar.middleBarOut {
           animation-name: middleBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: reverse;
           animation-fill-mode: both; }
       .navMenuButton .navMenuGraphic .navMenuBar.bottomBar {
@@ -202,12 +202,12 @@ html {
         transform: translateY(-14px) rotate(45deg); }
         .navMenuButton .navMenuGraphic .navMenuBar.bottomBar.bottomBarIn {
           animation-name: bottomBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: normal;
           animation-fill-mode: both; }
         .navMenuButton .navMenuGraphic .navMenuBar.bottomBar.bottomBarOut {
           animation-name: bottomBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: reverse;
           animation-fill-mode: both; }
 
@@ -253,6 +253,10 @@ html {
     height: 70px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
     overflow: hidden; }
     .playButton .playSymbol:active {
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
@@ -269,16 +273,16 @@ html {
   display: none; }
 
 .modalWindow {
-  width: 0vw;
+  width: 80vw;
   height: 0vw;
   position: absolute;
   background-color: #fff;
+  border-radius: 10px;
   z-index: 13;
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   display: none;
-  padding: 20px;
   overflow: hidden; }
 
 .modalEmbed {

@@ -58,14 +58,14 @@
 
         &.topBarIn {
           animation-name: topBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: normal;
           animation-fill-mode: both;
         }
 
         &.topBarOut {
           animation-name: topBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: reverse;
           animation-fill-mode: both;
         }
@@ -77,14 +77,14 @@
 
         &.middleBarIn {
           animation-name: middleBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: normal;
           animation-fill-mode: both;
         }
 
         &.middleBarOut {
           animation-name: middleBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: reverse;
           animation-fill-mode: both;
         }
@@ -96,14 +96,14 @@
 
         &.bottomBarIn {
           animation-name: bottomBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: normal;
           animation-fill-mode: both;
         }
 
         &.bottomBarOut {
           animation-name: bottomBarChange;
-          animation-duration: 0.7s;
+          animation-duration: 0.3s;
           animation-direction: reverse;
           animation-fill-mode: both;
         }

@@ -23,8 +23,9 @@ $(document).ready(function() {
 
     var window = $('.modalWindow');
     window.show();
-    window.delay(200).animate({width: '80vw'}, 200);
-    window.animate({height: '45vw'}, 200);
+    //window.delay(200).animate({width: '80vw'}, 200);
+    // window.animate({width: '80vw'}, 200);
+    window.delay(200).animate({top: '50%', height: '45vw'}, 200);
 
     $('.modalEmbed').append(VimeoEmbed);
   };
@@ -32,8 +33,8 @@ $(document).ready(function() {
   function CloseModal() {
     var window = $('.modalWindow');
     window.stop();
-    window.animate({height: '1'}, 200);
-    window.animate({width: '0', height: '0'}, 200, function() {window.hide()});
+    // window.animate({height: '1'}, 200);
+    window.animate({top: '10%', height: '0'}, 200, function() {window.hide()});
 
     $('.modalBackground').delay(300).fadeOut(200);
 

@@ -1,0 +1,42 @@
+<div class="Footer">
+  <div class="iconSocialMediaContainer">
+    <a target="_blank" href="https://www.youtube.com/TheAtlantic">
+      <div class="iconSocialMedia">
+        <img src="/graphics/youtube.svg" />
+      </div>
+    </a>
+    <a target="_blank" href="https://www.facebook.com/pg/TheAtlantic/videos/?ref=page_internal">
+      <div class="iconSocialMedia">
+        <img src="/graphics/facebook.svg" />
+      </div>
+    </a>
+    <a target="_blank" href="https://twitter.com/TheAtlantic">
+      <div class="iconSocialMedia">
+        <img src="/graphics/twitter.svg" />
+      </div>
+    </a>
+  </div>
+  <p class="FooterText"><a id="PrivacyPolicy" href="/privacypolicy.pdf">Privacy Policy</a> | <a id="Terms" href="/terms.pdf">Terms & Conditions</a></p>
+  <p class="FooterText">The Atlantic © 2017</p>
+</div>
+
+<script>
+  $(document).ready(function() {
+
+    if ('{{ page.navigation }}' == 'Home') {
+      $('.Footer').css('margin-top', '-110px');
+    } else if ('{{ page.navigation }}' == 'News') {
+      $('.Footer').css('margin-top', '-110px');
+    } else if ('{{ page.navigation }}' == 'Contact') {
+      $('.Footer').css('margin-top', '-110px');
+    };
+
+    if ('{{ page.navigation }}' == 'Home') {
+      $('.FooterText').css('color', '#fff');
+      $('#PrivacyPolicy').css('color', '#fff');
+      $('#Terms').css('color', '#fff');
+      $('.iconSocialMedia').css('opacity', 0.5);
+    };
+
+  });
+</script>

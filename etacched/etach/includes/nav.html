@@ -1,0 +1,27 @@
+<div class="NavBar">
+  <div class="NavList">
+    <!-- <a href="index.html"><h2 class="NavButton" id="Home">Home</h2></a> -->
+    <a href="/watch.html"><h2 class="NavButton" id="Watch">Watch Now</h2></a>
+    <a href="/news.html"><h2 class="NavButton" id="News">News</h2></a>
+    <h2 class="NavButton NavSpacer"><!--Space--></h2>
+    <a href="/about.html"><h2 class="NavButton" id="About">About</h2></a>
+    <a href="/contact.html"><h2 class="NavButton" id="Contact">Contact</h2></a>
+
+    <!-- <div class="NavButton"></div> -->
+  </div>
+
+  <!-- <div class="NavFooter">
+    <p class="FooterText">Privacy Policy | Terms & Conditions</p>
+    <p class="FooterText">The Atlantic © 2017</p>
+  </div> -->
+</div>
+
+<!-- Scripts -->
+
+<script>
+  $(document).ready(function() {
+    document.getElementById('{{ page.navigation }}').style.color = '#e50f41';
+  });
+</script>
+
+<script src="scripts/myNav.js"></script>

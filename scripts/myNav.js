@@ -30,14 +30,19 @@ $(document).ready(function() {
   });
 
   function OpenNavBar() {
+    // all animations rely on the open class for .container
     $('.container').toggleClass('open');
 
+    // swap out text hint for menu button
     if ($('.container').hasClass('open')) {
       $('.navMenuLabel').empty().append('Hide');
     } else {
       $('.navMenuLabel').empty().append('Show')
     }
 
+    // Here are all the triggers for the menu button animation:
+    
+    // this if/else statement moves the button up and down on the page
     if ($('.container').hasClass('open')) {
       $('.navMenuButton').removeClass('MenuButtonUp');
       $('.navMenuButton').css('width');
@@ -47,6 +52,7 @@ $(document).ready(function() {
       $('.navMenuButton').css('width');
       $('.navMenuButton').addClass('MenuButtonUp');
     }
+    // this one animates the topBar
     if ($('.container').hasClass('open')) {
       $('.topBar').removeClass('topBarOut');
       $('.topBar').css('width');
@@ -56,7 +62,7 @@ $(document).ready(function() {
       $('.topBar').css('width');
       $('.topBar').addClass('topBarOut');
     };
-
+    // this one animates the middleBar
     if ($('.container').hasClass('open')) {
       $('.middleBar').removeClass('middleBarOut');
       $('.middleBar').css('width');
@@ -66,7 +72,7 @@ $(document).ready(function() {
       $('.middleBar').css('width');
       $('.middleBar').addClass('middleBarOut');
     };
-
+    // this one animates the bottomBar
     if ($('.container').hasClass('open')) {
       $('.bottomBar').removeClass('bottomBarOut');
       $('.bottomBar').css('width');
