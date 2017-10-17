@@ -138,6 +138,9 @@ html {
   right: 0;
   top: 100px;
   z-index: 10; }
+  @media screen and (max-width: 1100px) {
+    .navMenuButton {
+      top: 20px; } }
   .navMenuButton.MenuButtonDown {
     animation-name: menuButtonChange;
     animation-duration: 0.2s;
@@ -294,6 +297,12 @@ html {
   width: 900px;
   margin: 10px auto;
   text-align: center; }
+  @media screen and (min-width: 1600px) {
+    .grid {
+      width: 1500px; } }
+  @media screen and (max-width: 900px) {
+    .grid {
+      width: 600px; } }
 
 .grid-item {
   display: inline-block;
