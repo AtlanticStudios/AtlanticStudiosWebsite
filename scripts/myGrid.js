@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
-    columnWidth: 300,
+    columnWidth: 150,
     // gutter: 10
     isAnimated: true,
     animationOptions: {

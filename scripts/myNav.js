@@ -48,7 +48,7 @@ $(document).ready(function() {
     // Here are all the triggers for the menu button animation:
 
     // this if/else statement moves the button up and down on the page
-    if (windowWidth > 1100) {
+    if (windowWidth > 900) {
       if ($('.container').hasClass('open')) {
         $('.navMenuButton').removeClass('MenuButtonUp');
         $('.navMenuButton').css('width');
