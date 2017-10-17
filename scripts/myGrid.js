@@ -1,9 +1,24 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
-    columnWidth: 300
+    columnWidth: 300,
     // gutter: 10
+    isAnimated: true,
+    animationOptions: {
+      duration: 200,
+      easing: 'swing',
+      queue: false
+    }
+  });
+
+  $('.grid-item').mouseover(function() {
+    $(this).find('.projectLabel').fadeIn(300);
+    $(this).find('.projectCover').css('opacity', 0.5);
+  });
+  $('.grid-item').mouseleave(function() {
+    $(this).find('.projectLabel').stop().hide();
+    $(this).find('.projectCover').css('opacity', 1);
   });
 
 });

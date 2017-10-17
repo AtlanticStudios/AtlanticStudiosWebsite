@@ -1,14 +1,19 @@
 $(document).ready(function() {
 
+  // Mobile Listeners
+
+  var windowWidth = $(window).width();
+  console.log(windowWidth);
+
   // Menu Label Interaction
 
   $('.navMenuLabel').delay(2000).fadeOut(600);
 
-  $('.navMenuGraphic').mouseenter(function () {
+  $('.navMenuGraphic').mouseenter(function() {
     $('.navMenuLabel').stop().fadeIn(200);
   });
 
-  $('.navMenuGraphic').mouseleave(function () {
+  $('.navMenuGraphic').mouseleave(function() {
     $('.navMenuLabel').stop().delay(800).fadeOut(200);
   })
 
@@ -23,8 +28,7 @@ $(document).ready(function() {
       OpenNavBar();
     } else if (e.keyCode == 77) {
       OpenNavBar();
-    }
-    else if (e.keyCode == 32) {
+    } else if (e.keyCode == 32) {
       OpenNavBar();
     }
   });
@@ -40,18 +44,25 @@ $(document).ready(function() {
       $('.navMenuLabel').empty().append('Show')
     }
 
+
     // Here are all the triggers for the menu button animation:
-    
+
     // this if/else statement moves the button up and down on the page
-    if ($('.container').hasClass('open')) {
-      $('.navMenuButton').removeClass('MenuButtonUp');
-      $('.navMenuButton').css('width');
-      $('.navMenuButton').addClass('MenuButtonDown');
-    } else {
-      $('.navMenuButton').removeClass('MenuButtonDown');
-      $('.navMenuButton').css('width');
-      $('.navMenuButton').addClass('MenuButtonUp');
-    }
+    // if (windowWidth > 1100) {
+      if ($('.container').hasClass('open')) {
+        $('.navMenuButton').removeClass('MenuButtonUp');
+        $('.navMenuButton').css('width');
+        $('.navMenuButton').addClass('MenuButtonDown');
+      } else {
+        $('.navMenuButton').removeClass('MenuButtonDown');
+        $('.navMenuButton').css('width');
+        $('.navMenuButton').addClass('MenuButtonUp');
+      }
+    // } else {
+    //   $('.navMenuButton').removeClass('MenuButtonDown');
+    //   // $('.navMenuButton').css('width');
+    //   $('.navMenuButton').addClass('MenuButtonUp');
+    // };
     // this one animates the topBar
     if ($('.container').hasClass('open')) {
       $('.topBar').removeClass('topBarOut');

@@ -7,7 +7,7 @@ $(document).ready(function() {
   function RandomBackgroundImage(imageArray) {
     var number = Math.floor(Math.random() * imageArray.length);
     var image = imageArray[number];
-    var url = 'url(/images/backgrounds/' + image + ')'
+    var url = 'url("images/backgrounds/texture.png"), url(/images/backgrounds/' + image + ')'
 
     return url;
   }
