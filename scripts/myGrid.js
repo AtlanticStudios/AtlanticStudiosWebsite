@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // Mobile Listeners
   var windowWidth = $(window).width();
-  console.log(windowWidth);
+  // console.log(windowWidth);
 
   $('.grid').masonry({
     itemSelector: '.grid-item',
@@ -31,7 +31,7 @@ $(document).ready(function() {
       // $(this).find('.projectCover').css('opacity', 0.5);
     });
     $('.grid-item').on('touchend', function() {
-      $(this).find('.projectLabel').delay(3000).fadeOut(300);
+      $(this).find('.projectLabel').delay(1000).fadeOut(300);
       // $(this).find('.projectCover').delay(1000).css('opacity', 1);
     });
   }

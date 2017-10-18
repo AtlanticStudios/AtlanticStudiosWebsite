@@ -29,11 +29,37 @@
         background-color: $color-gray;
       }
     }
+    @media screen and (max-width: $screen-mobile) {
+      display: block;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      width: 100px;
+      text-align: left;
+
+      &#News {
+        top: 15px;
+        left: 130px;
+      }
+
+      &#Watch {
+        top: 15px;
+        left: 240px;
+      }
+
+      &#About {
+        top: 50px;
+        left: 130px;
+      }
+
+      &#Contact {
+        top: 50px;
+        left: 240px;
+      }
+
+      &.NavSpacer {
+        display: none;
+      }
+    }
   }
 }
-
-@media screen and (max-width: $screen-mobile) {
-  .NavButton .NavSpacer {
-    display: none;
-  }
-  }

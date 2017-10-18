@@ -88,10 +88,29 @@ html {
       .NavBar .NavButton:hover.NavSpacer:hover {
         cursor: default;
         background-color: #f7f7f7; }
+    @media screen and (max-width: 600px) {
+      .NavBar .NavButton {
+        display: block;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100px;
+        text-align: left; }
+        .NavBar .NavButton#News {
+          top: 15px;
+          left: 130px; }
+        .NavBar .NavButton#Watch {
+          top: 15px;
+          left: 240px; }
+        .NavBar .NavButton#About {
+          top: 50px;
+          left: 130px; }
+        .NavBar .NavButton#Contact {
+          top: 50px;
+          left: 240px; }
+        .NavBar .NavButton.NavSpacer {
+          display: none; } }
 
-@media screen and (max-width: 600px) {
-  .NavButton .NavSpacer {
-    display: none; } }
 .Footer {
   padding-top: 10px;
   height: 100px;
@@ -320,7 +339,7 @@ html {
     @media screen and (max-width: 600px) {
       .grid-item.width1 {
         margin: 5px;
-        width: 140px; } }
+        width: 290px; } }
   .grid-item.width2 {
     width: 580px; }
     @media screen and (max-width: 600px) {

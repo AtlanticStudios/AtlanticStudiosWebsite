@@ -3,7 +3,7 @@ $(document).ready(function() {
   // Mobile Listeners
 
   var windowWidth = $(window).width();
-  console.log(windowWidth);
+  // console.log(windowWidth);
 
   // Menu Label Interaction
 
