@@ -108,16 +108,16 @@ html {
         text-align: left; }
         .NavBar .NavButton#News {
           top: 13px;
-          left: 130px; }
+          left: 35%; }
         .NavBar .NavButton#Watch {
           top: 13px;
-          left: 240px; }
+          left: 60%; }
         .NavBar .NavButton#About {
           top: 47px;
-          left: 130px; }
+          left: 35%; }
         .NavBar .NavButton#Contact {
           top: 47px;
-          left: 240px; }
+          left: 60%; }
         .NavBar .NavButton.NavSpacer {
           display: none; } }
 
