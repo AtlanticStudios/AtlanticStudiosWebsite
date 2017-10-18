@@ -22,14 +22,16 @@
   &.width1 {
     width: 280px;
     @media screen and (max-width: $screen-mobile) {
-      width: 130px;
+      margin: 5px;
+      width: 140px;
     }
   }
 
   &.width2 {
     width: 580px;
     @media screen and (max-width: $screen-mobile) {
-      width: 280px;
+      margin: 5px;
+      width: 290px;
     }
   }
 }

@@ -48,7 +48,7 @@ $(document).ready(function() {
     // Here are all the triggers for the menu button animation:
 
     // this if/else statement moves the button up and down on the page
-    if (windowWidth > 900) {
+    // if (windowWidth > 900) {
       if ($('.container').hasClass('open')) {
         $('.navMenuButton').removeClass('MenuButtonUp');
         $('.navMenuButton').css('width');
@@ -58,11 +58,11 @@ $(document).ready(function() {
         $('.navMenuButton').css('width');
         $('.navMenuButton').addClass('MenuButtonUp');
       }
-    } else {
-      $('.navMenuButton').removeClass('MenuButtonDown');
-      // $('.navMenuButton').css('width');
-      $('.navMenuButton').removeClass('MenuButtonUp');
-    };
+    // } else {
+    //   $('.navMenuButton').removeClass('MenuButtonDown');
+    //   // $('.navMenuButton').css('width');
+    //   $('.navMenuButton').removeClass('MenuButtonUp');
+    // };
     // this one animates the topBar
     if ($('.container').hasClass('open')) {
       $('.topBar').removeClass('topBarOut');

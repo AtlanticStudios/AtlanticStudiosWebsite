@@ -4,9 +4,9 @@
   right: 0;
   top: 100px;
   z-index: 10;
-  @media screen and (max-width: $screen-small) {
-    top: 20px;
-  }
+  // @media screen and (max-width: $screen-small) {
+  //   top: 20px;
+  // }
 
   &.MenuButtonDown {
     animation-name: menuButtonChange;

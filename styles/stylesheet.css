@@ -89,6 +89,9 @@ html {
         cursor: default;
         background-color: #f7f7f7; }
 
+@media screen and (max-width: 600px) {
+  .NavButton .NavSpacer {
+    display: none; } }
 .Footer {
   padding-top: 10px;
   height: 100px;
@@ -123,6 +126,10 @@ html {
   background-color: #e50f41;
   z-index: 8;
   text-align: center; }
+  @media screen and (max-width: 600px) {
+    .containerLogo {
+      left: 0;
+      width: 100px; } }
 
 .logo {
   display: block;
@@ -138,9 +145,6 @@ html {
   right: 0;
   top: 100px;
   z-index: 10; }
-  @media screen and (max-width: 900px) {
-    .navMenuButton {
-      top: 20px; } }
   .navMenuButton.MenuButtonDown {
     animation-name: menuButtonChange;
     animation-duration: 0.2s;
@@ -315,12 +319,14 @@ html {
     width: 280px; }
     @media screen and (max-width: 600px) {
       .grid-item.width1 {
-        width: 130px; } }
+        margin: 5px;
+        width: 140px; } }
   .grid-item.width2 {
     width: 580px; }
     @media screen and (max-width: 600px) {
       .grid-item.width2 {
-        width: 280px; } }
+        margin: 5px;
+        width: 290px; } }
 
 .projectCover {
   width: 100%;

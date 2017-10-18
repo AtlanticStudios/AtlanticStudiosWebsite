@@ -21,4 +21,9 @@ $(document).ready(function() {
     $(this).find('.projectCover').css('opacity', 1);
   });
 
+  $('.grid-item').on('touchstart', function() {
+    $(this).find('.projectLabel').fadeIn(300);
+    $(this).find('.projectCover').css('opacity', 0.5);
+  });
+
 });
