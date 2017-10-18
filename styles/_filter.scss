@@ -2,3 +2,95 @@
   height: 30px;
   margin: 20px auto 0;
 }
+
+.filterSlot {
+  position: absolute;
+  width: 290px;
+  height: 10px;
+  border-radius: 5px;
+  // background: $color-gray;
+  box-shadow: inset 0 0 9px -1px rgba(0, 0, 0, 0.2);
+  // box-shadow: inset 0px 0px 6px 2px $color-gray;
+  z-index: 0;
+  //positioning
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.filterSlider {
+  position: absolute;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: $color-red;
+  left: 0;
+  // transform: translateX(-50%);
+  // &.left {
+  //   animation-name: SliderLeft;
+  //   animation-duration: 0.5s;
+  //   animation-fill-mode: both;
+  // }
+  //
+  // &.middle {
+  //   animation-name: SliderMiddle;
+  //   animation-duration: 0.5s;
+  //   animation-fill-mode: both;
+  // }
+  //
+  // &.right {
+  //   animation-name: SliderRight;
+  //   animation-duration: 0.5s;
+  //   animation-fill-mode: both;
+  // }
+}
+
+.sliderLabel {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+
+  &#filterAll {
+    left: calc(50% - 140px);
+    transform: translateX(-50%);
+  }
+
+  &#filterDocumentary {
+    left: calc(50%);
+    transform: translateX(-50%);
+  }
+
+  &#filterAnimation {
+    left: calc(50% + 140px);
+    transform: translateX(-50%);
+  }
+}
+
+// @keyframes SliderLeft {
+//   from {
+//     // left: inherit;
+//   }
+//
+//   to {
+//     left: 0;
+//   }
+// }
+// @keyframes SliderMiddle {
+//   from {
+//     // left: 0;
+//   }
+//
+//   to {
+//     left: 135px;
+//   }
+// }
+// @keyframes SliderRight {
+//   from {
+//     // left: inherit;
+//   }
+//
+//   to {
+//     left: 280px;
+//   }
+// }
