@@ -54,16 +54,32 @@
   &#filterAll {
     left: calc(50% - 140px);
     transform: translateX(-50%);
+    p {
+      color: $color-red;
+    }
+
+    @media screen and (max-width: $screen-mobile) {
+      left: calc(50% - 112px);
+      font-size: 0.8em;
+    }
   }
 
   &#filterDocumentary {
     left: calc(50%);
     transform: translateX(-50%);
+    @media screen and (max-width: $screen-mobile) {
+      font-size: 0.8em;
+    }
   }
 
   &#filterAnimation {
     left: calc(50% + 140px);
     transform: translateX(-50%);
+
+    @media screen and (max-width: $screen-mobile) {
+      left: calc(50% + 115px);
+      font-size: 0.8em;
+    }
   }
 }
 

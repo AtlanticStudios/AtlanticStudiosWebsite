@@ -28,11 +28,13 @@ html {
 
       @media screen and (max-width: $screen-mobile) {
         height: auto;
+        min-height: calc(100vh - 80px);
         position: absolute;
         top: 80px;
         bottom: auto;
         &.open {
           height: auto;
+          min-height: calc(100vh - 80px);
         }
 
         .containerSpacer {

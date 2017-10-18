@@ -66,11 +66,13 @@ html {
       @media screen and (max-width: 600px) {
         html body .container {
           height: auto;
+          min-height: calc(100vh - 80px);
           position: absolute;
           top: 80px;
           bottom: auto; }
           html body .container.open {
-            height: auto; }
+            height: auto;
+            min-height: calc(100vh - 80px); }
           html body .container .containerSpacer {
             height: calc(100vh - 80px); } }
 
@@ -423,12 +425,25 @@ html {
   .sliderLabel#filterAll {
     left: calc(50% - 140px);
     transform: translateX(-50%); }
+    .sliderLabel#filterAll p {
+      color: #e50f41; }
+    @media screen and (max-width: 600px) {
+      .sliderLabel#filterAll {
+        left: calc(50% - 112px);
+        font-size: 0.8em; } }
   .sliderLabel#filterDocumentary {
     left: calc(50%);
     transform: translateX(-50%); }
+    @media screen and (max-width: 600px) {
+      .sliderLabel#filterDocumentary {
+        font-size: 0.8em; } }
   .sliderLabel#filterAnimation {
     left: calc(50% + 140px);
     transform: translateX(-50%); }
+    @media screen and (max-width: 600px) {
+      .sliderLabel#filterAnimation {
+        left: calc(50% + 115px);
+        font-size: 0.8em; } }
 
 .ErrorMessage {
   position: absolute;
