@@ -63,6 +63,16 @@ html {
       html body .container .containerSpacer {
         width: 100%;
         height: 100%; }
+      @media screen and (max-width: 600px) {
+        html body .container {
+          height: auto;
+          position: absolute;
+          top: 80px;
+          bottom: auto; }
+          html body .container.open {
+            height: auto; }
+          html body .container .containerSpacer {
+            height: calc(100vh - 80px); } }
 
 .NavBar {
   display: block;
@@ -97,16 +107,16 @@ html {
         width: 100px;
         text-align: left; }
         .NavBar .NavButton#News {
-          top: 15px;
+          top: 13px;
           left: 130px; }
         .NavBar .NavButton#Watch {
-          top: 15px;
+          top: 13px;
           left: 240px; }
         .NavBar .NavButton#About {
-          top: 50px;
+          top: 47px;
           left: 130px; }
         .NavBar .NavButton#Contact {
-          top: 50px;
+          top: 47px;
           left: 240px; }
         .NavBar .NavButton.NavSpacer {
           display: none; } }
@@ -164,6 +174,9 @@ html {
   right: 0;
   top: 100px;
   z-index: 10; }
+  @media screen and (max-width: 600px) {
+    .navMenuButton {
+      display: none; } }
   .navMenuButton.MenuButtonDown {
     animation-name: menuButtonChange;
     animation-duration: 0.2s;

@@ -29,6 +29,7 @@
         background-color: $color-gray;
       }
     }
+    
     @media screen and (max-width: $screen-mobile) {
       display: block;
       position: absolute;
@@ -38,22 +39,22 @@
       text-align: left;
 
       &#News {
-        top: 15px;
+        top: 13px;
         left: 130px;
       }
 
       &#Watch {
-        top: 15px;
+        top: 13px;
         left: 240px;
       }
 
       &#About {
-        top: 50px;
+        top: 47px;
         left: 130px;
       }
 
       &#Contact {
-        top: 50px;
+        top: 47px;
         left: 240px;
       }
 

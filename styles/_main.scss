@@ -26,13 +26,19 @@ html {
         height: 100%;
       }
 
-      // @media screen and (max-width: $screen-mobile) {
-      //   height: auto;
-      //   // overflow: auto;
-      //   &.open {
-      //     height: auto;
-      //   }
-      // }
+      @media screen and (max-width: $screen-mobile) {
+        height: auto;
+        position: absolute;
+        top: 80px;
+        bottom: auto;
+        &.open {
+          height: auto;
+        }
+
+        .containerSpacer {
+          height: calc(100vh - 80px);
+        }
+      }
     }
   }
 }
