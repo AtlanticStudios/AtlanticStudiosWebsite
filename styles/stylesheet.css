@@ -348,19 +348,19 @@ html {
 .grid-item {
   display: inline-block;
   background-color: #f7f7f7;
-  margin: 10px; }
+  margin: 2px; }
   .grid-item.width1 {
-    width: 280px; }
+    width: 296px; }
     @media screen and (max-width: 600px) {
       .grid-item.width1 {
-        margin: 5px;
-        width: 290px; } }
+        margin: 2px;
+        width: 296px; } }
   .grid-item.width2 {
-    width: 580px; }
+    width: 596px; }
     @media screen and (max-width: 600px) {
       .grid-item.width2 {
-        margin: 5px;
-        width: 290px; } }
+        margin: 2px;
+        width: 296px; } }
 
 .projectCover {
   width: 100%;
@@ -444,6 +444,36 @@ html {
       .sliderLabel#filterAnimation {
         left: calc(50% + 115px);
         font-size: 0.8em; } }
+
+.news {
+  margin: 50px auto 0;
+  min-height: 100%; }
+  .news h2 {
+    margin-top: 5px; }
+  .news p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0; }
+  @media screen and (max-width: 600px) {
+    .news {
+      margin: 20px auto 0; } }
+
+.storySelector {
+  margin: auto;
+  width: 60%;
+  min-width: 330px;
+  max-width: 500px; }
+
+.storyThumb {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 10px; }
+  .storyThumb:hover {
+    cursor: pointer; }
+
+.newsReader {
+  display: none; }
 
 .ErrorMessage {
   position: absolute;

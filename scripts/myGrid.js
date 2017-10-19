@@ -22,7 +22,7 @@ $(document).ready(function() {
       $(this).find('.projectCover').css('opacity', 0.5);
     });
     $('.grid-item').mouseleave(function() {
-      $(this).find('.projectLabel').stop().hide();
+      $('.projectLabel').stop().hide();
       $(this).find('.projectCover').css('opacity', 1);
     });
   } else {
@@ -31,7 +31,7 @@ $(document).ready(function() {
       // $(this).find('.projectCover').css('opacity', 0.5);
     });
     $('.grid-item').on('touchend', function() {
-      $(this).find('.projectLabel').delay(1000).fadeOut(300);
+      $('.projectLabel').delay(600).fadeOut(300);
       // $(this).find('.projectCover').delay(1000).css('opacity', 1);
     });
   }

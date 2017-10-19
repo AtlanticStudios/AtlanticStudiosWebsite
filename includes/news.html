@@ -1,0 +1,23 @@
+<div class="news">
+  <div class = "newsTab">
+
+  </div>
+  <div class="storySelector">
+    {% for post in site.posts %}
+
+    <div class="storyThumb" id="thumb{{ post.tag }}">
+      <h2 class="title">{{ post.title }}</h2>
+      <p class="author">{{ post.author }}</p>
+      <p class="date">{{ post.created }}</p>
+
+      <!-- <p>{{ post.url }}</p> -->
+      <div class="newsReader" id="content{{ post.tag }}">
+        {{ post.content }}
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>
+
+<script src="/scripts/myNews.js"></script>

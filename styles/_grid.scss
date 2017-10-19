@@ -17,21 +17,21 @@
 .grid-item {
   display: inline-block;
   background-color: $color-gray;
-  margin: 10px;
+  margin: 2px;
 
   &.width1 {
-    width: 280px;
+    width: 296px;
     @media screen and (max-width: $screen-mobile) {
-      margin: 5px;
-      width: 290px;
+      margin: 2px;
+      width: 296px;
     }
   }
 
   &.width2 {
-    width: 580px;
+    width: 596px;
     @media screen and (max-width: $screen-mobile) {
-      margin: 5px;
-      width: 290px;
+      margin: 2px;
+      width: 296px;
     }
   }
 }
