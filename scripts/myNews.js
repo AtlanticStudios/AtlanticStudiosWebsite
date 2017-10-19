@@ -5,10 +5,18 @@ $(document).ready(function() {
   if (windowWidth < 1100) {
 
     $('.storyThumb').click(function() {
-      $('.newsReader').hide();
-      $('.storyThumb').css('box-shadow', 'initial');
-      $(this).find('.newsReader').show();
+      // $('.newsReader').toggle();
+      // $('.storyThumb').css('box-shadow', 'initial');
+      $(this).find('.newsReader').toggle();
+      // $(this).css('box-shadow', 'inset 0 0 0 3px #e50f41');
+    });
+
+    $('.storyThumb').on('touchstart', function() {
+
       $(this).css('box-shadow', 'inset 0 0 0 3px #e50f41');
+    });
+    $('.storyThumb').on('touchend', function() {
+      $('.storyThumb').css('box-shadow', 'initial');
     });
 
   } else {

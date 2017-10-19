@@ -453,6 +453,7 @@ html {
   text-align: center;
   vertical-align: top;
   width: 100%;
+  min-height: 700px;
   height: calc(100% - 50px); }
   .news h2 {
     margin-top: 5px;
@@ -470,15 +471,16 @@ html {
   width: 60%;
   max-width: 500px;
   vertical-align: top;
-  margin-top: 20px;
-  margin-right: 20px;
-  padding-right: 20px;
-  border-right: 3px solid #1d1d1d;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-left: 3px solid #ececec;
   height: calc(80% + 10px);
   overflow: scroll; }
   .newsTab h2 {
     margin: none;
-    text-align: right; }
+    text-align: left; }
   .newsTab p {
     text-align: justify;
     margin: 0 0 10px; }
@@ -492,7 +494,8 @@ html {
   min-width: 330px;
   max-width: 500px;
   height: 85%;
-  overflow: scroll; }
+  overflow: scroll;
+  vertical-align: top; }
   @media screen and (max-width: 1100px) {
     .storySelector {
       width: 80%;
