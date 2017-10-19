@@ -1,21 +1,16 @@
 <div class="news">
-  <div class = "newsTab">
-
+  <div class="newsTab">
+    <h2 class="newsTabHeader">The Latest from Atlantic Studios</h2>
+    <!-- <p>Announcements, previews, news, events and more from Atlantic Studios.</p> -->
   </div>
   <div class="storySelector">
     {% for post in site.posts %}
-
     <div class="storyThumb" id="thumb{{ post.tag }}">
       <h2 class="title">{{ post.title }}</h2>
-      <p class="author">{{ post.author }}</p>
-      <p class="date">{{ post.created }}</p>
-
+      <p class="byline">{{ post.author }} | {{ post.created }}</p>
       <!-- <p>{{ post.url }}</p> -->
-      <div class="newsReader" id="content{{ post.tag }}">
-        {{ post.content }}
-      </div>
+      <div class="newsReader" id="content{{ post.tag }}">{{ post.content }}</div>
     </div>
-
     {% endfor %}
   </div>
 </div>

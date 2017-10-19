@@ -361,6 +361,9 @@ html {
       .grid-item.width2 {
         margin: 2px;
         width: 296px; } }
+    @media screen and (max-width: 900px) {
+      .grid-item.width2 {
+        width: 296px; } }
 
 .projectCover {
   width: 100%;
@@ -446,34 +449,86 @@ html {
         font-size: 0.8em; } }
 
 .news {
-  margin: 50px auto 0;
-  min-height: 100%; }
+  padding: 50px 0 0;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  height: calc(100% - 50px); }
   .news h2 {
-    margin-top: 5px; }
+    margin-top: 5px;
+    text-align: left; }
   .news p {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 0; }
   @media screen and (max-width: 600px) {
     .news {
-      margin: 20px auto 0; } }
+      padding: 20px 0; } }
+
+.newsTab {
+  display: inline-block;
+  width: 60%;
+  max-width: 500px;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 3px solid #1d1d1d;
+  height: calc(80% + 10px);
+  overflow: scroll; }
+  .newsTab h2 {
+    margin: none;
+    text-align: right; }
+  .newsTab p {
+    text-align: justify;
+    margin: 0 0 10px; }
+  @media screen and (max-width: 1100px) {
+    .newsTab {
+      display: none; } }
 
 .storySelector {
-  margin: auto;
-  width: 60%;
+  display: inline-block;
+  width: 30%;
   min-width: 330px;
-  max-width: 500px; }
+  max-width: 500px;
+  height: 85%;
+  overflow: scroll; }
+  @media screen and (max-width: 1100px) {
+    .storySelector {
+      width: 80%;
+      max-height: initial;
+      overflow: initial; } }
 
 .storyThumb {
+  box-sizing: border-box;
   background-color: #f7f7f7;
   padding: 10px 20px;
   margin: 10px auto;
   border-radius: 10px; }
   .storyThumb:hover {
     cursor: pointer; }
+  @media screen and (max-width: 1100px) {
+    .storyThumb {
+      padding-bottom: 20px; } }
 
 .newsReader {
   display: none; }
+  .newsReader p:first-child:first-letter {
+    font-family: graphik;
+    font-weight: bold;
+    float: left;
+    font-size: 42px;
+    padding-top: 2px;
+    padding-right: 4px;
+    line-height: 35px;
+    color: #e50f41; }
+  @media screen and (max-width: 1100px) {
+    .newsReader p:first-child:first-letter {
+      font: normal 1em graphik, sans-serif;
+      float: initial;
+      padding: initial;
+      line-height: initial;
+      color: initial; } }
 
 .ErrorMessage {
   position: absolute;
