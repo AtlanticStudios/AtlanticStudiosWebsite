@@ -10,7 +10,7 @@
     width: 600px;
   }
   @media screen and (max-width: $screen-mobile) {
-    width: 300px;
+    width: 330px;
   }
 }
 
@@ -23,18 +23,18 @@
     width: 296px;
     @media screen and (max-width: $screen-mobile) {
       margin: 2px;
-      width: 296px;
+      width: 326px;
     }
   }
 
   &.width2 {
     width: 596px;
-    @media screen and (max-width: $screen-mobile) {
-      margin: 2px;
-      width: 296px;
-    }
     @media screen and (max-width: $screen-small) {
       width: 296px;
+    }
+    @media screen and (max-width: $screen-mobile) {
+      margin: 2px;
+      width: 326px;
     }
   }
 }

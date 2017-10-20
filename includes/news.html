@@ -1,17 +1,28 @@
 <div class="news">
   <div class="storySelector">
     {% for post in site.posts %}
+    <!-- <a href="#{{ post.tag }}"> -->
     <div class="storyThumb" id="thumb{{ post.tag }}">
       <h2 class="title">{{ post.title }}</h2>
       <p class="byline">{{ post.author }} | {{ post.created }}</p>
       <!-- <p>{{ post.url }}</p> -->
       <div class="newsReader" id="content{{ post.tag }}">{{ post.content }}</div>
     </div>
+    <!-- </a> -->
+
+    <script>
+      $(document).ready(function() {
+        $('#thumb{{ post.tag }}').click(function() {
+            window.location.hash = '{{ post.tag }}';
+          });
+        });
+    </script>
+
     {% endfor %}
   </div>
   <div class="newsTab">
-    <h2 class="newsTabHeader">The Latest from Atlantic Studios</h2>
-    <!-- <p>Announcements, previews, news, events and more from Atlantic Studios.</p> -->
+    <h2 class="newsTabHeader">Select a Story to Continue</h2>
+    <!-- <p>On the left you'll find announcements, previews, news, events and more from Atlantic Studios. Select one to continue.</p> -->
   </div>
 </div>
 

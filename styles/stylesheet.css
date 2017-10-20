@@ -343,7 +343,7 @@ html {
       width: 600px; } }
   @media screen and (max-width: 600px) {
     .grid {
-      width: 300px; } }
+      width: 330px; } }
 
 .grid-item {
   display: inline-block;
@@ -354,16 +354,16 @@ html {
     @media screen and (max-width: 600px) {
       .grid-item.width1 {
         margin: 2px;
-        width: 296px; } }
+        width: 326px; } }
   .grid-item.width2 {
     width: 596px; }
-    @media screen and (max-width: 600px) {
-      .grid-item.width2 {
-        margin: 2px;
-        width: 296px; } }
     @media screen and (max-width: 900px) {
       .grid-item.width2 {
         width: 296px; } }
+    @media screen and (max-width: 600px) {
+      .grid-item.width2 {
+        margin: 2px;
+        width: 326px; } }
 
 .projectCover {
   width: 100%;
@@ -403,13 +403,17 @@ html {
 
 .filterSlot {
   position: absolute;
-  width: 290px;
+  width: 300px;
   height: 10px;
   border-radius: 10px;
-  background: #ececec;
+  box-shadow: inset 0px 0px 9px 2px #ececec;
   z-index: 0;
   left: 50%;
   transform: translateX(-50%); }
+  @media screen and (max-width: 600px) {
+    .filterSlot {
+      box-shadow: initial;
+      left: calc(50% - 5px); } }
 
 .filterSlider {
   position: absolute;
@@ -426,26 +430,38 @@ html {
   text-align: center;
   cursor: pointer; }
   .sliderLabel#filterAll {
-    left: calc(50% - 140px);
-    transform: translateX(-50%); }
+    left: calc(50% - 145px);
+    transform: translateX(-50%);
+    font-size: 0.9em; }
     .sliderLabel#filterAll p {
       color: #e50f41; }
     @media screen and (max-width: 600px) {
       .sliderLabel#filterAll {
-        left: calc(50% - 112px);
+        left: calc(50% - 150px);
         font-size: 0.8em; } }
   .sliderLabel#filterDocumentary {
-    left: calc(50%);
-    transform: translateX(-50%); }
+    left: calc(50% - 37px);
+    transform: translateX(-50%);
+    font-size: 0.9em; }
     @media screen and (max-width: 600px) {
       .sliderLabel#filterDocumentary {
+        left: calc(50% - 42px);
         font-size: 0.8em; } }
   .sliderLabel#filterAnimation {
-    left: calc(50% + 140px);
-    transform: translateX(-50%); }
+    left: calc(50% + 70px);
+    transform: translateX(-50%);
+    font-size: 0.9em; }
     @media screen and (max-width: 600px) {
       .sliderLabel#filterAnimation {
-        left: calc(50% + 115px);
+        left: calc(50% + 65px);
+        font-size: 0.8em; } }
+  .sliderLabel#filterSeries {
+    left: calc(50% + 145px);
+    transform: translateX(-50%);
+    font-size: 0.9em; }
+    @media screen and (max-width: 600px) {
+      .sliderLabel#filterSeries {
+        left: calc(50% + 140px);
         font-size: 0.8em; } }
 
 .news {

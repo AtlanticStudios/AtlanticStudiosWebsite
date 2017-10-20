@@ -4,12 +4,28 @@ $(document).ready(function() {
 
   if (windowWidth < 1100) {
 
-    $('.storyThumb').click(function() {
-      // $('.newsReader').toggle();
-      // $('.storyThumb').css('box-shadow', 'initial');
-      $(this).find('.newsReader').toggle();
-      // $(this).css('box-shadow', 'inset 0 0 0 3px #e50f41');
+    $(window).ready(function() {
+      $('.newsReader').hide();
+      var hashID = "#thumb" + (window.location.hash).substring(1);
+      $(hashID).find('.newsReader').show();
+      $(hashID).ScrollTo();
     });
+
+    // window.onhashchange = function() {
+    //   var hashID = "#thumb" + (window.location.hash).substring(1);
+    //   // $('.newsReader').hide();
+    //   // $('.storyThumb').css('box-shadow', 'initial');
+    //   $(hashID).find('.newsReader').toggle();
+    //   $(hashID).click(function() {
+    //     $(this).find('.newsReader').toggle();
+    //   })
+    //   // $(this).css('box-shadow', 'inset 0 0 0 3px #e50f41');
+    // };
+
+    $('.storyThumb').click(function() {
+      $(this).find('.newsReader').toggle();
+    });
+
 
     $('.storyThumb').on('touchstart', function() {
 
@@ -23,19 +39,40 @@ $(document).ready(function() {
 
     var clicked = false;
 
-    $('.storyThumb').click(function() {
+    $(window).ready(function() {
+      var hashID = "#thumb" + (window.location.hash).substring(1);
+      // console.log(hashID);
+
       $('.storyThumb').css('box-shadow', 'initial');
 
       $('.newsTab').find('.newsReader').remove();
 
-      postContent = $(this).find('.newsReader').clone();
+      postContent = $(hashID).find('.newsReader').clone();
+      $('.newsTab').append(postContent);
+      postContent.show();
+
+      if (hashID !== '#thumb') {
+        $('.newsTabHeader').hide();
+      }
+
+      $(hashID).css('box-shadow', 'inset 0 0 0 3px #e50f41');
+    });
+
+    window.onhashchange = function() {
+      var hashID = "#thumb" + (window.location.hash).substring(1);
+      // console.log(hashID);
+
+      $('.storyThumb').css('box-shadow', 'initial');
+
+      $('.newsTab').find('.newsReader').remove();
+
+      postContent = $(hashID).find('.newsReader').clone();
       $('.newsTab').append(postContent);
       $('.newsTabHeader').hide();
       postContent.show();
 
-      $(this).css('box-shadow', 'inset 0 0 0 3px #e50f41');
-      clicked = true;
-    });
+      $(hashID).css('box-shadow', 'inset 0 0 0 3px #e50f41');
+    };
 
   }
 
