@@ -12,6 +12,7 @@
 
     <script>
       $(document).ready(function() {
+
         $('#thumb{{ post.tag }}').click(function() {
             window.location.hash = '{{ post.tag }}';
           });
@@ -21,9 +22,22 @@
     {% endfor %}
   </div>
   <div class="newsTab">
-    <h2 class="newsTabHeader">Select a Story to Continue</h2>
+    <!-- <h2 class="newsTabHeader">Select a Story to Continue</h2> -->
     <!-- <p>On the left you'll find announcements, previews, news, events and more from Atlantic Studios. Select one to continue.</p> -->
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+    console.log(window.location.hash);
+
+    if (window.location.hash == '') {
+      var storyThumb = $('.storyThumb');
+      var firstStoryHash = storyThumb[0].id.substring(5);
+
+      window.location.hash = firstStoryHash;
+    }
+  });
+</script>
 
 <script src="/scripts/myNews.js"></script>

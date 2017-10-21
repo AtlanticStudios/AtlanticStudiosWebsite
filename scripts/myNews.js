@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var windowWidth = $(window).width();
 
-  if (windowWidth < 1100) {
+  if (windowWidth < 900) {
 
     $(window).ready(function() {
       $('.newsReader').hide();
@@ -41,6 +41,7 @@ $(document).ready(function() {
 
     $(window).ready(function() {
       var hashID = "#thumb" + (window.location.hash).substring(1);
+
       // console.log(hashID);
 
       $('.storyThumb').css('box-shadow', 'initial');
@@ -51,9 +52,9 @@ $(document).ready(function() {
       $('.newsTab').append(postContent);
       postContent.show();
 
-      if (hashID !== '#thumb') {
-        $('.newsTabHeader').hide();
-      }
+      // if (hashID !== '#thumb') {
+      //   $('.newsTabHeader').hide();
+      // }
 
       $(hashID).css('box-shadow', 'inset 0 0 0 3px #e50f41');
     });

@@ -50,7 +50,7 @@
     margin: 0 0 10px;
   }
 
-  @media screen and (max-width: $screen-medium) {
+  @media screen and (max-width: $screen-small) {
     display: none;
   }
 }
@@ -64,7 +64,7 @@
   overflow: scroll;
   vertical-align: top;
 
-  @media screen and (max-width: $screen-medium) {
+  @media screen and (max-width: $screen-small) {
     width: 80%;
     max-height: initial;
     overflow: initial;
@@ -81,7 +81,7 @@
   &:hover {
     cursor: pointer;
   }
-  @media screen and (max-width: $screen-medium) {
+  @media screen and (max-width: $screen-small) {
     padding-bottom: 20px;
   }
 }
@@ -103,7 +103,7 @@
     color: $color-red;
   }
 
-  @media screen and (max-width: $screen-medium) {
+  @media screen and (max-width: $screen-small) {
     p:first-child:first-letter {
       font: $description-font;
       float: initial;

@@ -1,0 +1,53 @@
+<div class="contact">
+  <div id="map"></div>
+</div>
+
+<script>
+  function initMap() {
+    var office = {
+      lat: 38.897714,
+      lng: -77.054963
+    };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: office,
+      zoom: 15,
+      styles: [{
+        "featureType": "all",
+        "elementType": "labels",
+        "stylers": [{
+          "visibility": "off"
+        }]
+      }, {
+        "featureType": "road.highway",
+        "elementType": "labels",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      }, {
+        "featureType": "road.arterial",
+        "elementType": "labels",
+        "stylers": [{
+          "visibility": "on"
+        }]
+      }, {
+        "featureType": "all",
+        "elementType": "fill",
+        "stylers": [{
+          "saturation": -100
+        }]
+      }, {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [{
+          "color": "#f7f7f7"
+        }]
+      }]
+    });
+    var marker = new google.maps.Marker({
+      position: office,
+      map: map
+    })
+
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjiu9_venr-sTbvQov2tuWiawx1cqdTdc&callback=initMap"></script>
