@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('.Animation').css('display', 'inline-block');
     $('.Documentary').css('display', 'inline-block');
     $('.Series').css('display', 'inline-block');
-    $('#filterAll').find('p').css('color', '#e50f41');
+    $('#filterAll').find('p').css('color', '#f3194b');
     $('#filterDocumentary').find('p').css('color', '#1d1d1d');
     $('#filterAnimation').find('p').css('color', '#1d1d1d');
     $('#filterSeries').find('p').css('color', '#1d1d1d');
@@ -45,7 +45,7 @@ $(document).ready(function() {
     $('.Documentary').css('display', 'inline-block');
     $('.Series').css('display', 'none');
     $('#filterAll').find('p').css('color', '#1d1d1d');
-    $('#filterDocumentary').find('p').css('color', '#e50f41');
+    $('#filterDocumentary').find('p').css('color', '#f3194b');
     $('#filterAnimation').find('p').css('color', '#1d1d1d');
     $('#filterSeries').find('p').css('color', '#1d1d1d');
 
@@ -77,7 +77,7 @@ $(document).ready(function() {
     $('.Series').css('display', 'none');
     $('#filterAll').find('p').css('color', '#1d1d1d');
     $('#filterDocumentary').find('p').css('color', '#1d1d1d');
-    $('#filterAnimation').find('p').css('color', '#e50f41')
+    $('#filterAnimation').find('p').css('color', '#f3194b')
     $('#filterSeries').find('p').css('color', '#1d1d1d');
 
     $('.grid').masonry({
@@ -109,7 +109,7 @@ $(document).ready(function() {
     $('#filterAll').find('p').css('color', '#1d1d1d');
     $('#filterDocumentary').find('p').css('color', '#1d1d1d');
     $('#filterAnimation').find('p').css('color', '#1d1d1d');
-    $('#filterSeries').find('p').css('color', '#e50f41');
+    $('#filterSeries').find('p').css('color', '#f3194b');
 
     $('.grid').masonry({
       itemSelector: '.grid-item',

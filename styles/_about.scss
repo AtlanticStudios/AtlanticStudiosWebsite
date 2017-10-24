@@ -1,0 +1,21 @@
+.about {
+  margin-top: 60px;
+  min-height: 100%;
+
+  @media screen and (max-width: $screen-mobile) {
+    margin-top: 30px;
+  }
+}
+
+.aboutSection {
+  width: 80%;
+  max-width: $paragraph-width;
+  margin: 0 auto 60px;
+
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+}
