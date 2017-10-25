@@ -406,7 +406,7 @@ html {
   width: 300px;
   height: 10px;
   border-radius: 10px;
-  box-shadow: inset 0px 0px 9px 2px #ececec;
+  background: #ececec;
   z-index: 0;
   left: 50%;
   transform: translateX(-50%); }
