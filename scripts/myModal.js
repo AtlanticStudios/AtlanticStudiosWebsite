@@ -28,6 +28,8 @@ $(document).ready(function() {
     window.delay(200).animate({top: '50%', height: '45vw'}, 200);
 
     $('.modalEmbed').append(VimeoEmbed);
+
+    document.getElementById('video').pause();
   };
 
   function CloseModal() {
@@ -39,6 +41,8 @@ $(document).ready(function() {
     $('.modalBackground').delay(300).fadeOut(200);
 
     $('.modalEmbed').empty();
+
+    document.getElementById('video').play();
   };
 
 });

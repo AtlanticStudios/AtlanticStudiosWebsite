@@ -1,8 +1,54 @@
 .coverImage {
-  // background-color: $color-black;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
+  z-index: -3;
+  position: absolute;
+
+  @media screen and (min-width: $screen-small) {
+    display: none;
+  }
+}
+
+.coverVideo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+
+  video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+
+    //positioning
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    // opacity: 0;
+
+    //positioning
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @media screen and (max-width: $screen-small) {
+    display: none;
+  }
 }
