@@ -7,9 +7,9 @@
   z-index: -3;
   position: absolute;
 
-  @media screen and (min-width: $screen-small) {
-    display: none;
-  }
+  // @media screen and (min-width: $screen-small) {
+  //   display: none;
+  // }
 }
 
 .coverVideo {
@@ -25,11 +25,15 @@
     width: auto;
     height: auto;
     z-index: -2;
+    // background-color: $color-black;
 
     //positioning
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    @media screen and (max-width: $screen-small) {
+      display: none;
+    }
   }
 
   img {
@@ -48,7 +52,5 @@
     transform: translateX(-50%) translateY(-50%);
   }
 
-  @media screen and (max-width: $screen-small) {
-    display: none;
-  }
+
 }
