@@ -225,7 +225,8 @@ html {
     margin: 0;
     top: 4px;
     text-align: right;
-    width: 200px; }
+    width: 200px;
+    font: normal 1em graphik, sans-serif; }
   .navMenuButton .navMenuGraphic {
     position: absolute;
     width: 40px;
@@ -330,6 +331,8 @@ html {
     .playButton .playSymbol:hover {
       cursor: pointer;
       background-color: #f3194b; }
+  .playButton .playText p {
+    font: normal 1em graphik, sans-serif; }
 
 .modalBackground {
   position: absolute;
@@ -613,7 +616,6 @@ html {
   min-width: 500px;
   height: 60%;
   min-height: 500px;
-  border-radius: 10px;
   vertical-align: top; }
   @media screen and (max-width: 900px) {
     #map {
@@ -624,7 +626,8 @@ html {
       height: 80vw;
       max-height: 300px;
       min-width: initial;
-      min-height: initial; } }
+      min-height: initial;
+      border-radius: 10px; } }
   @media screen and (max-width: 600px) {
     #map {
       max-width: 330px; } }
@@ -637,8 +640,7 @@ html {
   text-align: left;
   vertical-align: top;
   padding-left: 20px;
-  background-color: #f7f7f7;
-  border-radius: 10px; }
+  background-color: #f7f7f7; }
   .contactInfo a {
     color: #f3194b; }
   @media screen and (max-width: 900px) {
@@ -647,7 +649,8 @@ html {
       width: 80%;
       margin: auto;
       margin-top: 10px;
-      padding: 15px; } }
+      padding: 15px;
+      border-radius: 10px; } }
   @media screen and (max-width: 600px) {
     .contactInfo {
       max-width: 300px; } }

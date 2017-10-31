@@ -17,7 +17,7 @@
   height: 60%;
   min-height: 500px;
   // padding: 10px;
-  border-radius: 10px;
+  // border-radius: 10px;
   vertical-align: top;
   @media screen and (max-width: $screen-small) {
     display: block;
@@ -28,6 +28,7 @@
     max-height: 300px;
     min-width: initial;
     min-height: initial;
+    border-radius: 10px;
   }
   @media screen and (max-width: $screen-mobile) {
     max-width: 330px;
@@ -43,7 +44,7 @@
   vertical-align: top;
   padding-left: 20px;
   background-color: $color-gray;
-  border-radius: 10px;
+  // border-radius: 10px;
 
   a {
     color: $color-red;
@@ -57,6 +58,7 @@
     margin-top: 10px;
     // margin-left: 0;
     padding: 15px;
+    border-radius: 10px;
   }
 
   @media screen and (max-width: $screen-mobile) {
