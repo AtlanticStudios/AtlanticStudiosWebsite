@@ -1,4 +1,18 @@
 @font-face {
+  font-family: lyon;
+  src: url(/fonts/lyon/LyonText-Regular-Web.woff), url(/fonts/lyon/LyonText-Regular-Web.woff2);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: lyon;
+  src: url(/fonts/lyon/LyonText-Bold-Web.woff), url(/fonts/lyon/LyonText-Bold-Web.woff2);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
   font-family: graphik;
   src: url(/fonts/graphik/graphik-regular.woff), url(/fonts/graphik/graphik-regular.woff2);
   font-style: normal;
@@ -27,8 +41,9 @@
 }
 
 $title-font: normal 2em noe,serif;
-$subtitle-font: normal 1.2em noe,serif;
-$description-font: normal 1em graphik,sans-serif;
+$subtitle-font: normal 18px graphik,serif;
+$description-font: normal 18px lyon,serif;
+$sans-serif-font: normal 1em graphik,sans-serif;
 
 h1 {
   font: $title-font;
@@ -55,7 +70,10 @@ a {
 }
 
 .FooterText {
-  font-size: 0.7em;
+  font-size: 12px;
   color: $color-black;
   margin: 1px;
+  a {
+    font-size: 12px;
+  }
 }

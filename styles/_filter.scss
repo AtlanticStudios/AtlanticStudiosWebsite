@@ -38,6 +38,10 @@
   position: absolute;
   text-align: center;
   cursor: pointer;
+  p {
+    font: $sans-serif-font;
+  }
+
 
   &#filterAll {
     left: calc(50% - 145px);

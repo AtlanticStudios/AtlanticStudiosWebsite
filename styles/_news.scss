@@ -47,7 +47,7 @@
   }
 
   p {
-    text-align: justify;
+    text-align: left;
     margin: 0 0 10px;
   }
 
@@ -58,7 +58,7 @@
 
 .storySelector {
   display: inline-block;
-  width: 30%;
+  width: 20%;
   min-width: 330px;
   max-width: 500px;
   height: 85%;
@@ -77,13 +77,22 @@
   background-color: $color-gray;
   padding: 10px 20px;
   margin: 10px auto;
-  border-radius: 10px;
+  // border-radius: 10px;
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .byline {
+    font: $sans-serif-font;
+  }
 
   &:hover {
     cursor: pointer;
   }
   @media screen and (max-width: $screen-small) {
     padding-bottom: 20px;
+    border-radius: 10px;
   }
 }
 
@@ -95,13 +104,13 @@
     font-family: graphik;
     font-weight: bold;
     float: left;
-    font-size: 42px;
+    font-size: 46px;
     padding: {
       top: 2px;
       right: 4px;
     }
-    line-height: 35px;
-    color: $color-red;
+    line-height: 39px;
+    color: $color-black;
   }
 
   @media screen and (max-width: $screen-small) {
