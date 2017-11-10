@@ -410,21 +410,30 @@ html {
 
 .projectLabel {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  padding: 0 15px;
-  max-width: 80%;
-  background-color: #fff;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
+  top: 20px;
+  left: 20px;
+  max-width: 100px;
+  text-align: left;
   display: none; }
-  .projectLabel:hover p {
-    color: #f3194b; }
-  .projectLabel:active {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); }
-  .projectLabel p {
-    color: #000000; }
+  .projectLabel h2 {
+    color: #fff;
+    font-size: 22px;
+    margin: 0; }
+  @media screen and (max-width: 900px) {
+    .projectLabel {
+      display: initial; } }
+
+.projectGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  display: none; }
+  @media screen and (max-width: 900px) {
+    .projectGradient {
+      display: initial; } }
 
 .coverImage {
   background-size: cover;

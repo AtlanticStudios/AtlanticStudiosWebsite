@@ -2,21 +2,19 @@
   <div class="grid">
     {% for project in site.projects %}
 
-
-    <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
-      <div class="projectCover" id="{{ project.cover }}">
-      </div>
-      <a href="{{ project.url }}">
+    <a href="{{ project.url }}">
+      <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
+        <div class="projectCover" id="{{ project.cover }}">
+        </div>
+        <div class="projectGradient"></div>
         <div class="projectLabel">
-          <p>
-            {{ project.label }}
-          </p>
+          <h2><b>{{ project.label }}</b></h2>
           <p>
             {{ project.description }}
           </p>
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
     <style>
     #{{ project.cover }} {
       background-image: url("images/texture.png"),
