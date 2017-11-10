@@ -38,7 +38,8 @@ h2 {
 
 p {
   font: normal 18px lyon, serif;
-  color: #000000; }
+  color: #000000;
+  line-height: 160%; }
   p b {
     font-weight: bold; }
 
@@ -69,12 +70,12 @@ html {
       overflow-y: scroll;
       transition: 0.3s; }
       html body .container.open {
-        height: calc(100% - 80px);
+        height: calc(100% - 60px);
         transition: 0.3s; }
       html body .container .containerSpacer {
         width: 100%;
         height: 100%; }
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: 600px) {
         html body .container {
           height: auto;
           min-height: calc(100vh - 80px);
@@ -95,7 +96,7 @@ html {
   margin: 0;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 60px;
   text-align: center;
   background-color: #000000;
   z-index: 0; }
@@ -116,9 +117,8 @@ html {
       cursor: pointer;
       color: #909090;
       transition: 0.2s; }
-      .NavBar .NavButton:hover.NavSpacer:hover {
-        cursor: default;
-        background-color: #f7f7f7; }
+    .NavBar .NavButton .NavSpacer {
+      width: 15%; }
     @media screen and (max-width: 600px) {
       .NavBar .NavButton {
         display: block;
@@ -126,26 +126,24 @@ html {
         padding: 0;
         margin: 0;
         width: auto;
-        max-width: 130px;
-        text-align: left; }
+        max-width: 130px; }
         .NavBar .NavButton#News {
-          top: -14px;
-          left: 36%;
-          transform: translateY(-50%); }
+          left: 20%;
+          transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton#Watch {
-          top: -14px;
-          left: 66%;
-          transform: translateY(-50%); }
+          left: 40%;
+          transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton#About {
-          top: 14px;
-          left: 36%;
-          transform: translateY(-50%); }
+          left: 60%;
+          transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton#Contact {
-          top: 14px;
-          left: 66%;
-          transform: translateY(-50%); }
+          left: 80%;
+          transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton.NavSpacer {
           display: none; } }
+  @media screen and (max-width: 600px) {
+    .NavBar {
+      height: 80px; } }
 
 .Footer {
   padding-top: 10px;
@@ -176,28 +174,34 @@ html {
 
 .containerLogo {
   display: block;
-  position: absolute;
-  top: 0;
-  left: calc(50% - 10%/2);
-  width: 10%;
-  height: 80px;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15%;
+  height: 40px;
   padding: 0;
   margin: 0;
   z-index: 8;
   text-align: center; }
   @media screen and (max-width: 600px) {
     .containerLogo {
-      left: 1%;
-      width: 100px; } }
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40%;
+      max-width: 150px; } }
 
 .logo {
   display: block;
   position: absolute;
-  width: 80%;
-  max-height: 60px;
-  left: 10%;
+  width: 100%;
+  max-height: 40px;
   top: 50%;
   transform: translateY(-50%); }
+  @media screen and (max-width: 600px) {
+    .logo {
+      max-height: 60px; } }
 
 .navMenuButton {
   display: block;
@@ -430,6 +434,9 @@ html {
   height: 100%;
   z-index: -3;
   position: absolute; }
+  @media screen and (min-width: 900px) {
+    .coverImage {
+      display: none; } }
 
 .coverVideo {
   width: 100%;
@@ -443,6 +450,7 @@ html {
     width: auto;
     height: auto;
     z-index: -2;
+    background-color: #000000;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%); }
@@ -531,12 +539,12 @@ html {
         font-size: 0.8em; } }
 
 .news {
-  padding: 50px 0 0;
+  padding: 20px 0 0;
   text-align: center;
   vertical-align: top;
   width: 100%;
   min-height: 700px;
-  height: calc(100% - 50px); }
+  height: calc(100% - 20px); }
   .news h2 {
     margin-top: 5px;
     text-align: left; }
@@ -620,7 +628,7 @@ html {
       color: initial; } }
 
 .about {
-  margin-top: 60px;
+  margin-top: 30px;
   min-height: 100%; }
   @media screen and (max-width: 600px) {
     .about {
@@ -641,7 +649,7 @@ html {
   text-align: center; }
 
 #map {
-  margin-top: 60px;
+  margin-top: 30px;
   display: inline-block;
   background-color: #f7f7f7;
   width: 50%;
@@ -665,7 +673,7 @@ html {
       max-width: 330px; } }
 
 .contactInfo {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-left: 20px;
   display: inline-block;
   width: 20%;

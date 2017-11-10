@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var VimeoEmbed = '<iframe src="https://player.vimeo.com/video/152765945" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/152765945">The Atlantic reel 2016</a> from <a href="https://vimeo.com/atlanticvideo">The Atlantic</a> on <a href="https://vimeo.com">Vimeo</a>.</p>'
+  var VimeoEmbed = '<iframe width="1920" height="1080" src="https://www.youtube.com/embed/ZQoN3vIDJUA" frameborder="0" allowfullscreen></iframe>'
 
   // Event Listeners
   $('.playSymbol').click(function() {
