@@ -33,7 +33,7 @@ h1 {
   color: #000000; }
 
 h2 {
-  font: normal 18px graphik, serif;
+  font: normal 20px graphik, serif;
   color: #000000; }
 
 p {
@@ -128,16 +128,16 @@ html {
         width: auto;
         max-width: 130px; }
         .NavBar .NavButton#News {
-          left: 20%;
+          left: 19%;
           transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton#Watch {
-          left: 40%;
+          left: 39%;
           transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton#About {
-          left: 60%;
+          left: 59%;
           transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton#Contact {
-          left: 80%;
+          left: 81%;
           transform: translateX(-50%) translateY(30%); }
         .NavBar .NavButton.NavSpacer {
           display: none; } }
@@ -484,6 +484,7 @@ html {
   transform: translateX(-50%); }
   @media screen and (max-width: 600px) {
     .filterSlot {
+      background: initial;
       box-shadow: initial;
       left: calc(50% - 5px); } }
 
@@ -537,6 +538,9 @@ html {
       .sliderLabel#filterSeries {
         left: calc(50% + 140px);
         font-size: 0.8em; } }
+
+.gridContainer {
+  min-height: calc(100% - 200px); }
 
 .news {
   padding: 20px 0 0;
@@ -598,9 +602,17 @@ html {
   padding: 10px 20px;
   margin: 10px auto; }
   .storyThumb .title {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    margin-bottom: 0; }
   .storyThumb .byline {
-    font: normal 1em graphik, sans-serif; }
+    font: normal 1em graphik, sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 9px; }
+    @media screen and (max-width: 900px) {
+      .storyThumb .byline {
+        margin-bottom: 0; } }
+  .storyThumb .break {
+    display: none; }
   .storyThumb:hover {
     cursor: pointer; }
   @media screen and (max-width: 900px) {
@@ -652,16 +664,15 @@ html {
   margin-top: 30px;
   display: inline-block;
   background-color: #f7f7f7;
-  width: 50%;
+  width: calc(50% + 20px);
   min-width: 500px;
-  height: 60%;
-  min-height: 500px;
+  height: 30%;
   vertical-align: top; }
   @media screen and (max-width: 900px) {
     #map {
       display: block;
       margin: auto;
-      margin-top: 30px;
+      margin-top: 10px;
       width: calc(80% + 30px);
       height: 80vw;
       max-height: 300px;
@@ -674,9 +685,8 @@ html {
 
 .contactInfo {
   margin-top: 30px;
-  margin-left: 20px;
   display: inline-block;
-  width: 20%;
+  width: 50%;
   text-align: left;
   vertical-align: top;
   padding-left: 20px;
@@ -688,7 +698,7 @@ html {
       display: block;
       width: 80%;
       margin: auto;
-      margin-top: 10px;
+      margin-top: 30px;
       padding: 15px;
       border-radius: 10px; } }
   @media screen and (max-width: 600px) {

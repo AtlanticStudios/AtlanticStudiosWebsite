@@ -1,34 +1,36 @@
-<div class="grid">
-  {% for project in site.projects %}
+<div class="gridContainer">
+  <div class="grid">
+    {% for project in site.projects %}
 
 
-  <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
-    <div class="projectCover" id="{{ project.cover }}">
-    </div>
-    <a href="{{ project.url }}">
-      <div class="projectLabel">
-        <p>
-          {{ project.label }}
-        </p>
-        <p>
-          {{ project.description }}
-        </p>
+    <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
+      <div class="projectCover" id="{{ project.cover }}">
       </div>
-    </a>
+      <a href="{{ project.url }}">
+        <div class="projectLabel">
+          <p>
+            {{ project.label }}
+          </p>
+          <p>
+            {{ project.description }}
+          </p>
+        </div>
+      </a>
+    </div>
+    <style>
+    #{{ project.cover }} {
+      background-image: url("images/texture.png"),
+      url("/images/covers/{{ project.cover }}.png");
+      /*background-blend-mode: soft-light;*/
+
+      background-blend-mode: color-burn;
+      background-size: cover;
+      background-position: center;
+    }
+    </style>
+
+    {% endfor %}
   </div>
-  <style>
-  #{{ project.cover }} {
-    background-image: url("images/texture.png"),
-    url("/images/covers/{{ project.cover }}.png");
-    /*background-blend-mode: soft-light;*/
-
-    background-blend-mode: color-burn;
-    background-size: cover;
-    background-position: center;
-  }
-  </style>
-
-  {% endfor %}
 </div>
 
 <script src="/scripts/myGrid.js"></script>

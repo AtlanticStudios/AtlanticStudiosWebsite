@@ -81,10 +81,22 @@
 
   .title {
     font-size: 1.2em;
+    margin-bottom: 0;
   }
 
   .byline {
     font: $sans-serif-font;
+    font-size: 0.8em;
+    margin-bottom: 9px;
+
+    @media screen and (max-width: $screen-small) {
+      margin-bottom: 0;
+    }
+  }
+
+  .break {
+    display: none;
+    // text-align: center;
   }
 
   &:hover {

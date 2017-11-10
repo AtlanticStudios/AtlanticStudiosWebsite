@@ -18,6 +18,7 @@
   transform: translateX(-50%);
 
   @media screen and (max-width: $screen-mobile) {
+    background: initial;
     box-shadow: initial;
     left: calc(50% - 5px);
   }

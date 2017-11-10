@@ -1,10 +1,15 @@
 <div class="contact">
-  <div class="contactGraphic" id="map"></div>
   <div class="contactInfo">
-    <h2>Atlantic Studios</h2>
+    <!-- <h2><b>Atlantic Studios</b></h2> -->
     <p>
+      <b>Washington</b><br />
       600 New Hampshire Ave<br />
       Washington, DC 20003<br />
+    </p>
+    <p>
+      <b>New York</b><br />
+      60 Madison Ave<br />
+      New York, NY 10010<br />
     </p>
     <p>
       <a href="https://www.theatlantic.com/video/">www.theatlantic.com</a>
@@ -15,18 +20,30 @@
       <a href="https://vimeo.com/atlanticvideo" target="_blank">Vimeo</a><br />
     </p>
   </div>
+  <div class="contactGraphic" id="map"></div>
 </div>
 
 <script>
   function initMap() {
-    var office = {
+
+    var center = {
+      lat: 39.834860,
+      lng: -75.428881
+    };
+
+    var office1 = {
       lat: 38.897714,
       lng: -77.054963
     };
 
+    var office2 = {
+      lat: 40.743330,
+      lng: -73.986385
+    };
+
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: office,
-      zoom: 15,
+      center: center,
+      zoom: 6,
       styles: [{
         "featureType": "all",
         "elementType": "labels",
@@ -69,8 +86,16 @@
       strokeWeight: 3
     }
 
-    var marker = new google.maps.Marker({
-      position: office,
+    var marker1 = new google.maps.Marker({
+      position: office1,
+      // icon: 'images/mapMarker_blank.png',
+      icon: circle,
+      map: map,
+      // animation: google.maps.Animation.DROP
+    })
+
+    var marker2 = new google.maps.Marker({
+      position: office2,
       // icon: 'images/mapMarker_blank.png',
       icon: circle,
       map: map,
