@@ -7,6 +7,19 @@
   }
 }
 
+.leadImage {
+  width: 100%;
+  max-width: 900px;
+  height: 35vh;
+  display: block;
+  position: inherit;
+  margin: -30px auto 30px;
+  // padding: 30px 0 30px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color-burn;
+}
+
 .aboutSection {
   width: 80%;
   max-width: $paragraph-width;
@@ -17,5 +30,49 @@
   }
   p {
     text-align: justify;
+  }
+}
+
+#rewards {
+  max-width: 900px;
+
+  svg {
+    margin: 30px 0 30px;
+  }
+}
+
+#team {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+
+  .teamGridSizer {
+    width: calc(33% - 10px);
+  }
+  .teamMember {
+    width: calc(33% - 10px);
+    margin-bottom: 10px;
+    min-height: 100px;
+    display: block;
+  }
+  img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $screen-mobile) {
+    .teamGridSizer {
+      width: 100%;
+    }
+
+    .teamMember {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+
+.award {
+  &:hover {
+    fill: $color-red;
   }
 }
