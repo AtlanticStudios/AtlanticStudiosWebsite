@@ -43,20 +43,30 @@
 
 #team {
   width: 80%;
-  max-width: 900px;
+  max-width: 920px;
   text-align: center;
 
+  .teamGrid {
+    margin-top: 30px;
+    margin-left: 5px;
+  }
   .teamGridSizer {
-    width: calc(33% - 10px);
+    width: calc(33% - 5px);
   }
   .teamMember {
-    width: calc(33% - 10px);
+    width: calc(33% - 5px);
     margin-bottom: 10px;
     min-height: 100px;
     display: block;
   }
   img {
     width: 100%;
+  }
+  h2 {
+    padding: 0 30px;
+  }
+  p {
+    padding: 0 30px;
   }
 
   @media screen and (max-width: $screen-mobile) {

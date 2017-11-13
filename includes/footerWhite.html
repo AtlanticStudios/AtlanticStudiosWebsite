@@ -1,0 +1,48 @@
+<div class="Footer">
+  <div class="iconSocialMediaContainer">
+    <a target="_blank" href="https://www.youtube.com/TheAtlantic">
+      <div class="iconSocialMediaWhite">
+        <img src="/graphics/junk/youtubeWhite.svg" />
+      </div>
+    </a>
+    <a target="_blank" href="https://www.facebook.com/pg/TheAtlantic/videos/?ref=page_internal">
+      <div class="iconSocialMediaWhite">
+        <img src="/graphics/junk/facebookWhite.svg" />
+      </div>
+    </a>
+    <a target="_blank" href="https://twitter.com/TheAtlantic">
+      <div class="iconSocialMediaWhite">
+        <img src="/graphics/junk/twitterWhite.svg" />
+      </div>
+    </a>
+  </div>
+  <p class="FooterText"><a id="PrivacyPolicy" href="/privacypolicy.pdf">Privacy Policy</a> | <a id="Terms" href="/terms.pdf">Terms & Conditions</a></p>
+  <p class="FooterText">The Atlantic © 2017</p>
+</div>
+
+<script>
+  $(document).ready(function() {
+
+    if ('{{ page.navigation }}' == 'Home') {
+      $('.Footer').css('margin-top', '-110px');
+    } else if ('{{ page.navigation }}' == 'News') {
+      if ($(window).width() > 900) {
+        $('.Footer').css('margin-top', '-110px');
+      }
+    } else if ('{{ page.navigation }}' == 'Contact') {
+      if ($(window).width() > 900) {
+        $('.Footer').css('margin-top', '-110px');
+      }
+    } else if ('{{ page.navigation }}' == '404') {
+      $('.Footer').css('margin-top', '-110px');
+    };
+
+    if ('{{ page.navigation }}' == 'Home') {
+      $('.FooterText').css('color', '#fff');
+      $('#PrivacyPolicy').css('color', '#fff');
+      $('#Terms').css('color', '#fff');
+      // $('.iconSocialMedia').css('opacity', 0);
+    };
+
+  });
+</script>

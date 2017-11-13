@@ -112,26 +112,26 @@
   display: none;
 
   // Added a Drop Cap
-  p:first-child:first-letter {
-    font-family: graphik;
-    font-weight: bold;
-    float: left;
-    font-size: 56px;
-    padding: {
-      top: 8px;
-      right: 4px;
-    }
-    line-height: 39px;
-    color: $color-black;
-  }
-
-  @media screen and (max-width: $screen-small) {
-    p:first-child:first-letter {
-      font: $description-font;
-      float: initial;
-      padding: initial;
-      line-height: initial;
-      color:  initial;
-    }
-  }
+  // p:first-child:first-letter {
+  //   font-family: graphik;
+  //   font-weight: bold;
+  //   float: left;
+  //   font-size: 56px;
+  //   padding: {
+  //     top: 8px;
+  //     right: 4px;
+  //   }
+  //   line-height: 39px;
+  //   color: $color-black;
+  // }
+  //
+  // @media screen and (max-width: $screen-small) {
+  //   p:first-child:first-letter {
+  //     font: $description-font;
+  //     float: initial;
+  //     padding: initial;
+  //     line-height: initial;
+  //     color:  initial;
+  //   }
+  // }
 }

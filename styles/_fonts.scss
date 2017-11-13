@@ -64,6 +64,15 @@ p {
   }
 }
 
+td {
+  font: $description-font;
+  color: $color-black;
+  line-height: 160%;
+  b {
+    font-weight: bold;
+  }
+}
+
 a {
   font: $description-font;
   text-decoration: none;

@@ -8,9 +8,11 @@
   text-align: center;
   width: 100%;
   font-size: 0.7em;
+
   p {
     font: $sans-serif-font;
   }
+
   a {
     font: $sans-serif-font;
   }
@@ -33,5 +35,15 @@
     &:hover {
       background-color: $color-gray;
     }
+  }
+
+  .iconSocialMediaWhite {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    vertical-align: top;
   }
 }

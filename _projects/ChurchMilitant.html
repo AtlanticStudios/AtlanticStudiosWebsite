@@ -1,12 +1,13 @@
 ---
 title: Church Militant | Atlantic Studios
 navigation: Watch
-description:
+description: Since being established nine years ago, ChurchMilitant.com (then St. Michaels Media) has grown from a tiny media outfit on the fringes of the Catholic world to a 35-person powerhouse reaching an estimated 1.5 million viewers a month. Michael Voris, the founder of Church Militant, is fighting what he sees as the “tyranny” of a liberal America. But, Voris—charismatic, pious, untiring—is grappling with his own complicated past.
 
 label: Church Militant
 cover: ChurchMilitantCover
 type: Documentary
 emphasis: 2
+embed: https://player.vimeo.com/video/152765945?title=0&byline=0
 ---
 
 <!DOCTYPE html>
@@ -15,16 +16,73 @@ emphasis: 2
 {% include info.html %}
 
 <body>
-  {% include logo.html %}
-  {% include nav.html %}
+  {% include logo.html %} {% include nav.html %}
 
   <div class="container open">
     {% include menuButton.html %}
-    <div class="containerSpacer">
+    <div class="projectContainer">
+      <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class="projectText">
+        <h2>{{ page.label }}</h2>
+        <p>
+          {{ page.description }}
+        </p>
+      </div>
+      <div class="projectBorder"></div>
+      <table class="projectCredits">
+        <tr>
+          <td class="creditsTitle">
+            Producer / Shooter / Editor
+          </td>
+          <td class="creditsName">
+            Daniel Lombroso
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Designer / Animator
+          </td>
+          <td class="creditsName">
+            Caitlin Cadieux
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Production Manager
+          </td>
+          <td class="creditsName">
+            Brian Jimenez
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Senior Producer
+          </td>
+          <td class="creditsName">
+            Ashley Bloom Kenny
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Executive Producer
+          </td>
+          <td class="creditsName">
+            Kasia Cieplak-Mayr von Baldegg
+          </td>
+        </tr>
+      </table>
     </div>
     {% include footer.html %}
   </div>
 </body>
+
+<script>
+  $(document).ready(function() {
+    $('.projectEmbed').css('height', function() {
+      return $('.projectEmbed').width() * 0.5625;
+    })
+  });
+</script>
 
 </html>
 
