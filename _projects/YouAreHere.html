@@ -1,12 +1,13 @@
 ---
 title: You Are Here | Atlantic Studios
 navigation: Watch
-description:
+description: A video series by The Atlantic about the incredible science behind everyday life. Topics range from shopping psychology, explaining why Americans smile so much, and the social science of swearing.
 
 label: You Are Here
 cover: YouAreHereCover
 type: Series
-emphasis: 2
+emphasis: 1
+embed: https://www.youtube.com/embed/TrKWloN88Dk?rel=0
 ---
 
 <!DOCTYPE html>
@@ -15,16 +16,99 @@ emphasis: 2
 {% include info.html %}
 
 <body>
-  {% include logo.html %}
-  {% include nav.html %}
+  {% include logo.html %} {% include nav.html %}
 
   <div class="container open">
     {% include menuButton.html %}
-    <div class="containerSpacer">
+    <div class="projectContainer">
+      <div class="projectBanner">
+        <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="projectText">
+        <h2>{{ page.label }}</h2>
+        <p>
+          {{ page.description }}
+        </p>
+      </div>
+      <div class="projectBorder"></div>
+      <table class="projectCredits">
+        <tr>
+          <td class="creditsTitle">
+            Producer
+          </td>
+          <td class="creditsName">
+            Alice Roth
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Producer / Camera
+          </td>
+          <td class="creditsName">
+            Daniel Lombroso, Jeremy Raff
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Animator / Designer
+          </td>
+          <td class="creditsName">
+            Tynesha Foreman, Atthar Mirza
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Editor
+          </td>
+          <td class="creditsName">
+            Brianna Pressey
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Title Animator
+          </td>
+          <td class="creditsName">
+            Caitlin Cadieux
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Production Manager
+          </td>
+          <td class="creditsName">
+            Brian Jimenez
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Senior Producer
+          </td>
+          <td class="creditsName">
+            Ashley Bloom Kenny
+          </td>
+        </tr>
+        <tr>
+          <td class="creditsTitle">
+            Executive Producer
+          </td>
+          <td class="creditsName">
+            Kasia Cieplak-Mayr von Baldegg
+          </td>
+        </tr>
+      </table>
     </div>
     {% include footer.html %}
   </div>
 </body>
+
+<script>
+  $(document).ready(function() {
+    $('.projectEmbed').css('height', function() {
+      return $('.projectEmbed').width() * 0.5625;
+    })
+  });
+</script>
 
 </html>
 

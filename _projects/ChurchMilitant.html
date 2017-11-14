@@ -6,8 +6,8 @@ description: Since being established nine years ago, ChurchMilitant.com (then St
 label: Church Militant
 cover: ChurchMilitantCover
 type: Documentary
-emphasis: 2
-embed: https://player.vimeo.com/video/152765945?title=0&byline=0
+emphasis: 1
+embed: https://www.youtube.com/embed/w3Y3LeUtqJw?rel=0
 ---
 
 <!DOCTYPE html>
@@ -21,7 +21,9 @@ embed: https://player.vimeo.com/video/152765945?title=0&byline=0
   <div class="container open">
     {% include menuButton.html %}
     <div class="projectContainer">
-      <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class="projectBanner">
+        <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
       <div class="projectText">
         <h2>{{ page.label }}</h2>
         <p>
