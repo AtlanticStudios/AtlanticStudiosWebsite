@@ -4,10 +4,12 @@ navigation: Watch
 description: In the 1950s, Kurt Vonnegut wrote a short story that he never published. Recently, editors of a Vonnegut short story collection discovered it while researching old papers. The Atlantic is printing “The Drone King” for the first time this fall. This piece is an animated excerpt of a passage from the story where an intrepid businessman named Sheldon Quick tries to sell his associate on the idea of using bees as inter-office communication. The story showcases Vonnegut’s early dry wit and seems more relevant than ever in an era where communication is constantly changing.
 
 label: The Drone King
+published: September 12, 2017
 cover: DroneKingCover
 type: Animation
 emphasis: 1
 embed: https://player.vimeo.com/video/233542662?title=0&byline=0
+post: https://www.theatlantic.com/video/index/539094/the-drone-king-an-animated-excerpt/
 ---
 
 <!DOCTYPE html>
@@ -25,7 +27,11 @@ embed: https://player.vimeo.com/video/233542662?title=0&byline=0
         <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="projectText">
-        <h2>{{ page.label }}</h2>
+        <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
+        <p style="text-align: center">
+          {{ page.published }}
+        </p>
+        <div class="projectBorder"></div>
         <p>
           {{ page.description }}
         </p>

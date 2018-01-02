@@ -1,29 +1,11 @@
-<svg id="Play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+<svg id="PlayTriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
   <defs>
     <style>
-      .cls-1, .cls-3 {
+      .cls-1 {
         fill: #fff;
       }
-
-      .cls-1 {
-        filter: url(#luminosity-invert-noclip);
-      }
-
-      .cls-2 {
-        mask: url(#mask);
-      }
     </style>
-    <filter id="luminosity-invert-noclip" x="0" y="0" width="1000" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" result="invert"/>
-      <feFlood flood-color="#fff" result="bg"/>
-      <feBlend in="invert" in2="bg"/>
-    </filter>
-    <mask id="mask" x="0" y="0" width="1000" height="1000" maskUnits="userSpaceOnUse">
-      <path class="cls-1" d="M299.512,714.5a15,15,0,0,1-6.72-28.419L649.548,507.705a9.174,9.174,0,0,0,0-16.411L292.792,312.917a15,15,0,0,1,13.416-26.833L705.891,485.925a15.354,15.354,0,0,1,8.332,10.683,15.007,15.007,0,0,1-8.014,16.308l-400,200A14.931,14.931,0,0,1,299.512,714.5Z"/>
-    </mask>
   </defs>
-  <title>play_invertedWhite</title>
-  <g class="cls-2">
-    <rect class="cls-3" width="1000" height="1000"/>
-  </g>
+  <title>play</title>
+  <path class="cls-1" d="M0,0V1000H1000V0ZM721.708,513.416l-400,200A15,15,0,0,1,300,700V300a15,15,0,0,1,21.708-13.417l400,200a15,15,0,0,1,0,26.833Z"/>
 </svg>

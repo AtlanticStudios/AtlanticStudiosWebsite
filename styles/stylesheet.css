@@ -565,6 +565,9 @@ html {
         left: calc(50% + 140px);
         font-size: 0.8em; } }
 
+.description {
+  text-align: center; }
+
 .gridContainer {
   min-height: calc(100% - 200px); }
 
@@ -791,9 +794,11 @@ html {
   margin: 30px auto; }
   .projectText p {
     text-align: justify; }
+  .projectText a:hover h2 {
+    color: #f3194b; }
 
 .projectBorder {
-  width: 10%;
+  width: 500px;
   max-width: 70px;
   border-bottom: solid 2px #000000;
   margin: 60px auto; }
@@ -813,6 +818,12 @@ html {
   .projectCredits .creditsName {
     text-align: left;
     vertical-align: top; }
+
+.projectAwards {
+  text-align: center; }
+  .projectAwards img {
+    display: inline-block;
+    width: 30%; }
 
 .ErrorMessage {
   position: absolute;

@@ -4,10 +4,12 @@ navigation: Watch
 description: In Roxane Gay’s new memoir Hunger, the writer details her relationship with her body over her life. In this short interview, Gay critiques socially constructed beauty norms and how weight has been left out of the new culture of acceptance.
 
 label: Roxane Gay
+published: June 27, 2017
 cover: RoxaneCover
 type: Animation
 emphasis: 1
 embed: https://player.vimeo.com/video/223318719?title=0&byline=0
+post: https://www.theatlantic.com/video/index/531117/roxane-gay-on-acceptance/
 ---
 
 <!DOCTYPE html>
@@ -25,7 +27,11 @@ embed: https://player.vimeo.com/video/223318719?title=0&byline=0
         <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="projectText">
-        <h2>{{ page.label }}</h2>
+        <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
+        <p style="text-align: center">
+          {{ page.published }}
+        </p>
+        <div class="projectBorder"></div>
         <p>
           {{ page.description }}
         </p>

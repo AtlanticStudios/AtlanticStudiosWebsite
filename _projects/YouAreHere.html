@@ -4,10 +4,12 @@ navigation: Watch
 description: A video series by The Atlantic about the incredible science behind everyday life. Topics range from shopping psychology, explaining why Americans smile so much, and the social science of swearing.
 
 label: You Are Here
+published: May 25, 2017
 cover: YouAreHereCover
 type: Series
 emphasis: 1
-embed: https://www.youtube.com/embed/TrKWloN88Dk?rel=0
+embed: https://www.youtube.com/embed/ojbJrdkPhGg
+post: https://www.theatlantic.com/video/series/you-are-here/
 ---
 
 <!DOCTYPE html>
@@ -25,7 +27,11 @@ embed: https://www.youtube.com/embed/TrKWloN88Dk?rel=0
         <iframe class="projectEmbed" src="{{ page.embed }}" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="projectText">
-        <h2>{{ page.label }}</h2>
+        <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
+        <p style="text-align: center">
+          {{ page.published }}
+        </p>
+        <div class="projectBorder"></div>
         <p>
           {{ page.description }}
         </p>
