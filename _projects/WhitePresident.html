@@ -4,7 +4,7 @@ navigation: Watch
 description: “The foundation of Trump’s presidency is the negation of Barack Obama’s legacy,” writes Ta-Nehisi Coates in his feature for The Atlantic’s October 2017 issue. In this animated excerpt from a recent interview with Coates about his article, the writer explains how tribalism and white supremacy paved the way for Trump. Gallup research shows that white voters overwhelmingly supported the candidate across demographics.
 
 label: The First White President
-published: September 18, 2017
+date: September 18, 2017
 cover: WhitePresidentCover
 type: Animation
 emphasis: 2
@@ -29,7 +29,7 @@ post: https://www.theatlantic.com/video/index/539754/ta-nehisi-coates-trump-firs
       <div class="projectText">
         <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
         <p style="text-align: center">
-          {{ page.published }}
+          {{ page.date | date: "%B %-d, %Y"}}
         </p>
         <div class="projectBorder"></div>
         <p>

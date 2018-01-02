@@ -1,6 +1,7 @@
 <div class="gridContainer">
   <div class="grid">
-    {% for project in site.projects %}
+    {% assign sorted = (site.projects | sort: 'date') | reverse %}
+    {% for project in sorted %}
 
     <a href="{{ project.url }}">
       <div class="grid-item width{{ project.emphasis }} {{ project.type }}">

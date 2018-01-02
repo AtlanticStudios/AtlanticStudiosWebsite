@@ -4,7 +4,7 @@ navigation: Watch
 description: Deferred Action for Childhood Arrivals, or DACA, is an Obama-era policy that granted a work permit and temporary protection from deportation to children that came to the U.S. with unregistered parents. Now, the fate of more than 750,000 people is unclear. Donald Trump said he would repeal the policy during his campaign. He later promised something “that’s going to make people happy and proud.” DACA recipients are now pursuing advanced degrees and full-fledged careers. Sixty-five are in medical school in the United States, and approximately half of them are enrolled in the Loyola-Stritch School of Medicine in Chicago. The Atlantic spoke with these medical students and residents about the anxiety surrounding the future. “I think about it for about five seconds, I find it a little unbearable to think about, and then I forget about it because it just doesn’t fit in my brain,” says Marina DiBartolo, a medical resident at the University of Pennsylvania. “Right now, there’s no path to legalization.”
 
 label: DACA Doctors
-published: February 3, 2017
+date: February 3, 2017
 cover: DACADoctorsCover
 type: Documentary
 emphasis: 1
@@ -29,7 +29,7 @@ post: https://www.theatlantic.com/video/index/515466/what-will-happen-to-undocum
       <div class="projectText">
         <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
         <p style="text-align: center">
-          {{ page.published }}
+          {{ page.date | date: "%B %-d, %Y"}}
         </p>
         <div class="projectAwards">
           <img src="/graphics/awards/BestShorts.svg" />

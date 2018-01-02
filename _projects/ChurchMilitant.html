@@ -4,7 +4,7 @@ navigation: Watch
 description: Since being established nine years ago, ChurchMilitant.com (then St. Michaels Media) has grown from a tiny media outfit on the fringes of the Catholic world to a 35-person powerhouse reaching an estimated 1.5 million viewers a month. Michael Voris, the founder of Church Militant, is fighting what he sees as the “tyranny” of a liberal America. But, Voris—charismatic, pious, untiring—is grappling with his own complicated past.
 
 label: Church Militant
-published: May 12, 2017
+date: May 12, 2017
 cover: ChurchMilitantCover
 type: Documentary
 emphasis: 1
@@ -29,7 +29,7 @@ post: https://www.theatlantic.com/video/index/525231/church-militant-a-right-win
       <div class="projectText">
         <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
         <p style="text-align: center">
-          {{ page.published }}
+          {{ page.date | date: "%B %-d, %Y"}}
         </p>
         <div class="projectAwards">
           <img src="/graphics/awards/BestShorts.svg" />

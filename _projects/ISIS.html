@@ -4,10 +4,10 @@ navigation: Watch
 description: Tania Georgelas, the ex-wife of the highest-ranking American member of ISIS, reckons with her extremist past and attempts to build a new life.
 
 label: The First Lady of ISIS
-published: November 3, 2017
+date: November 3, 2017
 cover: ISISCover
 type: Documentary
-emphasis: 2
+emphasis: 1
 embed: https://www.youtube.com/embed/XsnNsHhKpU8?rel=0
 post: https://www.theatlantic.com/video/index/544688/after-jihad-documentary-film/
 ---
@@ -29,7 +29,7 @@ post: https://www.theatlantic.com/video/index/544688/after-jihad-documentary-fil
       <div class="projectText">
         <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
         <p style="text-align: center">
-          {{ page.published }}
+          {{ page.date | date: "%B %-d, %Y"}}
         </p>
         <div class="projectBorder"></div>
         <p>

@@ -1,7 +1,7 @@
 ---
 title: Nic Sits with Blank Expression
 author: Tynesha Foreman
-created: Jul 7, 2017
+created: Jul 22, 2017
 
 tag: 20170707
 ---

@@ -4,7 +4,7 @@ navigation: Watch
 description: Here’s how Leonardo Da Vinci brought the Mona Lisa to life. The video takes us through the science behind Mona Lisa's elusive smile.
 
 label: Mona Lisa's Smile
-published: October 6, 2017
+date: October 6, 2017
 cover: MonaLisaCover
 type: Animation
 emphasis: 1
@@ -29,7 +29,7 @@ post: https://www.theatlantic.com/video/index/542025/leonardo-da-vinci-augmented
       <div class="projectText">
         <a href="{{ page.post }}" target="_blank"><h2>{{ page.label }}</h2></a>
         <p style="text-align: center">
-          {{ page.published }}
+          {{ page.date | date: "%B %-d, %Y"}}
         </p>
         <div class="projectBorder"></div>
         <p>
