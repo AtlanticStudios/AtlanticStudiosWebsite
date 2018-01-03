@@ -1,6 +1,18 @@
 $(document).ready(function() {
 
-  var backgroundImages = ['ChurchMilitant.png', 'CityOfFuture.png', 'Corals.png', 'Tornado.png', 'OJ.png', 'Obama.png', 'Roxane.png', 'YouAreHere.png', 'WhitePresident.jpg', 'BorderPatrol.jpg', 'DroneKing.png', 'AltRight.jpg', 'DACADoctors.jpg', 'Disability.jpg', 'Sedaris.jpg', 'MonaLisa.png', 'ISIS.jpg', 'Unpresidented.jpg', 'Quoted.jpg'];
+  var backgroundImages = ['Cartwheel.png',
+    'ChurchMilitant.png',
+    'Corals.png',
+    'Disability.jpg',
+    'ISIS.jpg',
+    'Obama.png',
+    'OJ.png',
+    'Plantation.png',
+    'Space.png',
+    'Tornado.png',
+    'Treehouse.png',
+    'WhitePresident.jpg'
+  ];
 
   $('.coverImage').css('background-image', RandomBackgroundImage(backgroundImages));
 
