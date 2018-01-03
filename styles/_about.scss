@@ -1,7 +1,6 @@
 .about {
   margin-top: 30px;
   min-height: 100%;
-
   @media screen and (max-width: $screen-mobile) {
     margin-top: 30px;
   }
@@ -28,16 +27,111 @@
   h2 {
     text-align: center;
   }
+
   p {
     text-align: justify;
   }
 }
 
-#rewards {
-  max-width: 900px;
+#partners {
+  width: 80%;
+  max-width: 920px;
+  text-align: center;
 
-  svg {
-    margin: 30px 0 30px;
+  .partnersGrid {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .partnersGridSizer {
+    width: calc(19% - 5px);
+  }
+
+  .partnerObject {
+    width: calc(19% - 5px);
+    margin-bottom: 10px;
+    // height: 250px;
+    display: block;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    // padding: 0 30px;
+    text-align: center;
+  }
+
+  p {
+    // padding: 0 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  @media screen and (max-width: $screen-mobile) {
+    .partnersGridSizer {
+      width: calc(32% - 5px);
+    }
+
+    .partnerObject {
+      width: calc(32% - 5px);
+      margin-bottom: 10px;
+      height: auto;
+    }
+  }
+}
+
+#rewards {
+  width: 80%;
+  max-width: 920px;
+  text-align: center;
+
+  .awardsGrid {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .awardsGridSizer {
+    width: calc(19% - 5px);
+  }
+
+  .awardObject {
+    width: calc(19% - 5px);
+    margin-bottom: 10px;
+    height: 250px;
+    display: block;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    // padding: 0 30px;
+    text-align: center;
+  }
+
+  p {
+    // padding: 0 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  @media screen and (max-width: $screen-mobile) {
+    .awardsGridSizer {
+      width: calc(32% - 5px);
+    }
+
+    .awardObject {
+      width: calc(32% - 5px);
+      margin-bottom: 10px;
+      height: auto;
+    }
   }
 }
 
@@ -46,43 +140,47 @@
   max-width: 920px;
   text-align: center;
 
+
   .teamGrid {
     margin-top: 30px;
     margin-left: 5px;
   }
+
   .teamGridSizer {
-    width: calc(33% - 5px);
+    width: calc(19% - 5px);
   }
+
   .teamMember {
-    width: calc(33% - 5px);
+    width: calc(19% - 5px);
     margin-bottom: 10px;
-    min-height: 100px;
+    height: 300px;
     display: block;
+    overflow: hidden;
   }
+
   img {
     width: 100%;
   }
+
   h2 {
-    padding: 0 30px;
-  }
-  p {
-    padding: 0 30px;
+    // padding: 0 30px;
+    text-align: center;
   }
 
+  p {
+    // padding: 0 30px;
+    text-align: center;
+    margin: 5px 0;
+  }
   @media screen and (max-width: $screen-mobile) {
     .teamGridSizer {
-      width: 100%;
+      width: calc(50% - 5px);
     }
 
     .teamMember {
-      width: 100%;
-      margin: 0;
+      width: calc(50% - 5px);
+      margin-bottom: 10px;
+      height: 300px;
     }
-  }
-}
-
-.award {
-  &:hover {
-    fill: $color-red;
   }
 }
