@@ -26,7 +26,17 @@
       </div>
       <div class="projectBorder"></div>
       <table class="projectCredits">
-        <tr>
+        {% for item in page.credits %}
+          <tr>
+            <td class="creditsTitle">
+              {{ item.role }}
+            </td>
+            <td class="creditsName">
+              {{ item.name }}
+            </td>
+          </tr>
+        {% endfor %}
+        <!-- <tr>
           <td class="creditsTitle">
             Director / Designer / Animator
           </td>
@@ -41,7 +51,7 @@
           <td class="creditsName">
             Kasia Cieplak-Mayr von Baldegg
           </td>
-        </tr>
+        </tr> -->
       </table>
     </div>
     {% include footer.html %}
