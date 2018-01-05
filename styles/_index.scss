@@ -17,6 +17,7 @@
   height: 100%;
   overflow: hidden;
   position: absolute;
+  pointer-events: none;
 
   video {
     position: absolute;
