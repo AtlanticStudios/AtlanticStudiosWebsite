@@ -1,5 +1,6 @@
 ---
 title: Placeholder Post
+date: 2018-01-03 00:00:00 Z
 author: Atthar Mirza
 identifier: 20180103
 ---

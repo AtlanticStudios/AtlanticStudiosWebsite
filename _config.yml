@@ -1,48 +1,46 @@
 ---
-title:               Atlantic Studios Website
-timezone:            UTC
+title: Atlantic Studios Website
+timezone: UTC
 collections:
   posts:
-    title:           Posts
-    output:          true
+    title: Posts
+    output: true
   projects:
-    title:           Projects
-    output:          true
+    title: Projects
+    output: true
   uploads:
-    title:           Uploads
-    output:          true
+    title: Uploads
+    output: true
 defaults:
--
-  scope:
-    path:            "projects"
-    type:            "Projects"
+- scope:
+    path: projects
+    type: Projects
   values:
-    layout:          "project"
-    title:           "| Atlantic Studios"
-    navigation:      "Watch"
-    description:     ""
-    label:           ""
-    cover:           ""
-    type:            ""
-    emphasis:        ""
-    embed:           ""
-    post:            ""
-    credits:         ""
--
-  scope:
-    path:            "posts"
-    type:            "Posts"
+    layout: project
+    title: "| Atlantic Studios"
+    navigation: Watch
+    description: ''
+    label: ''
+    cover: ''
+    type: ''
+    emphasis: ''
+    embed: ''
+    post: ''
+    credits: ''
+- scope:
+    path: posts
+    type: Posts
   values:
-    title:           ""
-    author:          ""
-    identifier:      ""
-source:              "."
-destination:         "./_site"
-plugins_dir:         _plugins
-layouts_dir:         _layouts
-data_dir:            _data
-includes_dir:        includes
-safe:                false
+    title: ''
+    author: ''
+    identifier: ''
+source: "."
+destination: "./_site"
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: includes
+safe: false
 include:
 - ".htaccess"
 exclude:
@@ -56,41 +54,41 @@ exclude:
 keep_files:
 - ".git"
 - ".svn"
-encoding:            utf-8
-markdown_ext:        markdown,mkdown,mkdn,mkd,md
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 strict_front_matter: false
-show_drafts:
-limit_posts:         0
-future:              false
-unpublished:         false
-whitelist:           []
-plugins:             []
-markdown:            kramdown
-highlighter:         rouge
-lsi:                 false
-excerpt_separator:   "\n\n"
-incremental:         false
-detach:              false
-port:                4000
-host:                127.0.0.1
-baseurl:             ''
-show_dir_listing:    false
-permalink:           date
-paginate_path:       "/page:num"
-quiet:               false
-verbose:             false
+show_drafts: 
+limit_posts: 0
+future: false
+unpublished: false
+whitelist: []
+plugins: []
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+detach: false
+port: 4000
+host: 127.0.0.1
+baseurl: ''
+show_dir_listing: false
+permalink: date
+paginate_path: "/page:num"
+quiet: false
+verbose: false
 liquid:
-  error_mode:        warn
+  error_mode: warn
 rdiscount:
-  extensions:        []
+  extensions: []
 redcarpet:
-  extensions:        []
+  extensions: []
 kramdown:
-  auto_ids:          true
-  entity_output:     as_char
-  toc_levels:        1..6
-  smart_quotes:      lsquo,rsquo,ldquo,rdquo
-  input:             GFM
-  hard_wrap:         false
-  footnote_nr:       1
-repository:          attharmirza/AtlanticStudiosWebsite
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+repository: attharmirza/AtlanticStudiosWebsite
