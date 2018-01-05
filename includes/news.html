@@ -1,21 +1,21 @@
 <div class="news">
   <div class="storySelector">
     {% for post in site.posts %}
-    <!-- <a href="#{{ post.identifier }}"> -->
-    <div class="storyThumb" id="thumb{{ post.identifier }}">
+    <!-- <a href="#{{ post.date | date: "%Y%m%d" }}"> -->
+    <div class="storyThumb" id='thumb{{ post.date | date: "%Y%m%d" }}'>
       <h2 class="title">{{ post.title }}</h2>
-      <p class="byline">{{ post.author }} | {{ post.created }}</p>
+      <p class="byline">{{ post.author }} | {{ post.date | date: "%B %-d, %Y" }}</p>
       <!-- <p>{{ post.url }}</p> -->
       <!-- <p class="break">–</p> -->
-      <div class="newsReader" id="content{{ post.identifier }}">{{ post.content }}</div>
+      <div class="newsReader" id='content{{ post.date | date: "%Y%m%d" }}'>{{ post.content }}</div>
     </div>
     <!-- </a> -->
 
     <script>
       $(document).ready(function() {
 
-        $('#thumb{{ post.identifier }}').click(function() {
-            window.location.hash = '{{ post.identifier }}';
+        $('#thumb{{ post.date | date: "%Y%m%d" }}').click(function() {
+            window.location.hash = '{{ post.date | date: "%Y%m%d" }}';
           });
         });
     </script>

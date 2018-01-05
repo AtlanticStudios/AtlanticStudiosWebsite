@@ -1,9 +1,7 @@
 ---
 title: Placeholder Post
-date: 2018-01-03 00:00:00 Z
-identifier: 20180103
 author: Atthar Mirza
-created: Jan 03, 2018
+identifier: 20180103
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet feugiat tincidunt. Donec porttitor aliquet est ac sollicitudin. Nam aliquet, arcu eu pulvinar malesuada, libero metus dictum nisi, a euismod ex velit ut ex. Morbi congue magna non arcu eleifend sagittis. Vestibulum egestas finibus justo. Donec consequat ipsum elit, id tincidunt erat auctor et. Maecenas scelerisque interdum tincidunt. Donec id velit ex. Ut dapibus est vitae risus pellentesque, a commodo turpis tempor. Vestibulum nec enim quis neque maximus porttitor. Nulla augue velit, lacinia at egestas eu, volutpat ac enim. Nam commodo, neque eget accumsan sodales, sapien dolor congue augue, et vehicula quam mi nec leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia, tellus eget sagittis sollicitudin, ante tellus sodales tellus, in egestas erat magna eu dolor. Fusce fermentum, tellus nec maximus mollis, quam quam maximus purus, ut sodales ipsum urna eu ligula. Maecenas quis magna ac ex facilisis volutpat.
