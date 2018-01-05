@@ -11,6 +11,25 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: projects
+    type: projects
+  values:
+    layout: project
+    title: "| Atlantic Studios"
+    date: 
+    navigation: Watch
+    description: 
+    label: 
+    cover: 
+    type: 
+    emphasis: 
+    embed: 
+    post: 
+    credits:
+      role: 
+      name: 
 source: "."
 destination: "./_site"
 plugins_dir: _plugins
@@ -34,7 +53,7 @@ keep_files:
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 strict_front_matter: false
-show_drafts:
+show_drafts: 
 limit_posts: 0
 future: false
 unpublished: false
@@ -69,23 +88,3 @@ kramdown:
   hard_wrap: false
   footnote_nr: 1
 repository: attharmirza/AtlanticStudiosWebsite
-defaults:
-  -
-    scope:
-      path: "projects"
-      type: "projects"
-    values:
-      layout: "project"
-      title: "| Atlantic Studios"
-      date:
-      navigation: "Watch"
-      description:
-      label:
-      cover:
-      type:
-      emphasis:
-      embed:
-      post:
-      credits:
-        role:
-        name:
