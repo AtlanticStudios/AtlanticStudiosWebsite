@@ -1,8 +1,7 @@
 ---
 title: Placeholder Post
 date: 2018-01-03 00:00:00 Z
-tags:
-- 20180103
+identifier: 20180103
 author: Atthar Mirza
 created: Jan 03, 2018
 ---
