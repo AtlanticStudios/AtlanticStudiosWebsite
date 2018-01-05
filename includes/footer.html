@@ -44,5 +44,9 @@
       // $('.iconSocialMedia').css('opacity', 0);
     };
 
+    $("p:contains('The Atlantic')").html(function(_, html) {
+      return html.replace('The Atlantic', '<em>The Atlantic</em>');
+    });
+
   });
 </script>

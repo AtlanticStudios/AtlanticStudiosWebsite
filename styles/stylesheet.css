@@ -679,6 +679,11 @@ html {
   .aboutSection p {
     text-align: justify; }
 
+#aboutUS a {
+  text-decoration: underline; }
+#aboutUS a:hover {
+  color: #f3194b; }
+
 #partners {
   width: 80%;
   max-width: 920px;

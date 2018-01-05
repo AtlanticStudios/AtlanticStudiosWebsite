@@ -33,6 +33,16 @@
   }
 }
 
+#aboutUS {
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: $color-red;
+  }
+}
+
 #partners {
   width: 80%;
   max-width: 920px;
