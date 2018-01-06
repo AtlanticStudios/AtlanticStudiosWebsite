@@ -12,30 +12,28 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      path: "projects"
-    values:
-      layout: "project"
-      title: "| Atlantic Studios"
-      navigation: "Watch"
-      description:
-      label:
-      cover:
-      type:
-      emphasis:
-      embed:
-      post:
-      credits:
-        role:
-        name:
-  -
-    scope:
-      path: "posts"
-    values:
-      title:
-      author:
-      identifier:
+- scope:
+    path: projects
+  values:
+    layout: project
+    title: "| Atlantic Studios"
+    navigation: Watch
+    description: 
+    label: 
+    cover: 
+    type: 
+    emphasis: 
+    embed: 
+    post: 
+    credits:
+      role: 
+      name: 
+- scope:
+    path: posts
+  values:
+    title: 
+    author: 
+    identifier: 
 source: "."
 destination: "./_site"
 plugins_dir: _plugins
@@ -59,7 +57,7 @@ keep_files:
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 strict_front_matter: false
-show_drafts:
+show_drafts: 
 limit_posts: 0
 future: false
 unpublished: false
