@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: A Visual History
 date: 2016-10-27 00:00:00 Z
 navigation: Watch
@@ -15,6 +16,9 @@ credits:
   name: Jackie Lay
 - role: Executive Producer
   name: Kasia Cieplak-Mayr von Baldegg
+=======
+title: Visual History
+>>>>>>> 9492033ff716f3a4235f847478fab057c521491a
 ---
 
 From the wonders hidden in the mundane to monumental figures that changed nations, the A Visual History series lets us watch the most interesting evolutions of our world play out in a matter of minutes.
