@@ -1,10 +1,10 @@
 ---
-title: A Visual History | Atlantic Studios
+title: A Visual History
 date: 2016-10-27 00:00:00 Z
 navigation: Watch
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
-label: A Visual History
+label: AVisualHistory
 image:
 type: Series
 emphasis: 1
