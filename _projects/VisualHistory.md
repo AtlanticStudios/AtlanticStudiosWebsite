@@ -4,8 +4,13 @@ date: 2016-10-27 00:00:00 Z
 navigation: Watch
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
+<<<<<<< HEAD
 label: AVisualHistory
 image:
+=======
+label: A Visual History
+image: "/uploads/VisualHistoryCover.png"
+>>>>>>> f74b186c58f91e74bf30a59ad771ba6a8366f61f
 type: Series
 emphasis: 1
 embed: https://www.youtube.com/embed/GoCZnboThfk
