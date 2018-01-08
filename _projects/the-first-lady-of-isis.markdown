@@ -3,7 +3,7 @@ title: The First Lady of ISIS
 date: 2017-11-03 09:46:00 -04:00
 description: Tania Georgelas, the ex-wife of the highest-ranking American member of
   ISIS, reckons with her extremist past and attempts to build a new life.
-label: TanieISIS
+label: TaniaISIS
 image: "/uploads/ISISCover.png"
 type: Documentary
 emphasis: 1
