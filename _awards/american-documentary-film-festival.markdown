@@ -1,5 +1,5 @@
 ---
-title: American Documentary Film Festival
+title: American Doc Film Festival
 date: 2018-01-08 14:21:00 -05:00
 position: 7
 image: "/uploads/American.svg"
