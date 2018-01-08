@@ -8,7 +8,7 @@ image: "/uploads/AnimalismCover.png"
 type: Series
 emphasis: 1
 embed: https://www.youtube.com/embed/LIfKk37bkyk
-post: https://www.theatlantic.com/video/series/animalism/
+embedAtlantic: https://www.theatlantic.com/video/series/animalism/
 credits:
 - role: Producer
   name: Jon Halperin

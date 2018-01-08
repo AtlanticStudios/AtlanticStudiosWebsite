@@ -7,7 +7,7 @@ image: "/uploads/AltRightCover.png"
 type: Documentary
 emphasis: 1
 embed: https://player.vimeo.com/video/196594487?title=0&byline=0
-post: https://www.theatlantic.com/video/index/510533/rebranding-white-nationalism-inside-the-alt-right/
+embedAtlantic: https://www.theatlantic.com/video/index/510533/rebranding-white-nationalism-inside-the-alt-right/
 credits:
 - role: Producer / Shooter / Editor
   name: Daniel Lombroso

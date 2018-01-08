@@ -8,7 +8,7 @@ image: "/uploads/BlackCriminalityCover.png"
 type: Animation
 emphasis: 2
 embed: https://player.vimeo.com/video/140681740?color=ffffff&byline=0&portrait=0
-post: https://www.theatlantic.com/video/index/404674/enduring-myth-of-black-criminality/
+embedAtlantic: https://www.theatlantic.com/video/index/404674/enduring-myth-of-black-criminality/
 credits:
 - role: Director / Designer / Animator
   name: Jackie Lay

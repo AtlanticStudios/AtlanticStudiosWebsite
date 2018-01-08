@@ -9,7 +9,7 @@ image: "/uploads/AngolaForLifeCover.png"
 type: Documentary
 emphasis: 2
 embed: https://www.youtube.com/embed/7ABpWhY5Xzk
-post: https://www.theatlantic.com/video/index/404305/angola-prison-documentary/
+embedAtlantic: https://www.theatlantic.com/video/index/404305/angola-prison-documentary/
 credits:
 - role: Producer / Shooter / Editor
   name: Sam Price-Waldman
