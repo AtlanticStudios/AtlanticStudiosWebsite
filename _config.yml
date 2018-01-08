@@ -1,6 +1,6 @@
 ---
 title: Atlantic Studios Website
-timezone: UTC
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -62,8 +62,6 @@ show_drafts:
 limit_posts: 0
 future: false
 unpublished: false
-whitelist: []
-plugins: []
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -72,7 +70,7 @@ incremental: false
 detach: false
 port: 4000
 host: 127.0.0.1
-baseurl: ''
+baseurl: 
 show_dir_listing: false
 permalink: date
 paginate_path: "/page:num"
@@ -80,10 +78,6 @@ quiet: false
 verbose: false
 liquid:
   error_mode: warn
-rdiscount:
-  extensions: []
-redcarpet:
-  extensions: []
 kramdown:
   auto_ids: true
   entity_output: as_char
