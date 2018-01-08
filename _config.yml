@@ -11,6 +11,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+  people:
+    title: People
+    output: false
+  awards:
+    title: Awards
+    output: false
+  partners:
+    title: Partners
+    output: true
 defaults:
 - scope:
     path: ''
@@ -20,23 +29,44 @@ defaults:
     title: "| Atlantic Studios"
     navigation: Watch
     awards:
-    - image: 
-    description: 
-    label: 
-    image: 
-    type: 
-    emphasis: 
-    embed: 
-    embedAtlantic: 
+    - image:
+    description:
+    label:
+    image:
+    type:
+    emphasis:
+    embed:
+    embedAtlantic:
     credits:
-    - role: 
-      name: 
+    - role:
+      name:
 - scope:
     path: ''
     type: posts
   values:
-    title: 
-    author: 
+    title:
+    author:
+- scope:
+    path: ''
+    type: partners
+  values:
+    title:
+    image:
+- scope:
+    path: ''
+    type: awards
+  values:
+    title:
+    image:
+    details:
+    -
+- scope:
+    path: ''
+    type: people
+  values:
+    title:
+    image:
+    role:
 source: "."
 destination: "./_site"
 plugins_dir: _plugins
@@ -60,7 +90,7 @@ keep_files:
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 strict_front_matter: false
-show_drafts: 
+show_drafts:
 limit_posts: 0
 future: false
 unpublished: false
@@ -72,7 +102,7 @@ incremental: false
 detach: false
 port: 4000
 host: 127.0.0.1
-baseurl: 
+baseurl:
 show_dir_listing: false
 permalink: date
 paginate_path: "/page:num"

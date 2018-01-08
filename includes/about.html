@@ -14,21 +14,12 @@
     <h2>With Support From</h2>
     <div class="partnersGrid">
       <div class="partnersGridSizer"></div>
-      <div class="partnerObject" id="Facebook">
-        <img src="/graphics/partners/Facebook.svg" />
+      {% assign sortedPartners = (site.partners | sort: 'position') %}
+      {% for partner in sortedPartners %}
+      <div class="partnerObject">
+        <img src="{{ partner.image }}" />
       </div>
-      <div class="partnerObject" id="OpenSociety">
-        <img src="/graphics/partners/OpenSociety.svg" />
-      </div>
-      <div class="partnerObject" id="Netflix">
-        <img src="/graphics/partners/Netflix.svg" />
-      </div>
-      <div class="partnerObject" id="GoogleNewsLab">
-        <img src="/graphics/partners/GoogleNewsLab.svg" />
-      </div>
-      <div class="partnerObject" id="Lincoln">
-        <img src="/graphics/partners/Lincoln.svg" />
-      </div>
+      {% endfor %}
     </div>
   </div>
 
@@ -36,7 +27,17 @@
     <h2>Recognition</h2>
     <div class="awardsGrid">
       <div class="awardsGridSizer"></div>
-      <div class="awardObject" id="Murrow">
+      {% assign sortedAwards = (site.awards | sort: 'position') %}
+      {% for award in sortedAwards %}
+      <div class="awardObject">
+        <img src="{{ award.image }}" />
+        <p><b>{{ award.title }}</b></p>
+        {% for item in award.details %}
+        <p>{{ item }}</p>
+        {% endfor %}
+      </div>
+      {% endfor %}
+      <!-- <div class="awardObject" id="Murrow">
         <img src="/graphics/awards/Murrow.svg" />
         <p><b>Edward R. Murrow Award</b><br />2017</p>
       </div>
@@ -91,7 +92,7 @@
       <div class="awardObject" id="Digiday">
         <img src="/graphics/awards/Digiday.svg" />
         <p><b>Digiday Publishing Award</b><br />Best Use of Video 2015</p>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -99,7 +100,15 @@
     <h2>Team</h2>
     <div class="teamGrid">
       <div class="teamGridSizer"></div>
-      <div class="teamMember" id="kasia">
+      {% assign sortedPeople = (site.people | sort: 'position') %}
+      {% for person in sortedPeople %}
+      <div class="teamMember">
+        <img src="{{ person.image }}" />
+        <p><b>{{ person.name }}</b></p>
+        <p>{{ person.role }}</p>
+      </div>
+      {% endfor %}
+      <!-- <div class="teamMember" id="kasia">
         <img src="/images/people/kasia.jpg" />
         <p><b>Kasia Cieplak-Mayr von Baldegg</b></p>
         <p>Executive Producer</p>
@@ -168,7 +177,7 @@
         <img src="/images/people/brianna.jpg" />
         <p><b>Brianna Pressey</b></p>
         <p>Production Fellow</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
