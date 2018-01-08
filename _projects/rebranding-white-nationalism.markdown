@@ -4,6 +4,7 @@ date: 2016-12-20 19:00:00 -05:00
 awards:
 - image: "/uploads/AltRight.svg"
 - image: "/uploads/BestShorts.svg"
+- image: "/uploads/American.svg"
 description: A documentary from the Atlantic about the Alt Right and Richard Spencer.
 label: RebrandingWhiteNationalism
 image: "/uploads/AltRightCover.png"
