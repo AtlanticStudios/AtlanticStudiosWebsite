@@ -1,6 +1,9 @@
 ---
 title: Frontiers of Sports
 date: 2017-10-24 03:19:00 -04:00
+awards:
+- image: "/uploads/FlagStaff.svg"
+- image: "/uploads/Telluride.svg"
 description: Frontiers of Sports is a series from the Atlantic showcasing athletes
   pushing the boundaries in their fields.
 label: FrontiersOfSports
