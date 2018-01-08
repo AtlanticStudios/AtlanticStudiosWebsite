@@ -3,6 +3,7 @@ title: Church Militant
 date: 2017-05-11 20:00:00 -04:00
 awards:
 - image: "/uploads/BestShorts.svg"
+- image: "/uploads/American.svg"
 description: ChurchMilitant.com (then St. Michaels Media) has grown from a tiny media
   outfit on the fringes of the Catholic world to a 35-person powerhouse reaching an
   estimated 1.5 million viewers a month. This documentary explores the story of its
