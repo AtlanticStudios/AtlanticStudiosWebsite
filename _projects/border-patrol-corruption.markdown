@@ -8,7 +8,7 @@ description: When a headless body washed up in the calm waters of the Texas gulf
   investigators began to unravel a crime that led first to a drug cartel assassin,
   then to a locked safe containing​ more than a kilo of cocaine, methamphetamine,
   a gold-plated pistol— and U.S. Border Patrol agent Joel Luna’s badge.
-label: Border Patrol Corruption
+label: BorderPatrolCorruption
 image: "/uploads/BorderPatrolCover.png"
 type: Documentary
 emphasis: 1
