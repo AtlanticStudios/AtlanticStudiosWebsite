@@ -1,10 +1,11 @@
 $(document).ready(function() {
 
-  var backgroundImages = ['Cartwheel.png',
+  var backgroundImages = [
+    // 'Cartwheel.png',
     'ChurchMilitant.png',
     'Corals.png',
-    'Disability.jpg',
-    'ISIS.jpg',
+    // 'Disability.jpg',
+    // 'ISIS.jpg',
     'Obama.png',
     'OJ.png',
     'Plantation.png',
@@ -13,7 +14,7 @@ $(document).ready(function() {
     'Treehouse.png',
     'WhitePresident.jpg'
   ];
-  
+
   $('.leadImage').css('background-image', RandomBackgroundImage(backgroundImages));
 
   function RandomBackgroundImage(imageArray) {

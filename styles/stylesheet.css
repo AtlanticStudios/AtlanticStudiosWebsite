@@ -662,7 +662,7 @@ html {
 
 .leadImage {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100vw;
   height: 35vh;
   display: block;
   position: inherit;
