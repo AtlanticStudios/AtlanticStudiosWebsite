@@ -1,6 +1,8 @@
 ---
 title: The Contract Buyers League
-date: 2014-05-21 00:00:00 Z
+date: 2014-05-20 20:00:00 -04:00
+awards:
+- image: "/uploads/Magazine.svg"
 description: In this short documentary, Ross, Lewis, Weatherspoon, and a community
   organizer named Jack Macnamara recount the story of how they formed the Contract
   Buyers League and fought back.
