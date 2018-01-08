@@ -1,6 +1,6 @@
 ---
 title: A Visual History
-date: 2016-10-27 00:00:00 Z
+date: 2016-10-26 20:00:00 -04:00
 navigation: Watch
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
