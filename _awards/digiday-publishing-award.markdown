@@ -4,6 +4,6 @@ date: 2018-01-08 15:11:00 -05:00
 position: 13
 image: "/uploads/Digiday.svg"
 details:
-- Best Use of Video Finalist 2015
+- Finalist 2015
 ---
 
