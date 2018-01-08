@@ -18,21 +18,24 @@
           {{ page.date | date: "%B %-d, %Y"}}
         </p>
         <div class="projectAwards">
+          {% for item in page.awardImage %}
+          <img src="{{ item }}" />
+          {% endfor %}
         </div>
         <div class="projectBorder"></div>
-          {{ content }}
+        {{ content }}
       </div>
       <div class="projectBorder"></div>
       <table class="projectCredits">
         {% for item in page.credits %}
-          <tr>
-            <td class="creditsTitle">
-              {{ item.role }}
-            </td>
-            <td class="creditsName">
-              {{ item.name }}
-            </td>
-          </tr>
+        <tr>
+          <td class="creditsTitle">
+            {{ item.role }}
+          </td>
+          <td class="creditsName">
+            {{ item.name }}
+          </td>
+        </tr>
         {% endfor %}
       </table>
     </div>
