@@ -4,6 +4,7 @@ date: 2017-05-22 20:00:00 -04:00
 awards:
 - image: "/uploads/DocNYC.svg"
 - image: "/uploads/BestShorts.svg"
+- image: "/uploads/American.svg"
 description: When a headless body washed up in the calm waters of the Texas gulf coast,
   investigators began to unravel a crime that led first to a drug cartel assassin,
   then to a locked safe containing​ more than a kilo of cocaine, methamphetamine,
