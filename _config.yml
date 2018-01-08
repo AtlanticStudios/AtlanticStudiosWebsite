@@ -20,23 +20,23 @@ defaults:
     title: "| Atlantic Studios"
     navigation: Watch
     awards:
-    - image:
-    description:
-    label:
-    image:
-    type:
-    emphasis:
-    embed:
-    embedAtlantic:
+    - image: 
+    description: 
+    label: 
+    image: 
+    type: 
+    emphasis: 
+    embed: 
+    embedAtlantic: 
     credits:
-    - role:
-      name:
+    - role: 
+      name: 
 - scope:
     path: ''
     type: posts
   values:
-    title:
-    author:
+    title: 
+    author: 
 source: "."
 destination: "./_site"
 plugins_dir: _plugins
@@ -60,7 +60,7 @@ keep_files:
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 strict_front_matter: false
-show_drafts:
+show_drafts: 
 limit_posts: 0
 future: false
 unpublished: false
@@ -72,7 +72,7 @@ incremental: false
 detach: false
 port: 4000
 host: 127.0.0.1
-baseurl:
+baseurl: 
 show_dir_listing: false
 permalink: date
 paginate_path: "/page:num"
