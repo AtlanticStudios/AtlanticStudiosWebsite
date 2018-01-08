@@ -37,62 +37,6 @@
         {% endfor %}
       </div>
       {% endfor %}
-      <!-- <div class="awardObject" id="Murrow">
-        <img src="/graphics/awards/Murrow.svg" />
-        <p><b>Edward R. Murrow Award</b><br />2017</p>
-      </div>
-      <div class="awardObject" id="Magazine">
-        <img src="/graphics/awards/Magazine.svg" />
-        <p><b>National Magazine Award</b><br />Finalist 2015</p>
-      </div>
-      <div class="awardObject" id="Headliner">
-        <img src="/graphics/awards/Headliner.svg" />
-        <p><b>National Headliner Award</b><br />2017</p>
-      </div>
-      <div class="awardObject" id="StaffPick">
-        <img src="/graphics/awards/StaffPick.svg" />
-        <p><b>Vimeo Staff Pick</b><br />11 Videos</p>
-      </div>
-      <div class="awardObject" id="DocNYC">
-        <img src="/graphics/awards/DocNYC.svg" />
-        <p><b>Doc NYC</b><br />Official Selection 2017</p>
-      </div>
-      <div class="awardObject" id="AFIDocs">
-        <img src="/graphics/awards/AFIDocs.svg" />
-        <p><b>AFI Docs Festival</b><br />Official Selection</p>
-      </div>
-      <div class="awardObject" id="WebbyAward">
-        <img src="/graphics/awards/WebbyAward.svg" />
-        <p><b>Webby Award</b><br />Best Host 2015<br />Best Documentary 2016</p>
-      </div>
-      <div class="awardObject" id="American">
-        <img src="/graphics/awards/American.svg" />
-        <p><b>American Documentary Film Festival</b><br />Official Selection 2017</p>
-      </div>
-      <div class="awardObject" id="CIFF">
-        <img src="/graphics/awards/CIFF.svg" />
-        <p><b>Cleveland International Film Festival</b><br />Official Selection</p>
-      </div>
-      <div class="awardObject" id="HotSprings">
-        <img src="/graphics/awards/HotSprings.svg" />
-        <p><b>Hot Springs Doc Film Festival</b><br />Official Selection</p>
-      </div>
-      <div class="awardObject" id="BestShorts">
-        <img src="/graphics/awards/BestShorts.svg" />
-        <p><b>Best Shorts Awards</b><br />Award of Merit 2017</p>
-      </div>
-      <div class="awardObject" id="StLouis">
-        <img src="/graphics/awards/StLouis.svg" />
-        <p><b>St. Louis International Film Festival</b><br />Official Selection</p>
-      </div>
-      <div class="awardObject" id="LAFilmFest">
-        <img src="/graphics/awards/LAFilmFest.svg" />
-        <p><b>Los Angeles Film Festival</b><br />Official Selection</p>
-      </div>
-      <div class="awardObject" id="Digiday">
-        <img src="/graphics/awards/Digiday.svg" />
-        <p><b>Digiday Publishing Award</b><br />Best Use of Video 2015</p>
-      </div> -->
     </div>
   </div>
 
@@ -103,7 +47,7 @@
       {% assign sortedPeople = (site.people | sort: 'position') %}
       {% for person in sortedPeople %}
       <div class="teamMember">
-        <img src="{{ person.image }}" />
+        <a href="{{ person.link }}" target="_blank"><img src="{{ person.image }}" /></a>
         <p><b>{{ person.title }}</b></p>
         <p>{{ person.role }}</p>
       </div>

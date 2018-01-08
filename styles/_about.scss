@@ -50,7 +50,7 @@
 
   .partnersGrid {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: calc(3% + 5px);
   }
 
   .partnersGridSizer {
@@ -82,6 +82,10 @@
   }
 
   @media screen and (max-width: $screen-mobile) {
+    .partnersGrid {
+      margin-left: 10px;
+    }
+
     .partnersGridSizer {
       width: calc(32% - 5px);
     }
@@ -101,7 +105,7 @@
 
   .awardsGrid {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: calc(3% + 5px);
   }
 
   .awardsGridSizer {
@@ -133,6 +137,10 @@
   }
 
   @media screen and (max-width: $screen-mobile) {
+    .awardsGrid {
+      margin-left: 10px;
+    }
+
     .awardsGridSizer {
       width: calc(32% - 5px);
     }
