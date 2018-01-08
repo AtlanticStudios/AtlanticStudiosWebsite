@@ -19,8 +19,8 @@ defaults:
     layout: project
     title: "| Atlantic Studios"
     navigation: Watch
-    imageAward:
-    - 
+    awardimage:
+    -
     description:
     label:
     image:
