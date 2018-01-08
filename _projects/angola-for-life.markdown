@@ -1,6 +1,8 @@
 ---
 title: Angola for Life
-date: 2015-09-21 00:00:00 Z
+date: 2015-09-20 20:00:00 -04:00
+awards:
+- image: "/uploads/Magazine.svg"
 description: In this Atlantic original documentary, national correspondent Jeffrey
   Goldberg goes inside Angola to speak with inmates and with warden Burl Cain, who
   has managed the prison for two decades.
