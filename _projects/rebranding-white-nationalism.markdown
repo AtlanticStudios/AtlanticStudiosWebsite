@@ -3,7 +3,7 @@ title: Rebranding White Nationalism
 date: 2016-12-20 19:00:00 -05:00
 awards:
 - image: "/uploads/AltRight.svg"
-- image: "/uploads/BestShorts-be9c32.svg"
+- image: "/uploads/BestShorts.svg"
 description: A documentary from the Atlantic about the Alt Right and Richard Spencer.
 label: RebrandingWhiteNationalism
 image: "/uploads/AltRightCover.png"
