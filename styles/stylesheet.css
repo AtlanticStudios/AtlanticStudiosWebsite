@@ -1,31 +1,31 @@
 @font-face {
   font-family: lyon;
-  src: url(/fonts/lyon/LyonText-Regular-Web.woff), url(/fonts/lyon/LyonText-Regular-Web.woff2);
+  src: url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/lyon/LyonText-Regular-Web.woff), url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/lyon/LyonText-Regular-Web.woff2);
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: lyon;
-  src: url(/fonts/lyon/LyonText-Bold-Web.woff), url(/fonts/lyon/LyonText-Bold-Web.woff2);
+  src: url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/lyon/LyonText-Bold-Web.woff), url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/lyon/LyonText-Bold-Web.woff2);
   font-style: normal;
   font-weight: bold; }
 @font-face {
   font-family: graphik;
-  src: url(/fonts/graphik/graphik-regular.woff), url(/fonts/graphik/graphik-regular.woff2);
+  src: url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/graphik/graphik-regular.woff), url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/graphik/graphik-regular.woff2);
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: graphik;
-  src: url(/fonts/graphik/graphik-bold.woff), url(/fonts/graphik/graphik-bold.woff2);
+  src: url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/graphik/graphik-bold.woff), url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/graphik/graphik-bold.woff2);
   font-style: normal;
   font-weight: bold; }
 @font-face {
   font-family: noe;
-  src: url(/fonts/noe/noe-bold.woff), url(/fonts/noe/noe-bold.woff2);
+  src: url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/noe/noe-bold.woff), url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/noe/noe-bold.woff2);
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: noe;
-  src: url(/fonts/noe/noe-bold-italic.woff), url(/fonts/noe/noe-bold-italic.woff2);
+  src: url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/noe/noe-bold-italic.woff), url(https://attharmirza.github.io/AtlanticStudiosWebsite/fonts/noe/noe-bold-italic.woff2);
   font-style: italic;
   font-weight: normal; }
 h1 {
