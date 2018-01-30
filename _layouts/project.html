@@ -19,7 +19,9 @@
         </p>
         <div class="projectAwards">
           {% for item in page.awards %}
+          {% if item.image != null %}
           <img src="{{ site.baseurl }}{{ item.image }}" />
+          {% endif %}
           {% endfor %}
         </div>
         <div class="projectBorder"></div>

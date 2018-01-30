@@ -1,0 +1,122 @@
+---
+title: Atlantic Studios Website
+timezone: America/New_York
+collections:
+  awards:
+    title: Awards
+    output: false
+  partners:
+    title: Partners
+    output: true
+  people:
+    title: People
+    output: false
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+    title: "| Atlantic Studios"
+    navigation: Watch
+    awards:
+    - image:
+    description:
+    label:
+    image:
+    type:
+    emphasis:
+    embed:
+    embedAtlantic:
+    credits:
+    - role:
+      name:
+- scope:
+    path: ''
+    type: posts
+  values:
+    title:
+    author:
+- scope:
+    path: ''
+    type: partners
+  values:
+    title:
+    image:
+- scope:
+    path: ''
+    type: awards
+  values:
+    title:
+    image:
+    details:
+    -
+- scope:
+    path: ''
+    type: people
+  values:
+    title:
+    image:
+    link:
+    role:
+source: "."
+destination: "./_site"
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: includes
+safe: false
+include:
+- ".htaccess"
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+keep_files:
+- ".git"
+- ".svn"
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+strict_front_matter: false
+show_drafts:
+limit_posts: 0
+future: false
+unpublished: false
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+detach: false
+port: 4000
+host: 127.0.0.1
+baseurl: 
+show_dir_listing: false
+permalink: date
+paginate_path: "/page:num"
+quiet: false
+verbose: false
+liquid:
+  error_mode: warn
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+repository: attharmirza/AtlanticStudiosWebsite
