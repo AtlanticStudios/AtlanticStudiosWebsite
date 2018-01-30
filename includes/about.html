@@ -17,7 +17,7 @@
       {% assign sortedPartners = (site.partners | sort: 'position') %}
       {% for partner in sortedPartners %}
       <div class="partnerObject">
-        <img src="{{ baseurl }}{{ partner.image }}" />
+        <img src="{{ site.baseurl }}{{ partner.image }}" />
       </div>
       {% endfor %}
     </div>
@@ -30,7 +30,7 @@
       {% assign sortedAwards = (site.awards | sort: 'position') %}
       {% for award in sortedAwards %}
       <div class="awardObject">
-        <img src="{{ baseurl }}{{ award.image }}" />
+        <img src="{{ site.baseurl }}{{ award.image }}" />
         <p><b>{{ award.title }}</b></p>
         {% for item in award.details %}
         <p>{{ item }}</p>
@@ -47,7 +47,7 @@
       {% assign sortedPeople = (site.people | sort: 'position') %}
       {% for person in sortedPeople %}
       <div class="teamMember">
-        <a href="{{ person.link }}" target="_blank"><img src="{{ baseurl }}{{ person.image }}" /></a>
+        <a href="{{ person.link }}" target="_blank"><img src="{{ site.baseurl }}{{ person.image }}" /></a>
         <p><b>{{ person.title }}</b></p>
         <p>{{ person.role }}</p>
       </div>
@@ -56,7 +56,7 @@
   </div>
 </div>
 
-<script src="{{ baseurl }}/scripts/myLeadImage.js"></script>
+<script src="{{ site.baseurl }}/scripts/myLeadImage.js"></script>
 <script>
 $(document).ready(function() {
 
