@@ -19,7 +19,7 @@
     <style>
     #{{ project.label }} {
       /*background-image: url("images/texture.png"), url("/images/covers/{{ project.cover }}.png");*/
-      background-image: url({{ project.image }});
+      background-image: url({{ baseurl }}{{ project.image }});
       /*background-blend-mode: soft-light;*/
 
       background-blend-mode: color-burn;
@@ -32,4 +32,4 @@
   </div>
 </div>
 
-<script src="/scripts/myGrid.js"></script>
+<script src="{{ baseurl }}/scripts/myGrid.js"></script>
