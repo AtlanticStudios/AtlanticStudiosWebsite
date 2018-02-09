@@ -8,8 +8,8 @@ label: AVisualHistory
 image: "/uploads/VisualHistoryCover.png"
 type: Series
 emphasis: 1
-embed: https://www.youtube.com/embed/GoCZnboThfk
-embedAtlantic: https://www.theatlantic.com/video/index/395078/housing-through-the-centuries/
+embed: https://www.youtube.com/embed/chWOqVqQTa0
+embedAtlantic: https://www.theatlantic.com/video/series/visual-histories/
 credits:
 - role: Director / Designer / Animator
   name: Jackie Lay
