@@ -1,6 +1,6 @@
 ---
 title: A Visual History
-date: 2017-02-09 20:00:00 -05:00
+date: 2018-02-09 20:00:00 -05:00
 navigation: Watch
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
