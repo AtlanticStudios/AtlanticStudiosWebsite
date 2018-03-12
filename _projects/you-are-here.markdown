@@ -8,7 +8,7 @@ label: Series
 image: "/uploads/YouAreHereCover.png"
 type: Series
 emphasis: 1
-embed: https://www.youtube.com/embed/ojbJrdkPhGg
+embed: https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskPSDYZsGrZcLKKss0jRnyH-
 embedAtlantic: https://www.theatlantic.com/video/series/you-are-here/
 credits:
 - role: Producer
