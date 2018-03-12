@@ -8,7 +8,7 @@ label: AVisualHistory
 image: "/uploads/VisualHistoryCover.png"
 type: Series
 emphasis: 1
-embed: https://www.youtube.com/embed/videoseries?list=pdi6o5popkU&list=PLDamP-pfOskPRiIXaJLriR0Q0LaXu688M
+embed: https://www.youtube.com/embed/pdi6o5popkU
 embedAtlantic: https://www.theatlantic.com/video/series/visual-histories/
 credits:
 - role: Director / Designer / Animator
