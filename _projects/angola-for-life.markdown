@@ -5,9 +5,10 @@ awards:
 - image: "/uploads/Magazine.svg"
 - image: "/uploads/WebbyAward.svg"
 description: 'In this Atlantic original documentary, national correspondent Jeffrey
-  Goldberg goes inside Angola to speak with inmates and with warden Burl Cain, who
-  has managed the prison for two decades. Cain and his colleagues grapple with a crucial
-  question: What does rehabilitation look like when you’re locked away for life?'
+  Goldberg goes inside the Louisiana State Penitentiary at Angola to speak with inmates
+  and with warden Burl Cain, who has managed the prison for two decades. Cain and
+  his colleagues grapple with a crucial question: What does rehabilitation look like
+  when you’re locked away for life?'
 label: AngolaForLife
 image: "/uploads/AngolaForLifeCover.png"
 type: Documentary
