@@ -3,9 +3,14 @@ title: The Contract Buyers League
 date: 2014-05-20 20:00:00 -04:00
 awards:
 - image: "/uploads/Magazine.svg"
-description: In this short documentary, Ross, Lewis, Weatherspoon, and a community
-  organizer named Jack Macnamara recount the story of how they formed the Contract
-  Buyers League and fought back.
+description: When Clyde Ross, Mattie Lewis, and Ethel Weatherspoon settled in the
+  West-side neighborhood of North Lawndale, Chicago, they hoped to achieve the American
+  dream of owning a home. At the time, however, federal policies known as redlining
+  prevented African Americans from getting real mortgages, forcing them to buy from
+  real-estate speculators “on contract.” These contracts, homeowners soon discovered,
+  turned out to be a scam. In this short documentary, The Atlantic goes inside the
+  battle for fair housing in 1960s Chicago as Ross, Lewis, Weatherspoon, and a community
+  organizer named Jack Macnamara recount the story of how they fought back.
 label: ContractBuyersLeague
 image: "/uploads/ContractBuyersCover.png"
 type: Documentary
@@ -21,4 +26,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-When Clyde Ross, Mattie Lewis, and Ethel Weatherspoon settled in the West-side neighborhood of North Lawndale, they hoped to achieve the American dream of owning a home. At the time, however, federal policies known as redlining prevented blacks from getting real mortgages, forcing them to buy from real-estate speculators "on contract." The contracts, homeowners soon discovered, turned out to be a scam. In this short documentary, Ross, Lewis, Weatherspoon, and a community organizer named Jack Macnamara recount the story of how they formed the Contract Buyers League and fought back.
+When Clyde Ross, Mattie Lewis, and Ethel Weatherspoon settled in the West-side neighborhood of North Lawndale, Chicago, they hoped to achieve the American dream of owning a home. At the time, however, federal policies known as redlining prevented African Americans from getting real mortgages, forcing them to buy from real-estate speculators “on contract.” These contracts, homeowners soon discovered, turned out to be a scam. In this short documentary, The Atlantic goes inside the battle for fair housing in 1960s Chicago as Ross, Lewis, Weatherspoon, and a community organizer named Jack Macnamara recount the story of how they fought back.
