@@ -5,7 +5,12 @@ awards:
 - image: "/uploads/AltRight.svg"
 - image: "/uploads/BestShorts.svg"
 - image: "/uploads/American.svg"
-description: A documentary from the Atlantic about the Alt Right and Richard Spencer.
+description: In November of 2016, Richard B. Spencer greeted an audience of more than
+  200 at an alt-right conference in Washington D.C. with the cry, “Hail Trump, hail
+  our people, hail victory!” He was met with enthusiastic cheers and Nazi salutes.
+  The Atlantic was there, and the clip made headlines. In this documentary, we dig
+  deeper into Spencer’s ethnocentric worldview to understand what his plans are for
+  the so-called alt-right—namely, to bring white nationalism out of the shadows.
 label: RebrandingWhiteNationalism
 image: "/uploads/AltRightCover.png"
 type: Documentary
