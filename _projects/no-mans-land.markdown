@@ -4,10 +4,11 @@ date: 2017-01-28 10:17:00 -05:00
 awards:
 - image: "/uploads/Murrow.svg"
 - image: "/uploads/Headliner.svg"
-description: There's a small stretch of soil north of the Rio Grande river that's
+description: There’s a small stretch of land north of the Rio Grande river that’s
   still part of the United States, but exists below the Mexican border wall. The Atlantic
   went inside this no-man’s-land to uncover what life is like in a place that feels
-  like not-quite America, but not-quite Mexico.
+  like not-quite America, but not-quite Mexico. As it turns out, people live there—and
+  they have varying opinions about the idea of the wall.
 label: NoMansLand
 image: "/uploads/NoMansLandCover.png"
 type: Documentary
@@ -25,4 +26,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-There's a small stretch of soil north of the Rio Grande river that's still part of the United States, but exists below the Mexican border wall. The Atlantic went inside this no-man’s-land to uncover what life is like in a place that feels like not-quite America, but not-quite Mexico.
+There’s a small stretch of land north of the Rio Grande river that’s still part of the United States, but exists below the Mexican border wall. The Atlantic went inside this no-man’s-land to uncover what life is like in a place that feels like not-quite America, but not-quite Mexico. As it turns out, people live there—and they have varying opinions about the idea of the wall.
