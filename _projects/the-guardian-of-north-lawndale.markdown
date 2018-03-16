@@ -3,8 +3,12 @@ title: The Guardian of North Lawndale
 date: 2014-05-21 10:24:00 -04:00
 awards:
 - image: "/uploads/Magazine.svg"
-description: In this short documentary from The Atlantic, Brooks reflects on his philosophy
-  of supporting young people through tough love.
+description: In a neighborhood where 43 percent of residents live below the poverty
+  line, Billy Lamar Brooks Sr. is trying to help kids build a future. Brooks grew
+  up in North Lawndale and has spent his adult life working as an activist and educator
+  in the community, which he describes as the “poorest of the poor in the city of
+  Chicago.” In this short documentary, Brooks reflects on his philosophy of supporting
+  young people through tough love.
 label: NorthLawndale
 image: "/uploads/NorthLawndaleCover.png"
 type: Documentary
@@ -22,4 +26,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-In a neighborhood where 43 percent of residents live below the poverty line, Billy Lamar Brooks Sr. is trying to help kids build a future. Brooks grew up in North Lawndale and has spent his adult life working as an activist and educator in the community. In this short documentary, Brooks reflects on his philosophy of supporting young people through tough love.
+In a neighborhood where 43 percent of residents live below the poverty line, Billy Lamar Brooks Sr. is trying to help kids build a future. Brooks grew up in North Lawndale and has spent his adult life working as an activist and educator in the community, which he describes as the “poorest of the poor in the city of Chicago.” In this short documentary, Brooks reflects on his philosophy of supporting young people through tough love.
