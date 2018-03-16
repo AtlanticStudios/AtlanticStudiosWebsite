@@ -1,8 +1,10 @@
 ---
 title: The First Lady of ISIS
 date: 2017-11-03 09:46:00 -04:00
-description: Tania Georgelas, the ex-wife of the highest-ranking American member of
-  ISIS, reckons with her extremist past and attempts to build a new life.
+description: 'Based on original reporting from Graeme Wood (The Way of the Strangers:
+  Encounters with the Islamic State), the documentary The First Lady of ISIS details
+  Tania’s experience with extremism and subsequent return to the United States to
+  build a new life in Plano, Texas.'
 label: TaniaISIS
 image: "/uploads/ISISCover.png"
 type: Documentary
@@ -26,4 +28,6 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Tania Georgelas, the ex-wife of the highest-ranking American member of ISIS, reckons with her extremist past and attempts to build a new life.
+Just a few years ago, Tania Georgelas was living in Syria and married to John Georgelas, who would become [the most influential American member of ISIS.](https://www.theatlantic.com/magazine/archive/2017/03/the-american-leader-in-the-islamic-state/510872/) Together, they traveled the globe, befriending jihadis and grooming their children to become “assassins.” But after ten years of living on the run, Tania began to fear for her family’s safety. That’s when she says her husband abandoned her "to become the next Osama bin Laden.” 
+
+Based on original reporting from Graeme Wood (The Way of the Strangers: Encounters with the Islamic State), the documentary The First Lady of ISIS details Tania’s experience with extremism and subsequent return to the United States to build a new life in Plano, Texas.
