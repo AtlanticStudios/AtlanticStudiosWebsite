@@ -27,4 +27,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Since being established nine years ago, ChurchMilitant.com (then St. Michaels Media) has grown from a tiny media outfit on the fringes of the Catholic world to a 35-person powerhouse reaching an estimated 1.5 million viewers a month. Michael Voris, the founder of Church Militant, is fighting what he sees as the “tyranny” of a liberal America. But, Voris—charismatic, pious, untiring—is grappling with his own complicated past.
+Since its establishment a decade ago, ChurchMilitant.com (then St. Michaels Media) has grown from a tiny media outfit on the fringes of the Catholic world to a 35-person powerhouse reaching an estimated 1.5 million viewers a month. Michael Voris, the founder of Church Militant, is fighting what he sees as the “tyranny” of a liberal America. But Voris—charismatic, pious, and untiring—is grappling with his own complicated past. The documentary Church Militant explores the inner workings of Church Militant and the way in which the organization may or may not reflect its founder’s personal struggles.
