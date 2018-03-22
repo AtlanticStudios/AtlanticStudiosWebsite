@@ -1,6 +1,6 @@
 ---
-layout: about
 title: About
+layout: about
 navigation: About
 description: Atlantic Studios is an award-winning production company owned by The
   Atlantic, developing and producing premium content reaching millions globally each
