@@ -1,9 +1,3 @@
----
-title: Contact
-navigation: Contact
-description: Contact information for Atlantic Studios.
----
-
 <!DOCTYPE html>
 <html>
 
@@ -14,8 +8,14 @@ description: Contact information for Atlantic Studios.
   {% include nav.html %}
 
   <div class="container open">
+    <!-- <div class="description">
+      <p>
+        {{ page.description }}
+      </p>
+    </div> -->
+    {% include filter.html %}
     {% include menuButton.html %}
-    {% include contact.html %}
+    {% include grid.html %}
     {% include footer.html %}
   </div>
 </body>
