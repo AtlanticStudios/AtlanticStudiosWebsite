@@ -1,6 +1,6 @@
 ---
 title: Contact
-position: 2
+position: 3
 navigation: Contact
 description: Contact information for Atlantic Studios.
 ---

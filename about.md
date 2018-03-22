@@ -1,6 +1,6 @@
 ---
 title: About
-position: 3
+position: 1
 layout: about
 navigation: About
 description: Atlantic Studios is an award-winning production company owned by The
