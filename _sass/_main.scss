@@ -14,6 +14,7 @@ html {
       z-index: 9;
       // box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.29);
       overflow-y: scroll;
+      overflow-x: hidden;
       transition: 0.3s;
 
       &.open {

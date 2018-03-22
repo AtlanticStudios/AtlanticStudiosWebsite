@@ -1,7 +1,4 @@
 ---
----
-
----
 title: Atlantic Studios Website
 timezone: America/New_York
 collections:
@@ -123,3 +120,6 @@ kramdown:
   hard_wrap: false
   footnote_nr: 1
 repository: attharmirza/AtlanticStudiosWebsite
+sass:
+  sass_dir: _sass
+  style: compressed
