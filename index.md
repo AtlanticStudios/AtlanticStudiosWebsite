@@ -1,5 +1,6 @@
 ---
 title: Welcome
+position: 0
 layout: index
 navigation: Home
 description: Since 1857, The Atlantic has shaped the national debate on politics,
