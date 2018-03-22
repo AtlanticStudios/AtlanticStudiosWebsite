@@ -14,7 +14,7 @@
     <h2>With Support From</h2>
     <div class="partnersGrid">
       <div class="partnersGridSizer"></div>
-      {% assign sortedPartners = (site.partners | sort: 'position') %}
+      {% assign sortedPartners = site.partners | sort: 'position' %}
       {% for partner in sortedPartners %}
       <div class="partnerObject">
         <img src="{{ site.baseurl }}{{ partner.image }}" />
@@ -27,7 +27,7 @@
     <h2>Recognition</h2>
     <div class="awardsGrid">
       <div class="awardsGridSizer"></div>
-      {% assign sortedAwards = (site.awards | sort: 'position') %}
+      {% assign sortedAwards = site.awards | sort: 'position' %}
       {% for award in sortedAwards %}
       <div class="awardObject">
         <img src="{{ site.baseurl }}{{ award.image }}" />
@@ -44,7 +44,7 @@
     <h2>Team</h2>
     <div class="teamGrid">
       <div class="teamGridSizer"></div>
-      {% assign sortedPeople = (site.people | sort: 'position') %}
+      {% assign sortedPeople = site.people | sort: 'position' %}
       {% for person in sortedPeople %}
       <div class="teamMember">
         <a href="{{ person.link }}" target="_blank"><img src="{{ site.baseurl }}{{ person.image }}" /></a>

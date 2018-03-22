@@ -73,7 +73,6 @@ destination: "./_site"
 plugins_dir: _plugins
 layouts_dir: _layouts
 data_dir: _data
-includes_dir: includes
 safe: false
 include:
 - ".htaccess"
@@ -103,7 +102,7 @@ incremental: false
 detach: false
 port: 4000
 host: 127.0.0.1
-baseurl: 
+baseurl:
 show_dir_listing: false
 permalink: date
 paginate_path: "/page:num"

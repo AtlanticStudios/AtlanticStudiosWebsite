@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+{% include info.html %}
+
+<body>
+  {% include logo.html %}
+  {% include nav.html %}
+
+  <div class="container open">
+    {% include menuButton.html %}
+    <div class="about">
+      <div class="leadImage"></div>
+      <div class="aboutSection" id="aboutUS">
+        <h2>About Us</h2>
+        {{ content }}
+      </div>
+
+      <div class="aboutSection" id="partners">
+        <h2>With Support From</h2>
+        <div class="partnersGrid">
+          <div class="partnersGridSizer"></div>
+          {% assign sortedPartners = site.partners | sort: 'position' %}
+          {% for partner in sortedPartners %}
+          <div class="partnerObject">
+            <img src="{{ site.baseurl }}{{ partner.image }}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="aboutSection" id="rewards">
+        <h2>Recognition</h2>
+        <div class="awardsGrid">
+          <div class="awardsGridSizer"></div>
+          {% assign sortedAwards = site.awards | sort: 'position' %}
+          {% for award in sortedAwards %}
+          <div class="awardObject">
+            <img src="{{ site.baseurl }}{{ award.image }}" />
+            <p><b>{{ award.title }}</b></p>
+            {% for item in award.details %}
+            <p>{{ item }}</p>
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="aboutSection" id="team">
+        <h2>Team</h2>
+        <div class="teamGrid">
+          <div class="teamGridSizer"></div>
+          {% assign sortedPeople = site.people | sort: 'position' %}
+          {% for person in sortedPeople %}
+          <div class="teamMember">
+            <a href="{{ person.link }}" target="_blank"><img src="{{ site.baseurl }}{{ person.image }}" /></a>
+            <p><b>{{ person.title }}</b></p>
+            <p>{{ person.role }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ site.baseurl }}/scripts/myLeadImage.js"></script>
+    <script>
+    $(document).ready(function() {
+
+      $('.partnersGrid').masonry({
+        itemSelector: '.partnerObject',
+        columnWidth: '.partnersGridSizer',
+        gutter: 10,
+        isAnimated: true,
+        percentPosition: true,
+        animationOptions: {
+          duration: 200,
+          easing: 'swing',
+          queue: false
+        }
+      });
+
+      $('.awardsGrid').masonry({
+        itemSelector: '.awardObject',
+        columnWidth: '.awardsGridSizer',
+        gutter: 10,
+        isAnimated: true,
+        percentPosition: true,
+        animationOptions: {
+          duration: 200,
+          easing: 'swing',
+          queue: false
+        }
+      });
+
+      $('.teamGrid').masonry({
+        itemSelector: '.teamMember',
+        columnWidth: '.teamGridSizer',
+        gutter: 10,
+        isAnimated: true,
+        percentPosition: true,
+        animationOptions: {
+          duration: 200,
+          easing: 'swing',
+          queue: false
+        }
+      });
+
+    });
+    </script>
+
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>
+
+<!-- Site Designed and Coded by Atthar Mirza for Atlantic Studios © 2017 -->
