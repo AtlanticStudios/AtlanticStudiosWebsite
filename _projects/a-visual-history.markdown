@@ -1,6 +1,7 @@
 ---
-title: A Visual History
+title: Visual Histories
 date: 2018-02-09 20:00:00 -05:00
+titleLong: Visual Histories
 navigation: Watch
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
@@ -17,4 +18,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-From the wonders hidden in the mundane to monumental figures that changed nations, the A Visual History series lets us watch the most interesting evolutions of our world play out in a matter of minutes.
+From the wonders hidden in the mundane to monumental figures that changed nations, *A Visual History* series depicts the most interesting evolutions of our world in a matter of minutes.
