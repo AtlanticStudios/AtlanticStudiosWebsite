@@ -1,6 +1,7 @@
 ---
 title: You Are Here
 date: 2017-05-25 10:56:00 -04:00
+titleLong: You Are Here
 description: A video series by The Atlantic about the incredible science behind everyday
   life. Topics range from shopping psychology, explaining why Americans smile so much,
   and the social science of swearing.
