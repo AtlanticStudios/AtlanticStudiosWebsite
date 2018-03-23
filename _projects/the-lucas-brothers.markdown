@@ -1,9 +1,10 @@
 ---
 title: The Lucas Brothers
 date: 2017-11-20 10:02:00 -05:00
+titleLong: 'The Lucas Brothers: Comedy is Therapy'
 description: Growing up in Newark, New Jersey, the Lucas brothers were surrounded
   by violence and drugs. Amidst the chaos of public housing and abject poverty, television
-  was a constant and laughter an escape. In a recent interview with The Atlantic,
+  was a constant and laughter an escape. In a recent animated interview with The Atlantic,
   the twins said that at an early age, they learned the power of comedy. Now, the
   successful comedians see their work as more than simply a vocation.
 label: LucasBros
@@ -25,4 +26,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Growing up in Newark, New Jersey, the Lucas brothers were surrounded by violence and drugs. Amidst the chaos of public housing and abject poverty, television was a constant and laughter an escape. In a recent interview with The Atlantic, animated above, the twins said that at an early age, they learned the power of comedy. Now, the successful comedians see their work as more than simply a vocation.
+Growing up in Newark, New Jersey, the Lucas brothers were surrounded by violence and drugs. Amidst the chaos of public housing and abject poverty, television was a constant and laughter an escape. In a recent animated interview with The Atlantic, the twins said that at an early age, they learned the power of comedy. Now, the successful comedians see their work as more than simply a vocation.
