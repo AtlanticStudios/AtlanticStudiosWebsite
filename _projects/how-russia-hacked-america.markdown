@@ -4,8 +4,11 @@ date: 2017-12-11 10:41:00 -05:00
 awards:
 - image: "/uploads/StaffPick.svg"
 description: 'During the 2016 presidential campaign, Russian hackers attacked the
-  U.S. on two fronts: the psychological and the technical. This animation from The
-  Atlantic explains how.'
+  U.S. on two fronts\: the psychological and the technical. Hackers used classic propaganda
+  techniques to influence American voters, bought thousands of social media ads to
+  propagate fake news, and broke into Democratic party email servers to steal information.
+  And it won’t be the last time. Russian-backed psychological cyber warfare will only
+  get better, and its methods more sophisticated, as explained in this animated video.'
 label: RussiaHacking
 image: "/uploads/RussiaCover.png"
 type: Animation
@@ -27,4 +30,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-During the 2016 presidential campaign, Russian hackers attacked the U.S. on two fronts: the psychological and the technical. Hackers used classic propaganda techniques to influence American voters, bought thousands of social media ads to propagate fake news, and broke into Democratic party email servers to steal information. And it won't be the last time. Russian-backed psychological cyber warfare will only get better, and its methods more sophisticated.
+During the 2016 presidential campaign, Russian hackers attacked the U.S. on two fronts\: the psychological and the technical. Hackers used classic propaganda techniques to influence American voters, bought thousands of social media ads to propagate fake news, and broke into Democratic party email servers to steal information. And it won’t be the last time. Russian-backed psychological cyber warfare will only get better, and its methods more sophisticated, as explained in this animated video.
