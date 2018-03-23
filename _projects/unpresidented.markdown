@@ -1,8 +1,10 @@
 ---
 title: Unpresidented
 date: 2017-01-20 10:48:00 -05:00
-description: Unpresidented explores a new era of American politics, covering everything
-  from Trump's tweets to perspectives on discrimination.
+titleLong: Unpresidented
+description: This animated series dissects the new era of American politics, covering
+  everything from Trump’s tweets to whether or not presidents can take credit for
+  the stock market.
 label: Unpresidented
 image: "/uploads/UnpresidentedCover_v2-577d96.png"
 type: Series
@@ -26,4 +28,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Unpresidented explores a new era of American politics, covering everything from Trump's tweets to perspectives on discrimination.
+This animated series dissects the new era of American politics, covering everything from Trump’s tweets to whether or not presidents can take credit for the stock market.
