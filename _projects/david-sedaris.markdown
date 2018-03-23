@@ -4,7 +4,9 @@ date: 2017-10-19 10:45:00 -04:00
 description: "“When you first start writing, you’re going to suck,” says David Sedaris
   in a recent interview with The Atlantic. In this animated video, Sedaris reveals
   that he kept a diary for seven years before he started writing stories and sharing
-  them publicly."
+  them publicly. “More people are documenting their lives now,” he continues. “The
+  difference is the degree to which they’re sharing. And there’s a lot to be said
+  for not putting things out there.”"
 label: DavidSedaris
 image: "/uploads/SedarisCover.png"
 type: Animation
