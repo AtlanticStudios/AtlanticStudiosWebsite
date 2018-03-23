@@ -51,6 +51,10 @@
     margin: 0 0 10px;
   }
 
+  img {
+    width: 100%;
+  }
+
   @media screen and (max-width: $screen-small) {
     display: none;
   }
@@ -97,6 +101,10 @@
   .break {
     display: none;
     // text-align: center;
+  }
+
+  img {
+    width: 100%;
   }
 
   &:hover {
