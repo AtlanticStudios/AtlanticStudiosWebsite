@@ -1,6 +1,7 @@
 ---
 title: Frontiers of Sports
 date: 2017-10-24 03:19:00 -04:00
+titleLong: Frontiers of Sports
 awards:
 - image: "/uploads/FlagStaff.svg"
 - image: "/uploads/Telluride.svg"
