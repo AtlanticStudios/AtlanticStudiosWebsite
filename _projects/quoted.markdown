@@ -1,7 +1,11 @@
 ---
 title: Quoted
 date: 2017-06-30 10:34:00 -04:00
-description: A video series covering the big ideas from the 2017 Aspen Ideas Festival.
+titleLong: Quoted
+description: At the 2017 Aspen Ideas Festival, The Atlantic interviewed professionals
+  at the vanguard of their disciplines in technology, science, media, and politics.
+  In this animated series, learn why artificial intelligence is not scary, why young
+  Americans are questioning democracy, advice for raising resilient kids, and more.
 label: Quoted
 image: "/uploads/QuotedCover.png"
 type: Series
