@@ -1,8 +1,12 @@
 ---
 title: Mona Lisa's Smile
 date: 2017-10-06 10:06:00 -04:00
-description: Here’s how Leonardo Da Vinci brought the Mona Lisa to life. The video
-  takes us through the science behind Mona Lisa's elusive smile.
+titleLong: Mona Lisa's Smile
+description: We may think of Leonardo Da Vinci as an artist, but he was also a scientist.
+  By incorporating anatomy, chemistry, and optics into his artistic process, Da Vinci
+  created an augmented reality experience centuries before the concept even existed.
+  This animated video details how Da Vinci made the Mona Lisa interactive using innovative
+  painting techniques and the physiology of the human eye.
 label: MonaLisaSmile
 image: "/uploads/MonaLisaCover.png"
 type: Animation
@@ -22,4 +26,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Here’s how Leonardo Da Vinci brought the Mona Lisa to life. The video takes us through the science behind Mona Lisa's elusive smile.
+We may think of Leonardo Da Vinci as an artist, but he was also a scientist. By incorporating anatomy, chemistry, and optics into his artistic process, Da Vinci created an augmented reality experience centuries before the concept even existed. This animated video details how Da Vinci made the Mona Lisa interactive using innovative painting techniques and the physiology of the human eye.

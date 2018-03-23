@@ -1,6 +1,7 @@
 ---
 title: The Myth of Black Criminality
 date: 2015-09-13 20:00:00 -04:00
+titleLong: The Myth of Black Criminality
 awards:
 - image: "/uploads/StaffPick.svg"
 description: Ta-Nehisi Coates explores how mass incarceration has affected African

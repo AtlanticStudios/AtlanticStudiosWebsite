@@ -1,6 +1,7 @@
 ---
 title: Medicaid Cuts
 date: 2017-07-14 00:00:00 -04:00
+titleLong: Medicaid Cuts
 description: For this short documentary, produced as a project for the USC Center
   for Health Journalism’s California Fellowship, The Atlantic traveled to the heart
   of the disability rights movement in the San Francisco Bay Area to learn why some

@@ -1,9 +1,10 @@
 ---
 title: You Are Here
 date: 2017-05-25 10:56:00 -04:00
-description: A video series by The Atlantic about the incredible science behind everyday
-  life. Topics range from shopping psychology, explaining why Americans smile so much,
-  and the social science of swearing.
+titleLong: You Are Here
+description: Why do Americans smile so much? Does swearing make you more likeable?
+  What makes things “cool”? This video series explores the incredible science behind
+  everyday life.
 label: Series
 image: "/uploads/YouAreHereCover.png"
 type: Series
@@ -37,4 +38,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-A video series by The Atlantic about the incredible science behind everyday life. Topics range from shopping psychology, explaining why Americans smile so much, and the social science of swearing.
+Why do Americans smile so much? Does swearing make you more likeable? What makes things “cool”? This video series explores the incredible science behind everyday life.

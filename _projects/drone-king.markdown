@@ -1,10 +1,14 @@
 ---
 title: Drone King
 date: 2017-09-12 03:04:00 -04:00
-description: The Atlantic is printing “The Drone King” for the first time this fall.
-  This piece is an animated excerpt of a passage from the story where an intrepid
-  businessman named Sheldon Quick tries to sell his associate on the idea of using
-  bees as inter-office communication.
+titleLong: Drone King
+description: In the 1950s, Kurt Vonnegut wrote a short story that was never published.
+  Recently, editors of a Vonnegut short story collection discovered it while researching
+  old papers. The Atlantic is printed “The Drone King” for the first time in the fall
+  of 2017. In this animated excerpt, the protagonist, an intrepid businessman named
+  Sheldon Quick, tries to sell his associate on the idea of using bees as inter-office
+  communication. The story showcases Vonnegut’s early dry wit and resonates more than
+  ever in an era in which communication is constantly changing.
 label: DroneKing
 image: "/uploads/DroneKingCover.png"
 type: Animation
@@ -32,4 +36,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-In the 1950s, Kurt Vonnegut wrote a short story that he never published. Recently, editors of a Vonnegut short story collection discovered it while researching old papers. The Atlantic is printing “The Drone King” for the first time this fall. This piece is an animated excerpt of a passage from the story where an intrepid businessman named Sheldon Quick tries to sell his associate on the idea of using bees as inter-office communication. The story showcases Vonnegut’s early dry wit and seems more relevant than ever in an era where communication is constantly changing.
+In the 1950s, Kurt Vonnegut wrote a short story that was never published. Recently, editors of a Vonnegut short story collection discovered it while researching old papers. The Atlantic is printed “The Drone King” for the first time in the fall of 2017. In this animated excerpt, the protagonist, an intrepid businessman named Sheldon Quick, tries to sell his associate on the idea of using bees as inter-office communication. The story showcases Vonnegut’s early dry wit and resonates more than ever in an era in which communication is constantly changing.

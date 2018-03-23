@@ -1,8 +1,9 @@
 ---
 title: Women and Leadership
 date: 2016-10-27 10:54:00 -04:00
-description: An Atlantic video series featuring insights from five women in politics,
-  media, and tech.
+titleLong: Women and Leadership
+description: Hear from Samantha Power and other female leaders as they deliver insights
+  on diplomacy, feminism, motherhood, and more.
 label: WomenAndLeadership
 image: "/uploads/WomenAndLeadershipCover.png"
 type: Series
@@ -24,4 +25,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-An Atlantic video series featuring insights from five women in politics, media, and tech.
+Hear from Samantha Power and other female leaders as they deliver insights on diplomacy, feminism, motherhood, and more.

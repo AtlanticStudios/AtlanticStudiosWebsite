@@ -1,7 +1,9 @@
 ---
 title: Bold Questions
-date: 2017-01-30 00:00:00 Z
-description: An animated series about the power of curiosity.
+date: 2017-01-29 19:00:00 -05:00
+titleLong: Bold Questions
+description: This animated series, featuring interviews from Bill Nye, Caitlyn Jenner,
+  and more, exposes the power of curiosity.
 label: BoldQuestions
 image: "/uploads/BoldQuestionsCover.png"
 type: Series
@@ -19,4 +21,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-An animated series about the power of curiosity.
+This animated series, featuring interviews from Bill Nye, Caitlyn Jenner, and more, exposes the power of curiosity.
