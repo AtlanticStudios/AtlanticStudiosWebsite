@@ -1,8 +1,8 @@
 ---
 title: Animalism
 date: 2017-12-27 19:00:00 -05:00
-description: Ed Yong looks at the way animals live and explains the latest groundbreaking
-  research about why mammals evolved to behave in certain ways.
+description: The Atlantic science writer Ed Yong explains the latest groundbreaking
+  research about why mammals evolved to live and behave in certain ways.
 label: Animalism
 image: "/uploads/AnimalismCover.png"
 type: Series
@@ -30,4 +30,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Ed Yong looks at the way animals live and explains the latest groundbreaking research about why mammals evolved to behave in certain ways.
+The Atlantic science writer Ed Yong explains the latest groundbreaking research about why mammals evolved to live and behave in certain ways.
