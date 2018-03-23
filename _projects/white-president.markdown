@@ -1,9 +1,11 @@
 ---
 title: White President
 date: 2017-09-18 10:51:00 -04:00
-description: In this animated excerpt from a recent interview with Coates about his
-  article, the writer explains how tribalism and white supremacy paved the way for
-  Trump.
+titleLong: White President
+description: "“The foundation of Trump’s presidency is the negation of Barack Obama’s
+  legacy,” writes Ta-Nehisi Coates in his feature for The Atlantic’s October 2017
+  issue. In this animated excerpt from a recent interview with Coates about his article,
+  the writer explains how tribalism and white supremacy paved the way for Trump."
 label: WhitePresident
 image: "/uploads/WhitePresidentCover.png"
 type: Animation
@@ -23,4 +25,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-“The foundation of Trump’s presidency is the negation of Barack Obama’s legacy,” writes Ta-Nehisi Coates in his feature for The Atlantic’s October 2017 issue. In this animated excerpt from a recent interview with Coates about his article, the writer explains how tribalism and white supremacy paved the way for Trump. Gallup research shows that white voters overwhelmingly supported the candidate across demographics.
+“The foundation of Trump’s presidency is the negation of Barack Obama’s legacy,” writes Ta-Nehisi Coates in [his feature](https://www.theatlantic.com/magazine/archive/2017/10/the-first-white-president-ta-nehisi-coates/537909/) for The Atlantic’s October 2017 issue. In this animated excerpt from a recent interview with Coates about his article, the writer explains how tribalism and white supremacy paved the way for Trump.
