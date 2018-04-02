@@ -30,4 +30,4 @@ credits:
   name: Kasia Cieplak-Mayr von Baldegg
 ---
 
-Jimmy Chin may be best known as a professional climber, skier, and mountaineer, but his recent foray into photography and filmmaking (Meru) affords him the ability to share what he describes as “some of the deeper meanings and ideas behind climbing.” In this short animation, excerpted from an interview with The Atlantic, Chin describes how a great photograph or film has the unrivaled power to capture the imagination and move people. “In the mountains, the stakes are really high and the risks are very extreme,” says Chin. “My career as a photographer...became part of my obsession to share these incredible stories.”
+This animated series features interviews with exciting athletes at the vanguard of their field.
