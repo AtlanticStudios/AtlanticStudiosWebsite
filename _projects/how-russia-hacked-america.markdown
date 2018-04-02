@@ -1,6 +1,7 @@
 ---
 title: How Russia Hacked America
 date: 2017-12-11 10:41:00 -05:00
+titleLong: How Russia Hacked America
 awards:
 - image: "/uploads/StaffPick.svg"
 description: 'During the 2016 presidential campaign, Russian hackers attacked the
