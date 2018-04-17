@@ -2,6 +2,8 @@
 title: White President
 date: 2017-09-18 10:51:00 -04:00
 titleLong: White President
+awards:
+- image: "/uploads/WebbyAward.svg"
 description: "“The foundation of Trump’s presidency is the negation of Barack Obama’s
   legacy,” writes Ta-Nehisi Coates in his feature for The Atlantic’s October 2017
   issue. In this animated excerpt from a recent interview with Coates about his article,
