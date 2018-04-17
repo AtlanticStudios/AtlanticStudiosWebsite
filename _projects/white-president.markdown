@@ -1,7 +1,7 @@
 ---
 title: White President
 date: 2017-09-18 10:51:00 -04:00
-titleLong: White President
+titleLong: The First White President
 awards:
 - image: "/uploads/WebbyAward.svg"
 description: "“The foundation of Trump’s presidency is the negation of Barack Obama’s
