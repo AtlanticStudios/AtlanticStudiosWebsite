@@ -3,8 +3,9 @@ title: DACA Doctors
 date: 2017-02-02 19:00:00 -05:00
 position: 21
 awards:
-- image: "/uploads/BestShorts.svg"
+- image: "/uploads/Magazine.svg"
 - image: "/uploads/American.svg"
+- image: "/uploads/BestShorts.svg"
 description: 'Deferred Action for Childhood Arrivals, or DACA, is an Obama-era policy
   that granted a work permit and temporary protection from deportation to children
   who came to the U.S. with unregistered parents. Now, the fate of more than 750,000
