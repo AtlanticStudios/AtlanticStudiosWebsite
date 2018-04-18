@@ -8,4 +8,3 @@ description: Since 1857, The Atlantic has shaped the national debate on politics
   production company owned by The Atlantic, developing and producing premium content
   reaching millions globally each week.
 ---
-

@@ -1,7 +1,4 @@
 ---
----
-
----
 title: Atlantic Studios Website
 timezone: America/New_York
 collections:
@@ -77,6 +74,8 @@ destination: "./_site"
 plugins_dir: _plugins
 layouts_dir: _layouts
 data_dir: _data
+plugins:
+- jekyll-paginate-v2
 safe: false
 include:
 - ".htaccess"
@@ -106,7 +105,7 @@ incremental: false
 detach: false
 port: 4000
 host: 127.0.0.1
-baseurl:
+baseurl: 
 show_dir_listing: false
 permalink: date
 paginate_path: "/page:num"
@@ -126,3 +125,6 @@ repository: attharmirza/AtlanticStudiosWebsite
 sass:
   sass_dir: _sass
   style: compressed
+pagination:
+  enabled: true
+  limit: 0

@@ -1,0 +1,16 @@
+<svg id="Next" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <title>next</title>
+  <polyline class="cls-1" points="600 200 900 500 600 800"/>
+  <line class="cls-1" x1="100" y1="500" x2="900" y2="500"/>
+</svg>

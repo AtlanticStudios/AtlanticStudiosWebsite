@@ -1,3 +1,5 @@
+// Grid Styles
+
 .grid {
   display: block;
   width: 900px;
@@ -38,6 +40,52 @@
     }
   }
 }
+
+.gridNavigator {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 900px;
+  height: 40px;
+
+  @media screen and (min-width: $screen-standard) {
+    width: 1500px;
+  }
+  @media screen and (max-width: $screen-small) {
+    width: 600px;
+  }
+  @media screen and (max-width: $screen-mobile) {
+    width: 330px;
+  }
+}
+
+.gridLast {
+  position: absolute;
+  left: 0;
+
+  &.faded {
+    opacity: 0.15;
+  }
+
+  img {
+    height: 40px;
+  }
+}
+
+.gridNext {
+  position: absolute;
+  right: 0;
+
+  &.faded {
+    opacity: 0.15;
+  }
+
+  img {
+    height: 40px;
+  }
+}
+
+// Project Cover Styles
 
 .projectCover {
   width: 100%;

@@ -1,0 +1,18 @@
+<svg id="Last" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <title>last</title>
+  <g>
+    <polyline class="cls-1" points="400 200 100 500 400 800"/>
+    <line class="cls-1" x1="900" y1="500" x2="100" y2="500"/>
+  </g>
+</svg>

@@ -1,7 +1,6 @@
 <div class="gridContainer">
   <div class="grid">
-    {% assign sorted = (site.projects | sort: 'date') | reverse %}
-    {% for project in sorted %}
+    {% for project in paginator.posts %}
 
     <a href="{{ site.baseurl }}{{ project.url }}">
       <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
@@ -30,6 +29,32 @@
 
     {% endfor %}
   </div>
+  {% if paginator.total_pages > 1 %}
+  <div class="gridNavigator">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+      <div class="gridLast">
+      <img src="{{ site.baseurl }}/graphics/last.svg" />
+      </div>
+    </a>
+    {% else %}
+    <div class="gridLast faded">
+      <img src="{{ site.baseurl }}/graphics/last.svg" />
+    </div>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+      <div class="gridNext">
+        <img src="{{ site.baseurl }}/graphics/next.svg" />
+      </div>
+    </a>
+    {% else %}
+    <div class="gridNext faded">
+      <img src="{{ site.baseurl }}/graphics/next.svg" />
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
 </div>
 
 <script src="{{ site.baseurl }}/scripts/myGrid.js"></script>
