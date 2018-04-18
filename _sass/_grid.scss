@@ -59,6 +59,19 @@
   }
 }
 
+.gridPageCounter {
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  // font-size: 0.9em;
+
+  @media screen and (max-width: $screen-mobile) {
+    // font-size: 0.8em;
+  }
+}
+
 .gridLast {
   position: absolute;
   left: 0;

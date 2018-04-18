@@ -31,6 +31,7 @@
   </div>
   {% if paginator.total_pages > 1 %}
   <div class="gridNavigator">
+    <h2 class="gridPageCounter">{{ paginator.page }} of {{ paginator.total_pages }}</h2>
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
       <div class="gridLast">
