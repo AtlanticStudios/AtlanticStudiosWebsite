@@ -1,6 +1,7 @@
 ---
 title: Animalism
 date: 2017-12-27 19:00:00 -05:00
+position: 4
 titleLong: Animalism
 description: The Atlantic science writer Ed Yong explains the latest groundbreaking
   research about why mammals evolved to live and behave in certain ways.

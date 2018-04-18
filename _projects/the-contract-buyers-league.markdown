@@ -1,6 +1,7 @@
 ---
 title: The Contract Buyers League
 date: 2014-05-20 20:00:00 -04:00
+position: 24
 awards:
 - image: "/uploads/Magazine.svg"
 description: When Clyde Ross, Mattie Lewis, and Ethel Weatherspoon settled in the

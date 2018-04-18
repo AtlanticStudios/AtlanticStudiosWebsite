@@ -1,6 +1,7 @@
 ---
 title: Medicaid Cuts
 date: 2017-07-14 00:00:00 -04:00
+position: 20
 titleLong: Medicaid Cuts
 description: For this short documentary, produced as a project for the USC Center
   for Health Journalism’s California Fellowship, The Atlantic traveled to the heart

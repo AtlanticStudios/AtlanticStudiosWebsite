@@ -1,6 +1,7 @@
 ---
 title: Drone King
 date: 2017-09-12 03:04:00 -04:00
+position: 25
 titleLong: Drone King
 description: In the 1950s, Kurt Vonnegut wrote a short story that was never published.
   Recently, editors of a Vonnegut short story collection discovered it while researching

@@ -1,6 +1,7 @@
 ---
 title: Church Militant
 date: 2017-05-11 20:00:00 -04:00
+position: 22
 titleLong: Church Militant
 awards:
 - image: "/uploads/BestShorts.svg"

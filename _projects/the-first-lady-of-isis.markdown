@@ -1,6 +1,7 @@
 ---
 title: The First Lady of ISIS
 date: 2017-11-03 09:46:00 -04:00
+position: 10
 titleLong: The First Lady of ISIS
 description: 'Based on original reporting from Graeme Wood (The Way of the Strangers:
   Encounters with the Islamic State), the documentary The First Lady of ISIS details

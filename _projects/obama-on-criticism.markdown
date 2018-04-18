@@ -1,6 +1,7 @@
 ---
 title: Obama On Criticism
 date: 2017-04-11 10:29:00 -04:00
+position: 27
 titleLong: Obama On Criticism
 description: During his presidency, Barack Obama sat down with The Atlantic’s Ta-Nehisi
   Coates to discuss what it’s like to be a symbol of power—and, as a result, the recipient

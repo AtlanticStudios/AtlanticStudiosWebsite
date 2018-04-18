@@ -1,6 +1,7 @@
 ---
 title: The Lucas Brothers
 date: 2017-11-20 10:02:00 -05:00
+position: 8
 titleLong: 'The Lucas Brothers: Comedy is Therapy'
 description: Growing up in Newark, New Jersey, the Lucas brothers were surrounded
   by violence and drugs. Amidst the chaos of public housing and abject poverty, television

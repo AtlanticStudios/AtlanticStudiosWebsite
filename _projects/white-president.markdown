@@ -1,6 +1,7 @@
 ---
 title: White President
 date: 2017-09-18 10:51:00 -04:00
+position: 1
 titleLong: The First White President
 awards:
 - image: "/uploads/WebbyAward.svg"
