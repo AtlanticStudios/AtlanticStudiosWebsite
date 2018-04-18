@@ -27,3 +27,18 @@
 </div>
 
 <script src="{{ site.baseurl }}/scripts/myFilter.js"></script>
+<script>
+  $(document).ready(function() {
+    var cookies = document.cookie;
+
+    if (cookies.search('filter=All') > -1) {
+      $('#filterAll').click();
+    } else if (cookies.search('filter=Documentary') > -1) {
+      $('#filterDocumentary').click();
+    } else if (cookies.search('filter=Animation') > -1) {
+      $('#filterAnimation').click();
+    } else if (cookies.search('filter=Series') > -1) {
+      $('#filterSeries').click();
+    }
+  });
+</script>

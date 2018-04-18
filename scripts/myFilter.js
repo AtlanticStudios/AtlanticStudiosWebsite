@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  console.log(document.cookie);
+
   $('#filterAll').click(function() {
     // $('.filterSlider').addClass('left');
     // $('.filterSlider').css('width');
@@ -17,6 +19,8 @@ $(document).ready(function() {
     $('#filterDocumentary').find('p').css('color', '#1d1d1d');
     $('#filterAnimation').find('p').css('color', '#1d1d1d');
     $('#filterSeries').find('p').css('color', '#1d1d1d');
+
+    document.cookie = "filter=All; path=/";
 
     $('.grid').masonry({
       itemSelector: '.grid-item',
@@ -49,6 +53,9 @@ $(document).ready(function() {
     $('#filterAnimation').find('p').css('color', '#1d1d1d');
     $('#filterSeries').find('p').css('color', '#1d1d1d');
 
+    document.cookie = "filter=Documentary; path=/";
+
+
     $('.grid').masonry({
       itemSelector: '.grid-item',
       columnWidth: 150,
@@ -80,6 +87,8 @@ $(document).ready(function() {
     $('#filterAnimation').find('p').css('color', '#f3194b')
     $('#filterSeries').find('p').css('color', '#1d1d1d');
 
+    document.cookie = "filter=Animation; path=/";
+
     $('.grid').masonry({
       itemSelector: '.grid-item',
       columnWidth: 150,
@@ -110,6 +119,8 @@ $(document).ready(function() {
     $('#filterDocumentary').find('p').css('color', '#1d1d1d');
     $('#filterAnimation').find('p').css('color', '#1d1d1d');
     $('#filterSeries').find('p').css('color', '#f3194b');
+
+    document.cookie = "filter=Series; path=/";
 
     $('.grid').masonry({
       itemSelector: '.grid-item',
