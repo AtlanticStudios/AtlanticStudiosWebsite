@@ -1,6 +1,7 @@
 ---
 title: Rebranding White Nationalism
 date: 2016-12-20 19:00:00 -05:00
+position: 23
 titleLong: Rebranding White Nationalism
 awards:
 - image: "/uploads/AltRight.svg"

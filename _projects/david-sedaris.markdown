@@ -1,6 +1,7 @@
 ---
 title: David Sedaris
 date: 2017-10-19 10:45:00 -04:00
+position: 26
 description: "“When you first start writing, you’re going to suck,” says David Sedaris
   in a recent interview with The Atlantic. In this animated video, Sedaris reveals
   that he kept a diary for seven years before he started writing stories and sharing

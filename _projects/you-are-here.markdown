@@ -1,6 +1,7 @@
 ---
 title: You Are Here
 date: 2017-05-25 10:56:00 -04:00
+position: 0
 titleLong: You Are Here
 description: Why do Americans smile so much? Does swearing make you more likeable?
   What makes things “cool”? This video series explores the incredible science behind

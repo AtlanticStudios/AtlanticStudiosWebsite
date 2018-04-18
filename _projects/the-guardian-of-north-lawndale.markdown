@@ -1,6 +1,7 @@
 ---
 title: The Guardian of North Lawndale
 date: 2014-05-21 10:24:00 -04:00
+position: 3
 titleLong: The Guardian of North Lawndale
 awards:
 - image: "/uploads/Magazine.svg"

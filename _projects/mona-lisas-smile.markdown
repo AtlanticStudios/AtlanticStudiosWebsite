@@ -1,6 +1,7 @@
 ---
 title: Mona Lisa's Smile
 date: 2017-10-06 10:06:00 -04:00
+position: 9
 titleLong: Mona Lisa's Smile
 description: We may think of Leonardo Da Vinci as an artist, but he was also a scientist.
   By incorporating anatomy, chemistry, and optics into his artistic process, Da Vinci

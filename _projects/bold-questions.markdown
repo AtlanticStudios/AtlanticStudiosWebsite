@@ -1,6 +1,7 @@
 ---
 title: Bold Questions
 date: 2017-01-29 19:00:00 -05:00
+position: 5
 titleLong: Bold Questions
 description: This animated series, featuring interviews from Bill Nye, Caitlyn Jenner,
   and more, exposes the power of curiosity.

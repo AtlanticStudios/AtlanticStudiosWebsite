@@ -1,6 +1,7 @@
 ---
 title: Roxane Gay
 date: 2017-06-27 10:37:00 -04:00
+position: 18
 description: In Roxane Gay’s new memoir Hunger, the writer details her relationship
   with her body over her life. In this short interview, Gay critiques socially constructed
   beauty norms and how weight has been left out of the new culture of acceptance.

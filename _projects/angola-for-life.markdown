@@ -1,6 +1,7 @@
 ---
 title: Angola for Life
 date: 2015-09-20 20:00:00 -04:00
+position: 2
 titleLong: Angola for Life
 awards:
 - image: "/uploads/Magazine.svg"
