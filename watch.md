@@ -1,6 +1,6 @@
 ---
 title: Watch
-position: 3
+position: 2
 navigation: Watch
 description: Watch some select work from Atlantic Studios.
 pagination:
