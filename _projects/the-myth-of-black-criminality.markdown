@@ -10,7 +10,7 @@ description: Ta-Nehisi Coates explores how mass incarceration has affected Afric
 label: BlackCriminality
 image: "/uploads/BlackCriminalityCover.png"
 type: Animation
-emphasis: 2
+emphasis: 1
 embed: https://player.vimeo.com/video/140681740?color=ffffff&byline=0&portrait=0
 embedAtlantic: https://www.theatlantic.com/video/index/404674/enduring-myth-of-black-criminality/
 credits:
