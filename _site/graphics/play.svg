@@ -1,0 +1,11 @@
+<svg id="PlayTriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>play</title>
+  <path class="cls-1" d="M0,0V1000H1000V0ZM721.708,513.416l-400,200A15,15,0,0,1,300,700V300a15,15,0,0,1,21.708-13.417l400,200a15,15,0,0,1,0,26.833Z"/>
+</svg>
