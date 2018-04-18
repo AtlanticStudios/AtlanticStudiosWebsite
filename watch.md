@@ -6,10 +6,11 @@ navigation: Watch
 description: Watch some select work from Atlantic Studios.
 pagination:
   enabled: true
-  collection: 'projects'
-  permalink: '/watch/page:num.html'
+  collection: projects
+  permalink: "/watch/page:num.html"
   per_page: 10
-  sort_field: 'date'
+  sort_field: date
   sort_reverse: true
-  indexpage: 'watch'
+  indexpage: watch
 ---
+
