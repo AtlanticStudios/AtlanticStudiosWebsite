@@ -4,6 +4,8 @@ date: 2018-02-09 20:00:00 -05:00
 position: 13
 titleLong: A Visual History
 navigation: Watch
+awards:
+- image: "/uploads/StaffPick.svg"
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
 label: AVisualHistory
