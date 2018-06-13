@@ -15,8 +15,14 @@ emphasis: 1
 embed: https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskPRiIXaJLriR0Q0LaXu688M
 embedAtlantic: https://www.theatlantic.com/video/series/visual-histories/
 credits:
-- role: Director / Designer / Animator
+- role: Designer / Animator
   name: Jackie Lay
+- role: Designer / Animator
+  name: Atthar Mirza
+- role: Production Manager
+  name: Brian Jimenez
+- role: Senior Producer
+  name: Ashley Bloom Kenny
 - role: Executive Producer
   name: Kasia Cieplak-Mayr von Baldegg
 ---
