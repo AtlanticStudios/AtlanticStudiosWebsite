@@ -23,9 +23,9 @@
     text-align: left;
 
     @media screen and (max-width: $screen-small) {
-    width: calc(80% + 30px);
-    min-width: initial;
-    max-width: initial;
+      width: calc(80% + 30px);
+      min-width: initial;
+      max-width: initial;
     }
 
     @media screen and (max-width: $screen-mobile) {

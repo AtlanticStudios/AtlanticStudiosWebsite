@@ -63,6 +63,7 @@
     // height: 250px;
     display: block;
     overflow: hidden;
+    border-bottom: solid 3px $color-darkgray;
   }
 
   img {
@@ -115,13 +116,18 @@
   .awardObject {
     width: calc(19% - 5px);
     margin-bottom: 10px;
-    height: 250px;
+    // height: 250px;
     display: block;
     overflow: hidden;
+
+    // variable grid options
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: solid 3px $color-darkgray;
   }
 
   img {
-    width: 100%;
+    width: 80%;
   }
 
   h2 {
@@ -161,7 +167,7 @@
 
   .teamGrid {
     margin-top: 30px;
-    margin-left: 5px;
+    margin-left: 3%;
   }
 
   .teamGridSizer {
@@ -172,8 +178,10 @@
     width: calc(19% - 5px);
     margin-bottom: 10px;
     height: 300px;
+    // height: auto;
     display: block;
     overflow: hidden;
+    // border-bottom: solid 3px $color-darkgray;
   }
 
   img {
