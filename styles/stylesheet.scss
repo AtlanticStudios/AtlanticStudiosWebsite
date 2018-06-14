@@ -1,6 +1,8 @@
 ---
 ---
 
+$baseurl: '{{ site.baseurl }}';
+
 // import fonts and colors
 @import "colors";
 @import "fonts";

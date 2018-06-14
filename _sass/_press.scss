@@ -1,18 +1,12 @@
 .press {
-  padding: 20px 0 0;
+  padding: 30px 0 0;
   vertical-align: top;
   width: 100%;
   min-height: calc(100% - 145px);
   margin: 0;
 
   .pressList {
-    // width: 80%;
-    // max-width: $paragraph-width;
-    // margin: auto;
-    // text-align: left;
-
-    h1, h2 {
-      margin-top: 40px;
+    h1 {
       width: 80%;
       max-width: 600px;
       padding-top: 15px;
@@ -20,10 +14,14 @@
       text-align: left;
 
       border-top: 3px solid $color-darkgray;
+    }
 
-      // @media screen and (max-width: $screen-small) {
-      //   width: 80%;
-      // }
+    h2 {
+      width: 80%;
+      max-width: 600px;
+      // padding-top: 15px;
+      margin: 0 auto 15px;
+      text-align: center;
     }
 
     p {

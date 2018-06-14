@@ -6,6 +6,8 @@ navigation: News
 description: Atlantic Studios work featured in the news.
 ---
 
+## In The News
+
 # 2018
 
 A Visual History of Light receives a Vimeo Staff Pick<br/>
