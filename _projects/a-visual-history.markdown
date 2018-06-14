@@ -8,7 +8,6 @@ awards:
 - image: "/uploads/StaffPick.svg"
 description: A Visual History is a series from the Atlantic exploring the evolution
   of wonders in our world.
-label: AVisualHistory
 image: "/uploads/VisualHistoryCover.png"
 type: Series
 emphasis: 1

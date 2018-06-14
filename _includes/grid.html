@@ -4,7 +4,7 @@
 
     <a href="{{ site.baseurl }}{{ project.url }}">
       <div class="grid-item width{{ project.emphasis }} {{ project.type }}">
-        <div class="projectCover" id="{{ project.label }}">
+        <div class="projectCover" id="{{ project.title | remove: " " | remove: "'" }}">
         </div>
         <div class="projectGradient"></div>
         <div class="projectLabel">
@@ -16,7 +16,7 @@
       </div>
     </a>
     <style>
-    #{{ project.label }} {
+    #{{ project.title | remove: " " | remove: "'" }} {
       /*background-image: url("images/texture.png"), url("/images/covers/{{ project.cover }}.png");*/
       background-image: url({{ site.baseurl }}{{ project.image }});
       /*background-blend-mode: soft-light;*/

@@ -11,9 +11,6 @@ collections:
   people:
     title: People
     output: false
-  posts:
-    title: Posts
-    output: true
   projects:
     title: Projects
     output: true
@@ -29,7 +26,6 @@ defaults:
     awards:
     - image:
     description:
-    label:
     image:
     type:
     emphasis:
@@ -38,12 +34,6 @@ defaults:
     credits:
     - role:
       name:
-- scope:
-    path: ''
-    type: posts
-  values:
-    title:
-    author:
 - scope:
     path: ''
     type: partners
