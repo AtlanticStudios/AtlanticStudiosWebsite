@@ -11,3 +11,4 @@ background-asset: "/uploads/Jun13_v5.mp4"
 layout: index
 ---
 
+This field is not applicable to this page.
