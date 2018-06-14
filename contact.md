@@ -6,7 +6,7 @@ navigation: Contact
 description: Contact information for Atlantic Studios.
 ---
 
-<!-- This text will not show up on the website, it is a comment. -->
+<!-- This text is a "comment," it will not show up on the website. -->
 <!-- The "<br/>" after each line adds a line break, without separating the text into a new paragraph (this keeps the spacing clean). -->
 
 ## Contact Information

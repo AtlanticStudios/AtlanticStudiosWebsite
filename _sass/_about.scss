@@ -198,6 +198,7 @@
     text-align: center;
     margin: 5px 0;
   }
+
   @media screen and (max-width: $screen-mobile) {
     .teamGridSizer {
       width: calc(50% - 5px);
@@ -206,7 +207,7 @@
     .teamMember {
       width: calc(50% - 5px);
       margin-bottom: 10px;
-      height: 300px;
+      height: auto;
     }
   }
 }
