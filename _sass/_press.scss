@@ -1,35 +1,36 @@
 .press {
   padding: 20px 0 0;
-  text-align: center;
   vertical-align: top;
   width: 100%;
-  // min-height: 700px;
-  min-height: calc(100% - 150px);
+  min-height: calc(100% - 145px);
   margin: 0;
 
-  h2 {
-    margin-top: 40px;
-  }
-
-  p {
-    margin-top: 0;
-  }
-
   .pressList {
-    width: calc(50% + 20px);
-    min-width: 500px;
-    max-width: $paragraph-width;
-    margin: auto;
-    text-align: left;
+    // width: 80%;
+    // max-width: $paragraph-width;
+    // margin: auto;
+    // text-align: left;
 
-    @media screen and (max-width: $screen-small) {
-      width: calc(80% + 30px);
-      min-width: initial;
-      max-width: initial;
+    h1, h2 {
+      margin-top: 40px;
+      width: 80%;
+      max-width: 600px;
+      padding-top: 15px;
+      margin: 0 auto 15px;
+      text-align: left;
+
+      border-top: 3px solid $color-darkgray;
+
+      // @media screen and (max-width: $screen-small) {
+      //   width: 80%;
+      // }
     }
 
-    @media screen and (max-width: $screen-mobile) {
-      max-width: 330px;
+    p {
+      margin: 0 auto 20px;
+      width: 80%;
+      max-width: $paragraph-width;
+      text-align: left;
     }
   }
 }
