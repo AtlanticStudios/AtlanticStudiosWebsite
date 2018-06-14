@@ -55,8 +55,12 @@ collections:
         name: "credits"
         widget: "object"
         fields:
-          - {label: "Role", name: "role", widget: "string"}
-          - {label: "Name", name: "name", widget: "string"}
+          - label: "Person"
+            name: "person"
+            widget: "object"
+            fields:
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
   - name: "awards" # Used in routes, e.g., /admin/collections/blog
     label: "Awards" # Used in the UI
     folder: "_awards/" # The path to the folder where the documents are stored
