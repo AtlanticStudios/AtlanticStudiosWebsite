@@ -1,13 +1,12 @@
 ---
 title: Contact
 position: 4
-layout: contact
 navigation: Contact
 description: Contact information for Atlantic Studios.
+layout: contact
 ---
 
-<!-- This text is a "comment," it will not show up on the website. -->
-<!-- The "<br/>" after each line adds a line break, without separating the text into a new paragraph (this keeps the spacing clean). -->
+<!-- The "<br/>" after each line adds a line break, without separating the text into a new paragraph. This keeps the spacing on the site clean. -->
 
 ## Contact Information
 
