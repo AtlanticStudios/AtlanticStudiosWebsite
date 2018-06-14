@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var backgroundImages = [
     // 'Cartwheel.png',
-    'ChurchMilitant.png',
+    // 'ChurchMilitant.png',
     'Corals.png',
     // 'Disability.jpg',
     // 'ISIS.jpg',

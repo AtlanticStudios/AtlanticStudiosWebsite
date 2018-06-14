@@ -33,7 +33,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     @media screen and (max-width: $screen-small) {
-      display: none;
+      // display: none;
     }
   }
 
