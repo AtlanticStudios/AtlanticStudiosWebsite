@@ -1,13 +1,14 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: "/_uploads"
+media_folder: "uploads"
 collections:
   - name: "awards" # Used in routes, e.g., /admin/collections/blog
     label: "Awards" # Used in the UI
-    folder: "_posts" # The path to the folder where the documents are stored
+    folder: "_awards/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: "md" # The file extension the CMS searches for
     fields: # The fields for each document, usually in front matter
       - label: "Title"
         name: "title"
@@ -18,15 +19,33 @@ collections:
       - label: "Details"
         name: "details"
         widget: "list"
-  - name: "partners" # Used in routes, e.g., /admin/collections/blog
-    label: "Partners" # Used in the UI
-    folder: "_partners" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "partners"
+    label: "Partners"
+    folder: "_partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - label: "Title"
         name: "title"
         widget: "string"
       - label: "Image"
         name: "image"
         widget: "image"
+  - name: "people"
+    label: "Staff"
+    folder: "_people"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+      - label: "Staff Page Link"
+        name: "link"
+        widget: "string"
+      - label: "Role"
+        name: "role"
+        widget: "string"
