@@ -16,7 +16,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Navigation, name: navigation, widget: hidden, default: Home}
           - {label: Description (SEO), name: description, widget: text}
-          - {label: Background Video, name: background-asset, widget: image}
+          - {label: Background Video, name: background-asset, widget: file}
       - label: "Press"
         name: "press"
         file: "press.md"
