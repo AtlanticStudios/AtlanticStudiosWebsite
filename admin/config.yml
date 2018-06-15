@@ -1,7 +1,9 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+
 media_folder: "uploads"
+
 collections:
   - name: "projects"
     label: "Projects"
@@ -48,7 +50,7 @@ collections:
       - label: "Awards"
         name: "awards"
         widget: "list"
-        field:
+        fields:
           - label: "Icon"
             name: "image"
             widget: "image"
@@ -60,14 +62,15 @@ collections:
         widget: "markdown"
       - label: "Credits"
         name: "credits"
-        widget: "object"
-        field:
-          - label: "Credits"
-            name: "credits"
-            widget: "object"
-            fields:
-              - {label: Role, name: role, widget: string}
-              - {label: Name, name: name, widget: string}
+        widget: "list"
+        fields:
+          - label: "Role"
+            name: "role"
+            widget: "string"
+          - label: "Name"
+            name: "name"
+            widget: "string"
+
   - name: "awards" # Used in routes, e.g., /admin/collections/blog
     label: "Awards" # Used in the UI
     folder: "_awards/" # The path to the folder where the documents are stored
@@ -88,6 +91,7 @@ collections:
       - label: "Details"
         name: "details"
         widget: "list"
+
   - name: "partners"
     label: "Partners"
     folder: "_partners"
@@ -104,6 +108,7 @@ collections:
         name: "position"
         widget: "number"
         valueType: "int"
+
   - name: "people"
     label: "Staff"
     folder: "_people"

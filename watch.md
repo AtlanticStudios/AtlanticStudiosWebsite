@@ -7,7 +7,7 @@ pagination:
   enabled: true
   collection: projects
   permalink: "/watch/page:num.html"
-  per_page: 13
+  per_page: 20
   sort_field: date
   sort_reverse: true
   indexpage: watch
