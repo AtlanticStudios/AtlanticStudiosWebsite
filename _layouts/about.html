@@ -52,7 +52,7 @@
           {% assign sortedPeople = site.people | sort: 'position' %}
           {% for person in sortedPeople %}
           <div class="teamMember">
-            <a href="{{ person.link }}" target="_blank"><img src="{{ site.baseurl }}{{ person.image }}" /></a>
+            <a href="{{ person.link }}"><img src="{{ site.baseurl }}{{ person.image }}" /></a>
             <p><b>{{ person.title }}</b></p>
             <p>{{ person.role }}</p>
           </div>
@@ -104,7 +104,7 @@
         }
       });
 
-      $('a').attr('target', '_blank');
+      $('.aboutSection').find('a').attr('target', '_blank');
     });
     </script>
 
