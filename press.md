@@ -8,7 +8,7 @@ description: Atlantic Studios work featured in the news.
 
 # 2018
 
-[Digiday - Magazine publishers with video ambitions see YouTube as safer bet than Facebook](https://digiday.com/media/reliable-smaller-video-publishers-see-youtube-safe-harbor/)<br/>
+[Digiday - _Magazine publishers with video ambitions see YouTube as safer bet than Facebook_](https://digiday.com/media/reliable-smaller-video-publishers-see-youtube-safe-harbor/)<br/>
 _May 17, 2018_
 
 Video featured in something<br/>
