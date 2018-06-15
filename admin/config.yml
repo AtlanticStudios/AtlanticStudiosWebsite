@@ -26,6 +26,34 @@ collections:
           - {label: Navigation, name: navigation, widget: hidden, default: News}
           - {label: Description (SEO), name: description, widget: text}
           - {label: Content, name: body, widget: markdown}
+      - label: "Watch"
+        name: "watch"
+        file: "watch.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: watch}
+          - {label: Title, name: title, widget: string}
+          - {label: Navigation, name: navigation, widget: hidden, default: Watch}
+          - {label: Description (SEO), name: description, widget: text}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: Enabled, name: enabled, widget: hidden, default: true}
+              - {label: Collection, name: collection, widget: hidden, default: projects}
+              - {label: Permalink, name: permalink, widget: hidden, default: "/watch/page:num.html"}
+              - {label: Projects Per Page, name: per_page, widget: number, valueType: int, default: 20}
+              - {label: Sort Field, name: sort_field, widget: hidden, default: date}
+              - {label: Project Ordering (Newest First), name: sort_reverse, widget: boolean, default: true}
+              - {label: Index Page, name: indexpage, widget: hidden, default: watch}
+      - label: "About"
+        name: "about"
+        file: "about.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: about}
+          - {label: Title, name: title, widget: string}
+          - {label: Navigation, name: navigation, widget: hidden, default: About}
+          - {label: Description (SEO), name: description, widget: text}
+          - {label: Content, name: body, widget: markdown}
 
   - name: "projects"
     label: "Projects"

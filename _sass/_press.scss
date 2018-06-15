@@ -30,5 +30,13 @@
       max-width: $paragraph-width;
       text-align: left;
     }
+
+    a {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: $color-red;
+    }
   }
 }
