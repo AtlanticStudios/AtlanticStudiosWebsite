@@ -49,7 +49,9 @@ collections:
         name: "awards"
         widget: "list"
         field:
-          - {label: Icon, name: image, widget: image}
+          - label: "Icon"
+            name: "image"
+            widget: "image"
       - label: "Description (SEO)"
         name: "description"
         widget: "text"
