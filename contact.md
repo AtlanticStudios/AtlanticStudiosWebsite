@@ -7,10 +7,12 @@ description: Contact information for Atlantic Studios.
 ## Contact Information
 
 **Washington, DC**
+
 600 New Hampshire Ave  
 Washington, DC 20003  
 
 **New York City, NY**
+
 60 Madison Ave  
 New York, NY 10010  
 
