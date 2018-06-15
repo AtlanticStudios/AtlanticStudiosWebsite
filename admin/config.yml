@@ -5,6 +5,28 @@ backend:
 media_folder: "uploads"
 
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "index"
+        file: "index.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: index}
+          - {label: Title, name: title, widget: string}
+          - {label: Navigation, name: navigation, widget: hidden, default: Home}
+          - {label: Description (SEO), name: description, widget: text}
+          - {label: Background Video, name: background-asset, widget: image}
+      - label: "Press"
+        name: "press"
+        file: "press.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: press}
+          - {label: Title, name: title, widget: string}
+          - {label: Navigation, name: navigation, widget: hidden, default: News}
+          - {label: Description (SEO), name: description, widget: text}
+          - {label: Content, name: body, widget: markdown}
+
   - name: "projects"
     label: "Projects"
     folder: "_projects"
