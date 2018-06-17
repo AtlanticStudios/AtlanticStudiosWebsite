@@ -58,7 +58,7 @@ collections:
               - {label: Permalink, name: permalink, widget: hidden, default: "/watch/page:num.html"}
               - {label: Projects Per Page, name: per_page, widget: number, valueType: int, default: 20}
               - {label: Sort Field, name: sort_field, widget: hidden, default: date}
-              - {label: Project Ordering (Newest First), name: sort_reverse, widget: boolean, default: true}
+              - {label: Project Ordering (Newest First), name: sort_reverse, widget: hidden, default: true}
               - {label: Index Page, name: indexpage, widget: hidden, default: watch}
       - label: "About"
         name: "about"
