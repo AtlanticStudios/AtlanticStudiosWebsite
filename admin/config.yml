@@ -56,10 +56,10 @@ collections:
           - {label: Navigation, name: navigation, widget: hidden, default: About}
           - {label: Description (SEO), name: description, widget: text}
           - {label: Content, name: body, widget: markdown, buttons: ["bold", "italic", "link", "heading-one", "heading-two"]}
-          - {label: Content Section, name:sectionContent, widget: boolean, default: true}
-          - {label: Partners Section, name:sectionPartners, widget: boolean, default: true}
-          - {label: Awards Section, name:sectionAwards, widget: boolean, default: true}
-          - {label: Team Section, name:sectionTeam, widget: boolean, default: true}
+          - {label: Content Section, name: sectionContent, widget: boolean, default: true}
+          - {label: Partners Section, name: sectionPartners, widget: boolean, default: true}
+          - {label: Awards Section, name: sectionAwards, widget: boolean, default: true}
+          - {label: Team Section, name: sectionTeam, widget: boolean, default: true}
       - label: "Contact"
         name: "contact"
         file: "contact.md"
