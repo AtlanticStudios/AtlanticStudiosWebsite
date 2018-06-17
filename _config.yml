@@ -1,5 +1,7 @@
 ---
-title: Atlantic Studios Website
+title: "Atlantic Studios"
+logo: "/graphics/logo.svg"
+favicon: "/favicon.ico"
 timezone: America/New_York
 collections:
   awards:
