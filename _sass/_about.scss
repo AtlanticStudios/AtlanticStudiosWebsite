@@ -167,17 +167,17 @@
 
   .teamGrid {
     margin-top: 30px;
-    margin-left: 3%;
+    margin-left: 1.5%;
   }
 
   .teamGridSizer {
-    width: calc(19% - 5px);
+    width: calc(25% - 10px);
   }
 
   .teamMember {
-    width: calc(19% - 5px);
+    width: calc(25% - 10px);
     margin-bottom: 10px;
-    height: 300px;
+    min-height: 350px;
     // height: auto;
     display: block;
     overflow: hidden;
