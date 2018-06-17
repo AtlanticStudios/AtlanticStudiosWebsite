@@ -11,10 +11,14 @@
     {% include menuButton.html %}
     <div class="about">
       <div class="leadImage"></div>
+
+      {% if page.sectionContent %}
       <div class="aboutSection" id="aboutUS">
         {{ content }}
       </div>
+      {% endif %}
 
+      {% if page.sectionPartners %}
       <div class="aboutSection" id="partners">
         <h2>With Support From</h2>
         <div class="partnersGrid">
@@ -27,7 +31,9 @@
           {% endfor %}
         </div>
       </div>
+      {% endif %}
 
+      {% if page.sectionAwards %}
       <div class="aboutSection" id="rewards">
         <h2>Recognition</h2>
         <div class="awardsGrid">
@@ -44,7 +50,9 @@
           {% endfor %}
         </div>
       </div>
+      {% endif %}
 
+      {% if page.sectionTeam %}
       <div class="aboutSection" id="team">
         <h2>Team</h2>
         <div class="teamGrid">
@@ -59,6 +67,8 @@
           {% endfor %}
         </div>
       </div>
+      {% endif %}
+
     </div>
 
     <script src="{{ site.baseurl }}/scripts/myLeadImage.js"></script>
