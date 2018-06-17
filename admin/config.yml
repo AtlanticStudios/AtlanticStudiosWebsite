@@ -8,7 +8,7 @@ collections:
   - label: "General"
     name: "configs"
     files:
-      - label: "Site Paramaters"
+      - label: "Site Parameters"
         name: "_config"
         file: "_config.yml"
         fields:
