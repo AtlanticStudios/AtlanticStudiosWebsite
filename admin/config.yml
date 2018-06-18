@@ -77,7 +77,7 @@ collections:
           - {label: Team Section, name: sectionTeam, widget: boolean, default: true}
           - label: "Lead Images"
             name: "lead-images"
-            widget: "object"
+            widget: "list"
             field:
               - {label: Image, name: url, widget: image}
       - label: "Contact"
