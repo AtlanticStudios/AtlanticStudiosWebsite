@@ -43,11 +43,6 @@ collections:
           - {label: Navigation, name: navigation, widget: hidden, default: News}
           - {label: Description (SEO), name: description, widget: text}
           - {label: Content, name: body, widget: markdown, buttons: ["bold", "italic", "link", "heading-one", "heading-two"]}
-          - label: "Lead Images"
-            name: "lead-images"
-            widget: "object"
-            fields:
-              - {label: Image, name: url, widget: image}
       - label: "Watch"
         name: "watch"
         file: "watch.md"
