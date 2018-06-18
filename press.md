@@ -4,14 +4,14 @@ title: Press
 navigation: News
 description: Atlantic Studios work featured in the news.
 lead-images:
-  - url: images/backgrounds/Corals.png
-  - url: images/backgrounds/Obama.png
-  - url: images/backgrounds/OJ.png
-  - url: images/backgrounds/Plantation.png
-  - url: images/backgrounds/Space.png
-  - url: images/backgrounds/Tornado.png
-  - url: images/backgrounds/Treehouse.png
-  - url: images/backgrounds/WhitePresident.jpg
+- url: images/backgrounds/Corals.png
+- url: images/backgrounds/Obama.png
+- url: images/backgrounds/OJ.png
+- url: images/backgrounds/Plantation.png
+- url: images/backgrounds/Space.png
+- url: images/backgrounds/Tornado.png
+- url: images/backgrounds/Treehouse.png
+- url: images/backgrounds/WhitePresident.jpg
 ---
 ## In the News
 

@@ -11,14 +11,14 @@ sectionPartners: false
 sectionAwards: true
 sectionTeam: true
 lead-images:
-  - url: images/backgrounds/Corals.png
-  - url: images/backgrounds/Obama.png
-  - url: images/backgrounds/OJ.png
-  - url: images/backgrounds/Plantation.png
-  - url: images/backgrounds/Space.png
-  - url: images/backgrounds/Tornado.png
-  - url: images/backgrounds/Treehouse.png
-  - url: images/backgrounds/WhitePresident.jpg
+- url: images/backgrounds/Corals.png
+- url: images/backgrounds/Obama.png
+- url: images/backgrounds/OJ.png
+- url: images/backgrounds/Plantation.png
+- url: images/backgrounds/Space.png
+- url: images/backgrounds/Tornado.png
+- url: images/backgrounds/Treehouse.png
+- url: images/backgrounds/WhitePresident.jpg
 ---
 
 ## About Us
