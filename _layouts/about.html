@@ -72,7 +72,30 @@
     </div>
 
     <script src="{{ site.baseurl }}/scripts/imagesloaded.min.js"></script>
-    <script src="{{ site.baseurl }}/scripts/myLeadImage.js"></script>
+    <!-- <script src="{{ site.baseurl }}/scripts/myLeadImage.js"></script> -->
+    <script>
+    $(document).ready(function() {
+
+      var backgroundImages = [
+        {% for image in page.lead-images %}
+        "{{ image.url }}",
+        {% endfor %}
+        "spacer"
+      ];
+
+      $('.leadImage').css('background-image', RandomBackgroundImage(backgroundImages));
+
+      function RandomBackgroundImage(imageArray) {
+        var number = Math.floor(Math.random() * (imageArray.length - 1));
+        var image = imageArray[number];
+        var url = 'url("images/texture.png"), url(' + image + ')'
+        // var url = 'url(/images/backgrounds/' + image + ')'
+
+        return url;
+      }
+
+    });
+    </script>
     <script>
     $(document).ready(function() {
 

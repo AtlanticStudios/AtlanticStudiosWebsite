@@ -43,6 +43,11 @@ collections:
           - {label: Navigation, name: navigation, widget: hidden, default: News}
           - {label: Description (SEO), name: description, widget: text}
           - {label: Content, name: body, widget: markdown, buttons: ["bold", "italic", "link", "heading-one", "heading-two"]}
+          - label: "Lead Images"
+            name: "lead-images"
+            widget: "object"
+            fields:
+              - {label: Image, name: url, widget: image}
       - label: "Watch"
         name: "watch"
         file: "watch.md"
@@ -75,6 +80,11 @@ collections:
           - {label: Partners Section, name: sectionPartners, widget: boolean, default: true}
           - {label: Awards Section, name: sectionAwards, widget: boolean, default: true}
           - {label: Team Section, name: sectionTeam, widget: boolean, default: true}
+          - label: "Lead Images"
+            name: "lead-images"
+            widget: "object"
+            fields:
+              - {label: Image, name: url, widget: image}
       - label: "Contact"
         name: "contact"
         file: "contact.md"
