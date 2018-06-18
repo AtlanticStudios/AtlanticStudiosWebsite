@@ -167,6 +167,7 @@ collections:
         name: "position"
         widget: "number"
         valueType: "int"
+        min: 0
       - label: "Image"
         name: "image"
         widget: "image"
@@ -192,6 +193,7 @@ collections:
         name: "position"
         widget: "number"
         valueType: "int"
+        min: 0
 
   - name: "people"
     label: "Staff"
@@ -208,6 +210,7 @@ collections:
         name: "position"
         widget: "number"
         valueType: "int"
+        min: 0
       - label: "Image"
         name: "image"
         widget: "image"

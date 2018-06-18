@@ -110,7 +110,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   footnote_nr: 1
-repository: attharmirza/AtlanticStudiosWebsite
+repository: AtlanticStudios/AtlanticStudiosWebsite
 sass:
   sass_dir: _sass
   style: compressed
