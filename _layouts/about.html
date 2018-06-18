@@ -71,47 +71,50 @@
 
     </div>
 
+    <script src="{{ site.baseurl }}/scripts/imagesloaded.min.js"></script>
     <script src="{{ site.baseurl }}/scripts/myLeadImage.js"></script>
     <script>
     $(document).ready(function() {
 
-      $('.partnersGrid').masonry({
-        itemSelector: '.partnerObject',
-        columnWidth: '.partnersGridSizer',
-        gutter: 10,
-        isAnimated: true,
-        percentPosition: true,
-        animationOptions: {
-          duration: 200,
-          easing: 'swing',
-          queue: false
-        }
-      });
+      $('.about').imagesLoaded(function () {
+        $('.partnersGrid').masonry({
+          itemSelector: '.partnerObject',
+          columnWidth: '.partnersGridSizer',
+          gutter: 10,
+          isAnimated: true,
+          percentPosition: true,
+          animationOptions: {
+            duration: 200,
+            easing: 'swing',
+            queue: false
+          }
+        });
 
-      $('.awardsGrid').masonry({
-        itemSelector: '.awardObject',
-        columnWidth: '.awardsGridSizer',
-        gutter: 10,
-        isAnimated: true,
-        percentPosition: true,
-        animationOptions: {
-          duration: 200,
-          easing: 'swing',
-          queue: false
-        }
-      });
+        $('.awardsGrid').masonry({
+          itemSelector: '.awardObject',
+          columnWidth: '.awardsGridSizer',
+          gutter: 10,
+          isAnimated: true,
+          percentPosition: true,
+          animationOptions: {
+            duration: 200,
+            easing: 'swing',
+            queue: false
+          }
+        });
 
-      $('.teamGrid').masonry({
-        itemSelector: '.teamMember',
-        columnWidth: '.teamGridSizer',
-        gutter: 10,
-        isAnimated: true,
-        percentPosition: true,
-        animationOptions: {
-          duration: 200,
-          easing: 'swing',
-          queue: false
-        }
+        $('.teamGrid').masonry({
+          itemSelector: '.teamMember',
+          columnWidth: '.teamGridSizer',
+          gutter: 10,
+          isAnimated: true,
+          percentPosition: true,
+          animationOptions: {
+            duration: 200,
+            easing: 'swing',
+            queue: false
+          }
+        });
       });
 
       $('.aboutSection').find('a').attr('target', '_blank');
