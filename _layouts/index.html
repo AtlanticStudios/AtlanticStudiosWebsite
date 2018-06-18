@@ -16,6 +16,9 @@
         <video id="video" autoplay loop muted playsinline src="{{ site.baseurl }}{{ page.background-asset }}"></video>
         <img src="{{ site.baseurl }}/images/texture.png"/>
       </div>
+      {% if page.reel-toggle %}
+      {% include playButton.html %}
+      {% endif %}
     </div>
     {% include footerWhite.html %}
   </div>

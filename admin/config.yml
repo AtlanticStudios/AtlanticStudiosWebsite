@@ -32,6 +32,8 @@ collections:
           - {label: Navigation, name: navigation, widget: hidden, default: Home}
           - {label: Description (SEO), name: description, widget: text}
           - {label: Background Video, name: background-asset, widget: file}
+          - {label: Demo Reel (Toggle), name: reel-toggle, widget: boolean, default: false}
+          - {label: Demo Reel (Embed Source URL), name: reel-embed, widget: string}
       - label: "Press"
         name: "press"
         file: "press.md"
