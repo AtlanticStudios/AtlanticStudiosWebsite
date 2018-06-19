@@ -24,7 +24,7 @@ collections:
   - label: "Pages"
     name: "pages"
     editor:
-      preview: false
+      preview: true
     files:
       - label: "Home"
         name: "index"
@@ -105,7 +105,7 @@ collections:
     slug: "{{slug}}"
     extension: "markdown"
     editor:
-      preview: false
+      preview: true
     fields:
       - label: "Layout"
         name: "layout"
@@ -155,6 +155,7 @@ collections:
       - label: "Description (Full)"
         name: "body"
         widget: "markdown"
+        buttons: ["bold", "italic", "link", "heading-one", "heading-two"]
       - label: "Credits"
         name: "credits"
         widget: "list"
