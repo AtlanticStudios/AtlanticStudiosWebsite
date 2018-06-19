@@ -1,35 +1,34 @@
 ---
 title: Quoted
-date: 2017-06-30 10:34:00 -04:00
-position: 11
 titleLong: Quoted
-description: At the 2017 Aspen Ideas Festival, The Atlantic interviewed professionals
-  at the vanguard of their disciplines in technology, science, media, and politics.
-  In this animated series, learn why artificial intelligence is not scary, why young
-  Americans are questioning democracy, advice for raising resilient kids, and more.
-label: Quoted
-image: "/uploads/QuotedCover.png"
-type: Series
+date: 2017-06-30T14:34:00.000Z
+image: /uploads/QuotedCover.png
 emphasis: 1
-embed: https://www.youtube.com/embed/2sjqmi-ISWk
-embedAtlantic: https://www.theatlantic.com/video/series/quoted/
+type: Series
+embedAtlantic: 'https://www.theatlantic.com/video/series/quoted/'
+embed: 'https://www.youtube.com/embed/2sjqmi-ISWk'
+awards: []
+description: >-
+  At the 2017 Aspen Ideas Festival, The Atlantic interviewed professionals at
+  the vanguard of technology, science, media, and politics. In this animated
+  series, learn why artificial intelligence is not scary, why young Americans
+  are questioning democracy, advice for raising resilient kids, and more.
 credits:
-- role: Producer
-  name: Nicolas Pollock
-- role: Animator
-  name: Tynesha Foreman
-- role: Designer / Animator
-  name: Jackie Lay
-- role: Editor
-  name: Sophia Myszkowski
-- role: Editor
-  name: Brianna Pressey
-- role: Production Manager
-  name: Brian Jimenez
-- role: Senior Producer
-  name: Ashley Bloom Kenny
-- role: Executive Producer
-  name: Kasia Cieplak-Mayr von Baldegg
+  - name: Nicolas Pollock
+    role: Producer
+  - name: Tynesha Foreman
+    role: Animator
+  - name: Jackie Lay
+    role: Designer / Animator
+  - name: Sophia Myszkowski
+    role: Editor
+  - name: Brianna Pressey
+    role: Editor
+  - name: Brian Jimenez
+    role: Production Manager
+  - name: Ashley Bloom Kenny
+    role: Senior Producer
+  - name: Kasia Cieplak-Mayr von Baldegg
+    role: Executive Producer
 ---
-
-At the 2017 Aspen Ideas Festival, The Atlantic interviewed professionals at the vanguard of their disciplines in technology, science, media, and politics. In this animated series, learn why artificial intelligence is not scary, why young Americans are questioning democracy, advice for raising resilient kids, and more.
+At the 2017 Aspen Ideas Festival, _The Atlantic_ interviewed professionals at the vanguard of technology, science, media, and politics. In this animated series, learn why artificial intelligence is not scary, why young Americans are questioning democracy, advice for raising resilient kids, and more.
