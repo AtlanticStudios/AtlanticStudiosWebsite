@@ -17,4 +17,4 @@ lead-images:
 
 # 2018
 
-Digiday, "[Magazine Publishers With Video Ambitions See YouTube as Safer Bet Than Facebook](https://digiday.com/media/reliable-smaller-video-publishers-see-youtube-safe-harbor/)," May 17, 2018
+Digiday, "[Magazine Publishers With Video Ambitions See YouTube as Safer Bet Than Facebook](https://digiday.com/media/reliable-smaller-video-publishers-see-youtube-safe-harbor/)," May 17
