@@ -9,8 +9,7 @@ emphasis: 1
 type: Documentary
 embedAtlantic: 'https://www.theatlantic.com/video/index/553913/ice-immigration-detention/'
 embed: 'https://www.youtube.com/embed/Zs-ljkB1TJE'
-awards:
-  - image: /uploads/AFIDocs.svg
+awards: []
 description: >-
   Deportation Nation, a new documentary from The Atlantic, goes behind the
   scenes of America’s sprawling network of detention centers, where 179 people
