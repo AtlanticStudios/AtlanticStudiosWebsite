@@ -5,7 +5,7 @@ titleLong: The Case for Harsh Immigrant Detention
 date: '2018-06-19'
 navigation: Watch
 image: /uploads/immigrantlocupscover.png
-emphasis: 1
+emphasis: 2
 type: Documentary
 embedAtlantic: 'https://www.theatlantic.com/video/index/553913/ice-immigration-detention/'
 embed: 'https://www.youtube.com/embed/Zs-ljkB1TJE'
