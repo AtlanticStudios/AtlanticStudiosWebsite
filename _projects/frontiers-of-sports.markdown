@@ -1,34 +1,34 @@
 ---
 title: Frontiers of Sports
-date: 2017-10-24 03:19:00 -04:00
-position: 6
 titleLong: Frontiers of Sports
-awards:
-- image: "/uploads/FlagStaff.svg"
-- image: "/uploads/Telluride.svg"
-description: Frontiers of Sports is a series from the Atlantic showcasing athletes
-  pushing the boundaries in their fields.
-label: FrontiersOfSports
-image: "/uploads/FrontiersOfSportsCover.png"
-type: Series
+date: 2017-10-24T07:19:00.000Z
+image: /uploads/FrontiersOfSportsCover.png
 emphasis: 1
-embed: https://www.youtube.com/embed/qDuUYaIiuJY
-embedAtlantic: https://www.theatlantic.com/video/index/544403/jimmy-chin-interview-climbing-photography-film/
+type: Series
+embedAtlantic: >-
+  https://www.theatlantic.com/video/index/544403/jimmy-chin-interview-climbing-photography-film/
+embed: 'https://www.youtube.com/embed/qDuUYaIiuJY'
+awards:
+  - image: /uploads/FlagStaff.svg
+  - image: /uploads/Telluride.svg
+description: >-
+  Frontiers of Sports is a series from The Atlantic showcasing athletes pushing
+  the boundaries in their fields.
 credits:
-- role: Design
-  name: Chris Edser
-- role: Animation
-  name: "//kneeon"
-- role: Producer
-  name: Kristina Sorge
-- role: Producer
-  name: Nicolas Pollock
-- role: Production Manager
-  name: Brian Jimenez
-- role: Senior Producer
-  name: Ashley Bloom Kenny
-- role: Executive Producer
-  name: Kasia Cieplak-Mayr von Baldegg
+  - name: Chris Edser
+    role: Design
+  - name: //kneeon
+    role: Animation
+  - name: Kristina Sorge
+    role: Producer
+  - name: Nicolas Pollock
+    role: Producer
+  - name: Brian Jimenez
+    role: Production Manager
+  - name: Ashley Bloom Kenny
+    role: Senior Producer
+  - name: Kasia Cieplak-Mayr von Baldegg
+    role: Executive Producer
 ---
 
 This animated series features interviews with exciting athletes at the vanguard of their field.
