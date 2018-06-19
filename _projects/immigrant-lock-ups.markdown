@@ -2,10 +2,10 @@
 layout: project
 title: Immigrant Lock-Ups
 titleLong: The Case for Harsh Immigrant Detention
-date: '2018-06-19'
+date: '2018-06-15'
 navigation: Watch
 image: /uploads/immigrantlocupscover.png
-emphasis: 2
+emphasis: 1
 type: Documentary
 embedAtlantic: 'https://www.theatlantic.com/video/index/553913/ice-immigration-detention/'
 embed: 'https://www.youtube.com/embed/Zs-ljkB1TJE'
