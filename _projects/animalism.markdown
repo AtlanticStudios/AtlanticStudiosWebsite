@@ -1,35 +1,35 @@
 ---
 title: Animalism
-date: 2017-12-27 19:00:00 -05:00
-position: 4
 titleLong: Animalism
-description: The Atlantic science writer Ed Yong explains the latest groundbreaking
-  research about why mammals evolved to live and behave in certain ways.
-label: Animalism
-image: "/uploads/AnimalismCover.png"
-type: Series
+date: 2017-12-28T00:00:00.000Z
+image: /uploads/AnimalismCover.png
 emphasis: 1
-embed: https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskOxL-_FhJoERhSSoi-4O0lN
-embedAtlantic: https://www.theatlantic.com/video/series/animalism/
+type: Series
+embedAtlantic: 'https://www.theatlantic.com/video/series/animalism/'
+embed: >-
+  https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskOxL-_FhJoERhSSoi-4O0lN
+awards: []
+description: >-
+  The Atlantic science writer Ed Yong explains the latest groundbreaking
+  research about why mammals evolved to live and behave in certain ways.
 credits:
-- role: Producer
-  name: Jon Halperin
-- role: Art Director / Animator
-  name: Jackie Lay
-- role: Editor
-  name: Lars Woodruffe
-- role: Director of Photography
-  name: Jim Ball
-- role: Producer
-  name: Alice Roth
-- role: Assistant Producer
-  name: Leah Varjacques
-- role: Production Manager
-  name: Brian Jimenez
-- role: Senior Producer
-  name: Ashley Bloom Kenny
-- role: Executive Producer
-  name: Kasia Cieplak-Mayr von Baldegg
+  - name: Jon Halperin
+    role: Producer
+  - name: Jackie Lay
+    role: Art Director / Animator
+  - name: Lars Woodruffe
+    role: Editor
+  - name: Jim Ball
+    role: Director of Photography
+  - name: Alice Roth
+    role: Producer
+  - name: Leah Varjacques
+    role: Assistant Producer
+  - name: Brian Jimenez
+    role: Production Manager
+  - name: Ashley Bloom Kenny
+    role: Senior Producer
+  - name: Kasia Cieplak-Mayr von Baldegg
+    role: Executive Producer
 ---
-
-The Atlantic science writer Ed Yong explains the latest groundbreaking research about why mammals evolved to live and behave in certain ways.
+Ed Yong, a science writer at _The Atlantic_, explains the latest groundbreaking research about why mammals evolved to live and behave in certain ways.
