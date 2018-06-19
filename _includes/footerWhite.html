@@ -16,8 +16,8 @@
       </div>
     </a>
   </div>
-  <p class="FooterText"><a id="PrivacyPolicy" href="https://www.theatlantic.com/privacy-policy/" target="_blank">Privacy Policy</a> | <a id="Terms" href="https://www.theatlantic.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></p>
-  <p class="FooterText">The Atlantic © 2017</p>
+  <p class="FooterText"><a id="PrivacyPolicy" href="{{ site.url-privacy-policy }}">Privacy Policy</a> | <a id="Terms" href="{{ site.url-terms-conditions }}">Terms & Conditions</a></p>
+  <p class="FooterText">The Atlantic © {{ site.copyright }}</p>
 </div>
 
 <script>
@@ -27,11 +27,11 @@
       $('.Footer').css('margin-top', '-110px');
     } else if ('{{ page.navigation }}' == 'News') {
       if ($(window).width() > 900) {
-        $('.Footer').css('margin-top', '-110px');
+        // $('.Footer').css('margin-top', '-110px');
       }
     } else if ('{{ page.navigation }}' == 'Contact') {
       if ($(window).width() > 900) {
-        $('.Footer').css('margin-top', '-110px');
+        // $('.Footer').css('margin-top', '-110px');
       }
     } else if ('{{ page.navigation }}' == '404') {
       $('.Footer').css('margin-top', '-110px');
@@ -43,6 +43,10 @@
       $('#Terms').css('color', '#fff');
       // $('.iconSocialMedia').css('opacity', 0);
     };
+
+    $("p:contains('The Atlantic')").html(function(_, html) {
+      return html.replace('The Atlantic', '<em>The Atlantic</em>');
+    });
 
   });
 </script>

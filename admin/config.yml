@@ -17,6 +17,9 @@ collections:
           - {label: Site Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
           - {label: Favicon, name: favicon, widget: image}
+          - {label: Copyright, name: copyright, widget: number, valueType: int}
+          - {label: Privacy Policy (Link), name: url-privacy-policy, widget: string}
+          - {label: Terms & Conditions (Link), name: url-terms-conditions, widget: string}
 
   - label: "Pages"
     name: "pages"
