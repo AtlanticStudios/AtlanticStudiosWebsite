@@ -5,7 +5,7 @@ titleLong: Reversing a Gender Transition
 date: '2018-06-18'
 navigation: Watch
 image: /uploads/detransitionedcover.png
-emphasis: 2
+emphasis: 1
 type: Documentary
 embedAtlantic: 'https://www.theatlantic.com/video/index/562988/detransitioned-film/'
 embed: 'https://www.youtube.com/embed/V6V0p3_bd6w'
