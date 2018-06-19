@@ -1,7 +1,7 @@
 ---
 title: Visual Histories
 titleLong: A Visual History
-date: 2018-02-10T01:00:00.000Z
+date: '2018-05-17'
 navigation: Watch
 image: /uploads/VisualHistoryCover.png
 emphasis: 1
