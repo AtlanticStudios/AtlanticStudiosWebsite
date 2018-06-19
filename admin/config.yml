@@ -145,10 +145,12 @@ collections:
       - label: "Awards"
         name: "awards"
         widget: "list"
+        required: false
         fields:
           - label: "Icon"
             name: "image"
             widget: "image"
+            required: false
       - label: "Description (SEO)"
         name: "description"
         widget: "text"
