@@ -1,30 +1,30 @@
 ---
 title: The Lucas Brothers
-date: 2017-11-20 10:02:00 -05:00
-position: 8
 titleLong: 'The Lucas Brothers: Comedy is Therapy'
-description: Growing up in Newark, New Jersey, the Lucas brothers were surrounded
-  by violence and drugs. Amidst the chaos of public housing and abject poverty, television
-  was a constant and laughter an escape. In a recent animated interview with The Atlantic,
-  the twins said that at an early age, they learned the power of comedy. Now, the
-  successful comedians see their work as more than simply a vocation.
-label: LucasBros
-image: "/uploads/LucasBrosCover.png"
-type: Animation
+date: 2017-11-20T15:02:00.000Z
+image: /uploads/LucasBrosCover.png
 emphasis: 1
-embed: https://player.vimeo.com/video/248168222
-embedAtlantic: https://www.theatlantic.com/video/index/546377/lucas-brothers-comedy-therapy/
+type: Animation
+embedAtlantic: 'https://www.theatlantic.com/video/index/546377/lucas-brothers-comedy-therapy/'
+embed: 'https://player.vimeo.com/video/248168222'
+awards: []
+description: >-
+  Growing up in Newark, New Jersey, the Lucas brothers were surrounded by
+  violence and drugs. Amid the chaos of public housing and abject poverty,
+  television was a constant and laughter an escape. In a recent animated
+  interview with The Atlantic, the twins say that at an early age, they learned
+  the power of comedy. Now, the successful comedians see their work as more than
+  simply a vocation.
 credits:
-- role: Director / Designer / Animator
-  name: Tynesha Foreman
-- role: Producer
-  name: Nicolas Pollock
-- role: Production Manager
-  name: Brian Jimenez
-- role: Senior Producer
-  name: Ashley Bloom Kenny
-- role: Executive Producer
-  name: Kasia Cieplak-Mayr von Baldegg
+  - name: Tynesha Foreman
+    role: Director / Designer / Animator
+  - name: Nicolas Pollock
+    role: Producer
+  - name: Brian Jimenez
+    role: Production Manager
+  - name: Ashley Bloom Kenny
+    role: Senior Producer
+  - name: Kasia Cieplak-Mayr von Baldegg
+    role: Executive Producer
 ---
-
-Growing up in Newark, New Jersey, the Lucas brothers were surrounded by violence and drugs. Amidst the chaos of public housing and abject poverty, television was a constant and laughter an escape. In a recent animated interview with The Atlantic, the twins said that at an early age, they learned the power of comedy. Now, the successful comedians see their work as more than simply a vocation.
+Growing up in Newark, New Jersey, the Lucas brothers were surrounded by violence and drugs. Amid the chaos of public housing and abject poverty, television was a constant and laughter an escape. In a recent animated interview with _The Atlantic_, the twins say that at an early age, they learned the power of comedy. Now, the successful comedians see their work as more than simply a vocation.
