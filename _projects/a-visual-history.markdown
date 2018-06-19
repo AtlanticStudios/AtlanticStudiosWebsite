@@ -26,4 +26,4 @@ credits:
   - name: Kasia Cieplak-Mayr von Baldegg
     role: Executive Producer
 ---
-From the wonders hidden in the mundane to monumental figures that changed nations, the_ Visual History_ series depicts the most interesting evolutions of our world in a matter of minutes.
+From the wonders hidden in the mundane to monumental figures that changed nations, the _Visual History_ series depicts the most interesting evolutions of our world in a matter of minutes.
