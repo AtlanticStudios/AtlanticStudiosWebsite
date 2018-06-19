@@ -1,42 +1,42 @@
 ---
 title: You Are Here
-date: 2017-05-25 10:56:00 -04:00
-position: 0
 titleLong: You Are Here
-description: Why do Americans smile so much? Does swearing make you more likeable?
-  What makes things “cool”? This video series explores the incredible science behind
-  everyday life.
-label: Series
-image: "/uploads/YouAreHereCover.png"
-type: Series
+date: 2017-05-25T14:56:00.000Z
+image: /uploads/YouAreHereCover.png
 emphasis: 1
-embed: https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskPSDYZsGrZcLKKss0jRnyH-
-embedAtlantic: https://www.theatlantic.com/video/series/you-are-here/
+type: Series
+embedAtlantic: 'https://www.theatlantic.com/video/series/you-are-here/'
+embed: >-
+  https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskPSDYZsGrZcLKKss0jRnyH-
+awards: []
+description: >-
+  Why do Americans smile so much? Does swearing make you more likable? What
+  makes things “cool”? This video series explores the incredible science behind
+  everyday life.
 credits:
-- role: Producer
-  name: Alice Roth
-- role: Producer / Camera
-  name: Daniel Lombroso
-- role: Producer / Camera
-  name: Jeremy Raff
-- role: Animator / Designer
-  name: Jackie Lay
-- role: Animator
-  name: Tynesha Foreman
-- role: Animator
-  name: Atthar Mirza
-- role: Title Animator / Animator
-  name: Caitlin Cadieux
-- role: Shooter / Editor
-  name: Brianna Pressey
-- role: Editor
-  name: Sophia Myszkowski
-- role: Production Manager
-  name: Brian Jimenez
-- role: Senior Producer
-  name: Ashley Bloom Kenny
-- role: Executive Producer
-  name: Kasia Cieplak-Mayr von Baldegg
+  - name: Alice Roth
+    role: Producer
+  - name: Daniel Lombroso
+    role: Producer / Camera
+  - name: Jeremy Raff
+    role: Producer / Camera
+  - name: Jackie Lay
+    role: Animator / Designer
+  - name: Tynesha Foreman
+    role: Animator
+  - name: Atthar Mirza
+    role: Animator
+  - name: Caitlin Cadieux
+    role: Title Animator / Animator
+  - name: Brianna Pressey
+    role: Shooter / Editor
+  - name: Sophia Myszkowski
+    role: Editor
+  - name: Brian Jimenez
+    role: Production Manager
+  - name: Ashley Bloom Kenny
+    role: Senior Producer
+  - name: Kasia Cieplak-Mayr von Baldegg
+    role: Executive Producer
 ---
-
-Why do Americans smile so much? Does swearing make you more likeable? What makes things “cool”? This video series explores the incredible science behind everyday life.
+Why do Americans smile so much? Does swearing make you more likable? What makes things “cool”? This video series explores the incredible science behind everyday life.
