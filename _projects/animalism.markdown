@@ -10,7 +10,7 @@ embed: >-
   https://www.youtube.com/embed/videoseries?list=PLDamP-pfOskOxL-_FhJoERhSSoi-4O0lN
 awards: []
 description: >-
-  The Atlantic science writer Ed Yong explains the latest groundbreaking
+  Ed Yong, a science writer at The Atlantic, explains the latest groundbreaking
   research about why mammals evolved to live and behave in certain ways.
 credits:
   - name: Jon Halperin
