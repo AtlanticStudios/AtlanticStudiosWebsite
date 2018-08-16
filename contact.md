@@ -17,6 +17,7 @@ Washington, DC 20037
 New York, NY 10010  
 
 [www.theatlantic.com/video](https://www.theatlantic.com/video/)  
+[AtlanticVideo@theatlantic.com](mailto:atlanticvideo@theatlantic.com)
 
 [Facebook](https://www.facebook.com/TheAtlantic/)  
 [YouTube](https://www.youtube.com/user/TheAtlantic)  
