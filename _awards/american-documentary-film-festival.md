@@ -1,9 +1,8 @@
 ---
 title: American Doc Film Festival
-date: 2018-01-08 14:21:00 -05:00
-position: 7
-image: "/uploads/American.svg"
+position: 8
+image: /uploads/American.svg
 details:
-- Official Selection 2018
+  - Official Selection 2018
 ---
 
