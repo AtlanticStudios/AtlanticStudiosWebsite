@@ -1,6 +1,6 @@
 ---
 title: AFI Docs Festival
-position: 30
+position: 9
 image: /uploads/AFIDocs.svg
 details:
   - Official Selection
