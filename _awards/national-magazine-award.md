@@ -1,6 +1,6 @@
 ---
 title: National Magazine Award
-position: 3
+position: 4
 image: /uploads/Magazine.svg
 details:
   - Finalist 2018
