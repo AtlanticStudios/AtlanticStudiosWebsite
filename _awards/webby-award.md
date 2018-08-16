@@ -1,5 +1,5 @@
 ---
-title: Webby Award
+title: Webby Awards
 position: 5
 image: /uploads/WebbyAward.svg
 details:
