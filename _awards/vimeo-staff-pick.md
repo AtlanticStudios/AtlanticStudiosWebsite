@@ -1,6 +1,6 @@
 ---
 title: Vimeo Staff Pick
-position: 7
+position: 6
 image: /uploads/StaffPick.svg
 details:
   - 13 Videos
