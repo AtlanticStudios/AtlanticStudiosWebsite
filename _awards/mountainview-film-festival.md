@@ -1,5 +1,5 @@
 ---
-title: Mountainview Film Festival
+title: Mountainfilm Festival
 position: 15
 image: /uploads/Telluride.svg
 details:
