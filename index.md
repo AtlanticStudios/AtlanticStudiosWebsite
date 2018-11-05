@@ -7,7 +7,7 @@ description: >-
   foreign affairs, and cultural trends.  Atlantic Studios is an award-winning
   production company owned by The Atlantic, developing and producing premium
   content reaching millions globally each week.
-background-asset: /uploads/jun15.mp4
+background-asset: /uploads/1811_websitevideomusic.mp4
 reel-toggle: false
 reel-embed: 'https://player.vimeo.com/video/152765945'
 ---
