@@ -8,7 +8,6 @@ description: >-
   production company owned by The Atlantic, developing and producing premium
   content reaching millions globally each week.
 background-asset: /uploads/jun15.mp4
-reel-toggle: false
-reel-embed: 'https://player.vimeo.com/video/152765945'
+background-asset-audio: true
 ---
 
